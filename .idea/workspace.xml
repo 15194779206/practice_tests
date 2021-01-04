@@ -79,8 +79,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/A_Project/game2048/bll2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="107">
-              <caret line="113" column="30" lean-forward="true" selection-start-line="113" selection-start-column="30" selection-end-line="113" selection-end-column="30" />
+            <state relative-caret-position="17">
+              <caret line="113" column="30" selection-start-line="113" selection-start-column="30" selection-end-line="113" selection-end-column="30" />
               <folding>
                 <element signature="e#116#154#0" expanded="true" />
               </folding>
@@ -132,7 +132,7 @@
   </component>
   <component name="Git.Settings">
     <option name="ROOT_SYNC" value="DONT_SYNC" />
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/Interface" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -200,9 +200,9 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="1663" />
-    <option name="y" value="223" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="1453" />
+    <option name="y" value="169" />
     <option name="width" value="1270" />
     <option name="height" value="709" />
   </component>
@@ -293,6 +293,7 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/liuyang/Desktop/Workspace-python/education/2：python达内/2：python基础/9：第九天/4:商品购物车.py" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../Interface" />
@@ -435,11 +436,11 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.bll2" />
-      <item itemvalue="Python.list_list" />
-      <item itemvalue="Python.main" />
       <item itemvalue="Python.remine" />
+      <item itemvalue="Python.list_list" />
+      <item itemvalue="Python.bll2" />
       <item itemvalue="Python.view" />
+      <item itemvalue="Python.main" />
     </list>
     <recent_temporary>
       <list>
@@ -509,9 +510,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1663" y="223" width="1270" height="709" extended-state="1" />
+    <frame x="1464" y="156" width="1270" height="709" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.8056266" visible="true" weight="0.16084485" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.8056266" visible="true" weight="0.16084485" />
       <window_info id="Favorites" order="1" side_tool="true" />
       <window_info id="Structure" order="2" sideWeight="0.1943734" weight="0.17449665" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -525,7 +526,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.4993351" weight="0.32921812" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Python Console" order="10" sideWeight="0.4993351" weight="0.32921812" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.107229896" side_tool="true" visible="true" weight="0.05235602" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.107229896" side_tool="true" visible="true" weight="0.052539404" />
       <window_info anchor="bottom" id="Thumbnails" order="12" weight="0.3299566" />
       <window_info anchor="bottom" id="Concurrent Activities Diagram" order="13" weight="0.32928678" />
       <window_info anchor="bottom" id="Terminal" order="14" weight="0.32857144" />
@@ -892,8 +893,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/A_Project/game2048/bll2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="107">
-          <caret line="113" column="30" lean-forward="true" selection-start-line="113" selection-start-column="30" selection-end-line="113" selection-end-column="30" />
+        <state relative-caret-position="17">
+          <caret line="113" column="30" selection-start-line="113" selection-start-column="30" selection-end-line="113" selection-end-column="30" />
           <folding>
             <element signature="e#116#154#0" expanded="true" />
           </folding>
