@@ -1,0 +1,904 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2f20b336-acf2-42f8-b4b5-90dacc35646e" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/venv/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/Workspace_python$1_.coverage" NAME="1：类_设计角度思想 Coverage Results" MODIFIED="1590029233951" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/education/2：python达内/2：面向对象/2Days" />
+    <SUITE FILE_PATH="coverage/Workspace_python$4_2.coverage" NAME="4.2：员工管理器 Coverage Results" MODIFIED="1592309985237" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/education/2：python达内/2：面向对象/3Days" />
+    <SUITE FILE_PATH="coverage/Workspace_python$1_3return.coverage" NAME="1.3：return返回值练习 Coverage Results" MODIFIED="1589341612990" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/education/2：python达内/2：python基础/9：第九天" />
+    <SUITE FILE_PATH="coverage/Workspace_python$Student_manager.coverage" NAME="Student_manager Coverage Results" MODIFIED="1592364469840" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/education/2：python达内/2：面向对象/Student_project" />
+    <SUITE FILE_PATH="coverage/Workspace_python$5.coverage" NAME="5：内存图 Coverage Results" MODIFIED="1589465503191" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/education/2：python达内/2：python基础/9：第九天" />
+    <SUITE FILE_PATH="coverage/Workspace_python$8.coverage" NAME="8： Coverage Results" MODIFIED="1589871710273" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/education/2：python达内/2：面向对象/1：面向对象编程" />
+    <SUITE FILE_PATH="coverage/Workspace_python$1.coverage" NAME="1：获取公司列表 Coverage Results" MODIFIED="1596177171037" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tong_price/1：接口自动化" />
+    <SUITE FILE_PATH="coverage/Workspace_python$2.coverage" NAME="2：模块变量 Coverage Results" MODIFIED="1592980306593" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/education/2：python达内/2：面向对象/5Days" />
+    <SUITE FILE_PATH="coverage/Workspace_python$7_.coverage" NAME="7:学生类 Coverage Results" MODIFIED="1589623581528" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/education/2：python达内/2：面向对象/1：面向对象编程" />
+    <SUITE FILE_PATH="coverage/Workspace_python$3time.coverage" NAME="3：time模块练习 Coverage Results" MODIFIED="1595407236027" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/education/2：python达内/2：面向对象/5Days" />
+    <SUITE FILE_PATH="coverage/Workspace_python$7_3.coverage" NAME="7.3作业 Coverage Results" MODIFIED="1589728544905" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/education/2：python达内/2：面向对象/1：面向对象编程" />
+    <SUITE FILE_PATH="coverage/Workspace_python$3.coverage" NAME="3：作业 Coverage Results" MODIFIED="1592894243969" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/education/2：python达内/2：面向对象/4Days" />
+    <SUITE FILE_PATH="coverage/Workspace_python$9.coverage" NAME="9：作业 Coverage Results" MODIFIED="1589964780220" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/education/2：python达内/2：面向对象/1：面向对象编程" />
+    <SUITE FILE_PATH="coverage/Workspace_python$6.coverage" NAME="6：参数 Coverage Results" MODIFIED="1589481032954" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/education/2：python达内/1：python基础/10：第十天" />
+    <SUITE FILE_PATH="coverage/Workspace_python$game2048_01.coverage" NAME="game2048_01 Coverage Results" MODIFIED="1589563327139" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/education/2：python达内/1：python基础/project_month" />
+    <SUITE FILE_PATH="coverage/Workspace_python$Two_login.coverage" NAME="Two_login Coverage Results" MODIFIED="1596169657083" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tong_price/1：接口自动化" />
+    <SUITE FILE_PATH="coverage/Workspace_python$Unittests_in_music_py.coverage" NAME="Unittests in music.py Coverage Results" MODIFIED="1589210849527" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tong_price" />
+    <SUITE FILE_PATH="coverage/Workspace_python$Student_view.coverage" NAME="Student_view Coverage Results" MODIFIED="1592904059531" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/education/Project/SelectScore_Project" />
+    <SUITE FILE_PATH="coverage/Workspace_python$one.coverage" NAME="one Coverage Results" MODIFIED="1590638884070" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/education/2：python达内/2：面向对象/Student_project" />
+    <SUITE FILE_PATH="coverage/Workspace_python$4_1.coverage" NAME="4.1：作业 Coverage Results" MODIFIED="1591350754025" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/education/2：python达内/2：面向对象/3Days" />
+    <SUITE FILE_PATH="coverage/Workspace_python$game2048_01__1_.coverage" NAME="game2048_01 (1) Coverage Results" MODIFIED="1589728476080" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/education/2：python达内/project_month" />
+    <SUITE FILE_PATH="coverage/Workspace_python$main.coverage" NAME="main Coverage Results" MODIFIED="1592982091328" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/A_Project/Student_project" />
+    <SUITE FILE_PATH="coverage/Workspace_python$test.coverage" NAME="test Coverage Results" MODIFIED="1599730420282" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/education/2：python达内/21：爬虫/第1天" />
+    <SUITE FILE_PATH="coverage/Workspace_python$4_1_.coverage" NAME="4.1:全局变量练习 Coverage Results" MODIFIED="1589473820254" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/education/2：python达内/2：python基础/10：第十天" />
+    <SUITE FILE_PATH="coverage/Workspace_python$game2048_02.coverage" NAME="game2048_02 Coverage Results" MODIFIED="1590637989389" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/education/2：python达内/2：面向对象/project_month" />
+    <SUITE FILE_PATH="coverage/Workspace_python$xlrd_read.coverage" NAME="xlrd_read Coverage Results" MODIFIED="1589787171749" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tong_price/1：接口自动化" />
+    <SUITE FILE_PATH="coverage/Workspace_python$10_.coverage" NAME="10: Coverage Results" MODIFIED="1589982823604" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/education/2：python达内/2：面向对象/1：面向对象编程" />
+    <SUITE FILE_PATH="coverage/Workspace_python$Unittests_in_test_1_login_py.coverage" NAME="Unittests in test_1_login.py Coverage Results" MODIFIED="1596163647612" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Interface/test/case" />
+    <SUITE FILE_PATH="coverage/Workspace_python$1_4return.coverage" NAME="1.4：return判断是否为素数 Coverage Results" MODIFIED="1589378500337" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/education/2：python达内/2：python基础/9：第九天" />
+    <SUITE FILE_PATH="coverage/Workspace_python$one22.coverage" NAME="one22 Coverage Results" MODIFIED="1592906708863" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Workspace_python$1_5_return.coverage" NAME="1.5:return返回值练习 Coverage Results" MODIFIED="1589363118391" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/education/2：python达内/2：python基础/9：第九天" />
+    <SUITE FILE_PATH="coverage/Workspace_python$7_1.coverage" NAME="7.1创建类 Coverage Results" MODIFIED="1589625664874" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/education/2：python达内/2：面向对象/1：面向对象编程" />
+    <SUITE FILE_PATH="coverage/Workspace_python$8_.coverage" NAME="8：作业-电影爬取 Coverage Results" MODIFIED="1599727492334" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/education/2：python达内/21：爬虫/第1天" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="Workspace-python" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/A_Project/game2048/require">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="5" column="8" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/A_Project/game2048/main.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/A_Project/game2048/model.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="780">
+              <caret line="26" column="8" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/A_Project/game2048/bll2.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="107">
+              <caret line="113" column="30" lean-forward="true" selection-start-line="113" selection-start-column="30" selection-end-line="113" selection-end-column="30" />
+              <folding>
+                <element signature="e#116#154#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/A_Project/game2048/view.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="810">
+              <caret line="28" column="25" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
+              <folding>
+                <element signature="e#0#37#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>desired_caps</find>
+      <find>20201209测试有限公司</find>
+      <find>enterpList</find>
+      <find>33891</find>
+      <find>d4aa5b406c08e0ccff0de478a4f35d88</find>
+      <find>token</find>
+      <find>公司列表 end</find>
+      <find>var format_resources = &quot;/resources_v101150&quot;</find>
+      <find>userVerify</find>
+      <find>initInfo</find>
+      <find>6fb0cafd25e00d0df8d174a3c5fdb4ba</find>
+      <find>var initInfo</find>
+      <find>company_name</find>
+      <find>exercise_</find>
+      <find>financing_stage_id</find>
+      <find>certificate_type</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/Interface" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/education/2：pythonBase_danei/3：模块包异常处理/2Days/2.1：生成器函数练习.py" />
+        <option value="$PROJECT_DIR$/education/2：pythonBase_danei/3：模块包异常处理/3Days/1：enumerate.py" />
+        <option value="$PROJECT_DIR$/education/2：pythonBase_danei/3：模块包异常处理/2Days/3：作业.py" />
+        <option value="$PROJECT_DIR$/education/2：pythonBase_danei/3：模块包异常处理/3Days/2：函数式编程思想.py" />
+        <option value="$PROJECT_DIR$/Test_interface/Zno_interface/lib/read_data.py" />
+        <option value="$PROJECT_DIR$/tong_price/Interface/1：获取公司列表.py" />
+        <option value="$PROJECT_DIR$/Test_interface/Zno_interface/config/config.py" />
+        <option value="$PROJECT_DIR$/Test_interface/Zno_interface/Login.py" />
+        <option value="$PROJECT_DIR$/education/2：pythonBase_danei/3：模块包异常处理/3Days/3：lambda表达式.py" />
+        <option value="$PROJECT_DIR$/Test_interface/Zno_interface/create_company.py" />
+        <option value="$PROJECT_DIR$/Test_interface/Zno_interface/tests.html" />
+        <option value="$PROJECT_DIR$/Test_interface/Zno_interface/test01.html" />
+        <option value="$PROJECT_DIR$/Test_interface/Zno_interface/test.py" />
+        <option value="$PROJECT_DIR$/Test_interface/Zno_interface/add_manager.py" />
+        <option value="$PROJECT_DIR$/Test_interface/lib/read_data.py" />
+        <option value="$PROJECT_DIR$/Test_interface/test/case/test_3_forgetpwd.py" />
+        <option value="$PROJECT_DIR$/Test_interface/test/case/test_5_modifyBank.py" />
+        <option value="$PROJECT_DIR$/education/2：pythonBase_danei/3：模块包异常处理/3Days/4：作业.py" />
+        <option value="$PROJECT_DIR$/education/2：pythonBase_danei/3：模块包异常处理/3Days/5：代码提取.py" />
+        <option value="$PROJECT_DIR$/education/2：pythonBase_danei/3：模块包异常处理/4Days/1：内置高阶函数.py" />
+        <option value="$PROJECT_DIR$/education/2：pythonBase_danei/3：模块包异常处理/3Days/list_tools.py" />
+        <option value="$PROJECT_DIR$/Test_interface/test/case/test.py" />
+        <option value="$PROJECT_DIR$/Test_interface/test/case/test_2_register.py" />
+        <option value="$PROJECT_DIR$/education/2：pythonBase_danei/3：模块包异常处理/4Days/2：闭包.py" />
+        <option value="$PROJECT_DIR$/education/2：pythonBase_danei/3：模块包异常处理/4Days/3：作业.py" />
+        <option value="$PROJECT_DIR$/education/A：pythonBase_danei/3：模块包异常处理/4Days/3：作业.py" />
+        <option value="$PROJECT_DIR$/Acommon/ListHelper.py" />
+        <option value="$PROJECT_DIR$/education/A：pythonBase_danei/4：阶段项目/A-Days/1：作用域.py" />
+        <option value="$PROJECT_DIR$/Acommon/dict_ListHelper.py" />
+        <option value="$PROJECT_DIR$/Acommon/list_LIstHelper.py" />
+        <option value="$PROJECT_DIR$/education/A：pythonBase_danei/4：阶段项目/A-Days/1：闭包.py" />
+        <option value="$PROJECT_DIR$/education/A：pythonBase_danei/4：阶段项目/A-Days/2：装饰器.py" />
+        <option value="$PROJECT_DIR$/education/A：pythonBase_danei/4：阶段项目/A-Days/2.1：.py" />
+        <option value="$PROJECT_DIR$/education/A：pythonBase_danei/4：阶段项目/2048game/require" />
+        <option value="$PROJECT_DIR$/education/A：pythonBase_danei/4：阶段项目/2048game/game_controller.py" />
+        <option value="$PROJECT_DIR$/education/A：pythonBase_danei/4：阶段项目/2048game/game_model.py" />
+        <option value="$PROJECT_DIR$/education/A：pythonBase_danei/4：阶段项目/2048game/game_view.py" />
+        <option value="$PROJECT_DIR$/education/A：pythonBase_danei/4：阶段项目/2048game/main.py" />
+        <option value="$PROJECT_DIR$/A_Project/2048game/main.py" />
+        <option value="$PROJECT_DIR$/A_Project/game2048/game_model.py" />
+        <option value="$PROJECT_DIR$/education/A：pythonBase_danei/2：面向对象/project_month/game2048_01.py" />
+        <option value="$PROJECT_DIR$/A_Project/game2048/2048game_core01.py" />
+        <option value="$PROJECT_DIR$/A_Project/game2048/remine.py" />
+        <option value="$PROJECT_DIR$/A_Project/game2048/game_controller.py" />
+        <option value="$PROJECT_DIR$/A_Project/game2048/require" />
+        <option value="$PROJECT_DIR$/A_Project/game2048/bll1.py" />
+        <option value="$PROJECT_DIR$/Acommon/list_list.py" />
+        <option value="$PROJECT_DIR$/A_Project/game2048/main.py" />
+        <option value="$PROJECT_DIR$/A_Project/game2048/model.py" />
+        <option value="$PROJECT_DIR$/A_Project/game2048/view.py" />
+        <option value="$PROJECT_DIR$/A_Project/game2048/bll2.py" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="1663" />
+    <option name="y" value="223" />
+    <option name="width" value="1270" />
+    <option name="height" value="709" />
+  </component>
+  <component name="ProjectId" id="1ZeB85cm96JPFmPFqlS4axsR1od" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <showMembers ProjectPane="true" />
+      <autoscrollToSource ProjectPane="false" />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Workspace-python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Workspace-python" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Workspace-python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Workspace-python" type="462c0819:PsiDirectoryNode" />
+              <item name="A_Project" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Workspace-python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Workspace-python" type="462c0819:PsiDirectoryNode" />
+              <item name="A_Project" type="462c0819:PsiDirectoryNode" />
+              <item name="game2048" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Workspace-python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Workspace-python" type="462c0819:PsiDirectoryNode" />
+              <item name="A_Project" type="462c0819:PsiDirectoryNode" />
+              <item name="Student_project" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Workspace-python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Workspace-python" type="462c0819:PsiDirectoryNode" />
+              <item name="Acommon" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Workspace-python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Workspace-python" type="462c0819:PsiDirectoryNode" />
+              <item name="education" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Workspace-python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Workspace-python" type="462c0819:PsiDirectoryNode" />
+              <item name="education" type="462c0819:PsiDirectoryNode" />
+              <item name="A：pythonBase_danei" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Workspace-python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Workspace-python" type="462c0819:PsiDirectoryNode" />
+              <item name="education" type="462c0819:PsiDirectoryNode" />
+              <item name="A：pythonBase_danei" type="462c0819:PsiDirectoryNode" />
+              <item name="2：面向对象" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Workspace-python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Workspace-python" type="462c0819:PsiDirectoryNode" />
+              <item name="education" type="462c0819:PsiDirectoryNode" />
+              <item name="A：pythonBase_danei" type="462c0819:PsiDirectoryNode" />
+              <item name="2：面向对象" type="462c0819:PsiDirectoryNode" />
+              <item name="project_month" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Workspace-python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Workspace-python" type="462c0819:PsiDirectoryNode" />
+              <item name="education" type="462c0819:PsiDirectoryNode" />
+              <item name="A：pythonBase_danei" type="462c0819:PsiDirectoryNode" />
+              <item name="4：阶段项目" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/liuyang/Desktop/Workspace-python/education/2：python达内/2：python基础/9：第九天/4:商品购物车.py" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Interface" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/education/code01.py" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Workspace-python\education\A：pythonBase_danei\4：阶段项目\2048game" />
+      <recent name="D:\Workspace-python\education\2：pythonBase_danei\3：模块包异常处理\4Days" />
+      <recent name="D:\Workspace-python\education\2：pythonBase_danei\3：模块包异常处理\3Days" />
+      <recent name="D:\Workspace-python\Test_interface\Zno_interface" />
+      <recent name="D:\Workspace-python\A_Project" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Workspace-python\Acommon" />
+      <recent name="D:\Workspace-python\A_Project" />
+      <recent name="D:\Workspace-python" />
+      <recent name="D:\Workspace-python\education\common" />
+      <recent name="D:\Workspace-python\Test_interface\test\case" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.main">
+    <configuration name="bll2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Workspace-python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/A_Project/game2048" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/A_Project/game2048/bll2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="list_list" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Workspace-python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Acommon" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Acommon/list_list.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Workspace-python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/A_Project/game2048" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/A_Project/game2048/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="remine" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Workspace-python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/A_Project/game2048" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="D:\Workspace-python\Acommon\list_list.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="view" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Workspace-python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/A_Project/game2048" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/A_Project/game2048/view.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.bll2" />
+      <item itemvalue="Python.list_list" />
+      <item itemvalue="Python.main" />
+      <item itemvalue="Python.remine" />
+      <item itemvalue="Python.view" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.main" />
+        <item itemvalue="Python.view" />
+        <item itemvalue="Python.bll2" />
+        <item itemvalue="Python.list_list" />
+        <item itemvalue="Python.remine" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="StructureViewFactory">
+    <option name="AUTOSCROLL_MODE" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2f20b336-acf2-42f8-b4b5-90dacc35646e" name="Default Changelist" comment="" />
+      <created>1533890674989</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1533890674989</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="Unittests_in_test_1_login_py - 2020.12.18 at 15h 18m 22s.xml">
+      <configuration name="Unittests in test_1_login.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_1_login_py - 2020.12.18 at 15h 18m 52s.xml">
+      <configuration name="Unittests in test_1_login.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_2_register_py - 2020.12.22 at 16h 55m 33s.xml">
+      <configuration name="Unittests in test_2_register.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_2_register_py - 2020.12.22 at 16h 56m 18s.xml">
+      <configuration name="Unittests in test_2_register.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_2_register_py - 2020.12.22 at 16h 57m 11s.xml">
+      <configuration name="Unittests in test_2_register.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_2_register_py - 2020.12.22 at 16h 58m 26s.xml">
+      <configuration name="Unittests in test_2_register.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_2_register_py - 2020.12.22 at 16h 59m 28s.xml">
+      <configuration name="Unittests in test_2_register.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_2_register_py - 2020.12.22 at 17h 02m 43s.xml">
+      <configuration name="Unittests in test_2_register.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_2_register_py - 2020.12.22 at 17h 03m 59s.xml">
+      <configuration name="Unittests in test_2_register.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_2_register_py - 2020.12.22 at 17h 04m 23s.xml">
+      <configuration name="Unittests in test_2_register.py" configurationId="tests" />
+    </history-entry>
+  </component>
+  <component name="TodoView" selected-index="1">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1663" y="223" width="1270" height="709" extended-state="1" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.8056266" visible="true" weight="0.16084485" />
+      <window_info id="Favorites" order="1" side_tool="true" />
+      <window_info id="Structure" order="2" sideWeight="0.1943734" weight="0.17449665" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49515286" weight="0.32398754" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.8927701" visible="true" weight="0.05235602" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.9194631" weight="0.41545895" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Docker" order="6" show_stripe_button="false" />
+      <window_info anchor="bottom" id="TODO" order="7" sideWeight="0.49765572" weight="0.100981764" />
+      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.4993351" weight="0.32921812" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Python Console" order="10" sideWeight="0.4993351" weight="0.32921812" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.107229896" side_tool="true" visible="true" weight="0.05235602" />
+      <window_info anchor="bottom" id="Thumbnails" order="12" weight="0.3299566" />
+      <window_info anchor="bottom" id="Concurrent Activities Diagram" order="13" weight="0.32928678" />
+      <window_info anchor="bottom" id="Terminal" order="14" weight="0.32857144" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24964234" />
+      <window_info anchor="right" id="SciView" order="3" weight="0.3297568" />
+      <window_info anchor="right" id="Database" order="4" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.8056266" visible="true" weight="0.1724138" />
+      <window_info id="Favorites" order="1" side_tool="true" />
+      <window_info id="Structure" order="2" sideWeight="0.1943734" weight="0.17449665" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32957748" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49928468" visible="true" weight="0.2662722" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.093233086" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Python Console" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5007153" side_tool="true" weight="0.23357664" />
+      <window_info anchor="bottom" id="Thumbnails" order="12" weight="0.3299566" />
+      <window_info anchor="bottom" id="Concurrent Activities Diagram" order="13" weight="0.32928678" />
+      <window_info anchor="bottom" id="Terminal" order="14" weight="0.32857144" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24964234" />
+      <window_info anchor="right" id="SciView" order="3" weight="0.3297568" />
+      <window_info anchor="right" id="Database" order="4" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.log" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="-56" y="60" width="1092" height="668" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585189799954">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="-56" y="60" width="1092" height="668" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1585189799954" />
+    <state x="0" y="256" key="DBNavigator.ResourceMonitorDialog" timestamp="1587633191886">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="0" y="256" key="DBNavigator.ResourceMonitorDialog/0.0.1366.728@0.0.1366.728" timestamp="1587633191886" />
+    <state x="413" y="63" key="FileChooserDialogImpl" timestamp="1588223070020">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="413" y="63" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1588223070020" />
+    <state width="1294" height="250" key="GridCell.Tab.0.bottom" timestamp="1588902530674">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1294" height="250" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1588902530674" />
+    <state width="1294" height="250" key="GridCell.Tab.0.center" timestamp="1588902530674">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1294" height="250" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1588902530674" />
+    <state width="1294" height="250" key="GridCell.Tab.0.left" timestamp="1588902530674">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1294" height="250" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1588902530674" />
+    <state width="1294" height="250" key="GridCell.Tab.0.right" timestamp="1588902530674">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1294" height="250" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1588902530674" />
+    <state width="1310" height="251" key="GridCell.Tab.1.bottom" timestamp="1588726953565">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1310" height="251" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1588726953565" />
+    <state width="1310" height="251" key="GridCell.Tab.1.center" timestamp="1588726953564">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1310" height="251" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1588726953564" />
+    <state width="1310" height="251" key="GridCell.Tab.1.left" timestamp="1588726953564">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1310" height="251" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1588726953564" />
+    <state width="1310" height="251" key="GridCell.Tab.1.right" timestamp="1588726953564">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1310" height="251" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1588726953564" />
+    <state x="68" y="0" key="SettingsEditor" timestamp="1588731476869">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="68" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1588731476869" />
+    <state x="0" y="7" key="com.intellij.troubleshooting.ui.CollectTroubleshootingInformationDialog" timestamp="1588132614885">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="0" y="7" key="com.intellij.troubleshooting.ui.CollectTroubleshootingInformationDialog/0.0.1366.728@0.0.1366.728" timestamp="1588132614885" />
+    <state x="0" y="0" width="771" height="728" key="find.popup" timestamp="1588209480983">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="0" y="0" width="771" height="728" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1588209480983" />
+    <state x="252" y="-1" width="840" height="1034" key="search.everywhere.popup" timestamp="1588739268932">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="252" y="-1" width="840" height="1034" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1588739268932" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/one22.py" />
+    <entry file="file://$PROJECT_DIR$/mypro/admin/test_case/page_obj/base.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/education/A：pythonBase_danei/3：模块包异常处理/3Days/4：作业.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4140">
+          <caret selection-end-line="12" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/education/code01.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/education/A：pythonBase_danei/3：模块包异常处理/4Days/1：内置高阶函数.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-90">
+          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/education/A：pythonBase_danei/3：模块包异常处理/4Days/3：作业.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8">
+          <caret line="33" selection-start-line="33" selection-end-line="42" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/A_Project/ATM/ateTest/name_info">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/A_Project/ATM/ateTest/Manager.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/A_Project/ATM/ateTest/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/A_Project/ATM_teach/bin/atm.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-211" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/A_Project/ATM/ateTest/Shopping.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/A_Project/ATM/ateTest/Login.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-60">
+          <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/education/A：pythonBase_danei/4：阶段项目/A-Days/1：闭包.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="7" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/anzhuang/python3.7/Lib/urllib/parse.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="810" selection-start-line="810" selection-end-line="810" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test_interface/test/case/test_1_login.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="25" column="83" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="83" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test_interface/test/case/test_2_register.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="17" column="67" selection-start-line="17" selection-start-column="67" selection-end-line="17" selection-end-column="67" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test_interface/test/case/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1410">
+          <caret line="51" selection-start-line="51" selection-end-line="51" selection-end-column="60" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test_interface/lib/read_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="2" column="68" selection-start-line="2" selection-start-column="68" selection-end-line="2" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Acommon/dict_ListHelper.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="104" column="4" selection-start-line="104" selection-start-column="4" selection-end-line="104" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/360zip$Temp/360$0/sql_helper.py" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/360zip$Temp/360$1/list_helper.py" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/360zip$Temp/360$2/double_list_helper.py" />
+    <entry file="file://$USER_HOME$/Desktop/game_2048/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-764" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/game_2048/main.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/game_2048/bll.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5564" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/game_2048/ui.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1574" />
+      </provider>
+    </entry>
+    <entry file="file://F:/5：测试视频/1：Python-1903(测试开发)/笔记/01_PythonBase/day09/ProjectMonth01/2048game_core01.py" />
+    <entry file="file://F:/5：测试视频/1：Python-1903(测试开发)/笔记/01_PythonBase/day11/ProjectMonth01/2048game_core02.py" />
+    <entry file="file://F:/5：测试视频/1：Python-1903(测试开发)/笔记/01_PythonBase/day11/ProjectMonth01/2048game_core01.py" />
+    <entry file="file://F:/5：测试视频/1：Python-1903(测试开发)/笔记/01_PythonBase/month01_all/project/game_2048/ui.py" />
+    <entry file="file://F:/5：测试视频/1：Python-1903(测试开发)/笔记/01_PythonBase/month01_all/project/game_2048/main.py" />
+    <entry file="file://$PROJECT_DIR$/A_Project/Student_project/student_controller.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-332">
+          <caret line="63" column="21" lean-forward="true" selection-start-line="63" selection-start-column="21" selection-end-line="63" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#1415#1" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/5：测试视频/1：Python-1903(测试开发)/笔记/01_PythonBase/month01_all/project/game_2048/models.py" />
+    <entry file="file://F:/5：测试视频/1：Python-1903(测试开发)/笔记/01_PythonBase/month01_all/project/game_2048/bll.py" />
+    <entry file="file://$PROJECT_DIR$/education/A：pythonBase_danei/2：面向对象/project_month/game2048_01.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="168" column="8" selection-start-line="168" selection-start-column="8" selection-end-line="168" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Acommon/list_LIstHelper.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="19" column="45" selection-start-line="19" selection-start-column="45" selection-end-line="19" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/A_Project/game2048/bll1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="1" column="24" selection-start-line="1" selection-start-column="24" selection-end-line="1" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/A_Project/game2048/game_controller.py" />
+    <entry file="file://$PROJECT_DIR$/A_Project/game2048/game_model.py" />
+    <entry file="file://$PROJECT_DIR$/A_Project/Student_project/student_model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1440" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/A_Project/Student_project/student_view.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2302">
+          <folding>
+            <element signature="e#0#2082#1" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Acommon/list_list.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="91">
+          <caret line="65" column="13" lean-forward="true" selection-start-line="65" selection-start-column="13" selection-end-line="65" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/education/A：pythonBase_danei/4：阶段项目/A-Days/2：装饰器.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/education/A：pythonBase_danei/4：阶段项目/A-Days/2.1：.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="22" column="3" lean-forward="true" selection-start-line="22" selection-start-column="3" selection-end-line="22" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/python-selenium-master/run.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="5" column="9" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/A_Project/game2048/2048game_core01.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="154" column="8" selection-start-line="154" selection-start-column="8" selection-end-line="159" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/A_Project/game2048/require">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="5" column="8" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/A_Project/game2048/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/A_Project/game2048/model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="780">
+          <caret line="26" column="8" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/A_Project/game2048/view.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="810">
+          <caret line="28" column="25" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/A_Project/game2048/bll2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="107">
+          <caret line="113" column="30" lean-forward="true" selection-start-line="113" selection-start-column="30" selection-end-line="113" selection-end-column="30" />
+          <folding>
+            <element signature="e#116#154#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

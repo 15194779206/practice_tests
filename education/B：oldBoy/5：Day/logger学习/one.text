@@ -1,0 +1,12 @@
+DEBUG:root:debug input
+ERROR:root:error input
+WARNING:root:warning input
+2018-21-12 10-17-11-AM debug input
+2018-21-12 10-17-11-AM error input
+2018-21-12 10-17-11-AM warning input
+2018-21-12 10-20-20-AM-debug input
+2018-21-12 10-20-20-AM-error input
+2018-21-12 10-20-20-AM-warning input
+2018-21-12 11-05-53-AM-debug input-1：打印日志到文件中.py
+2018-21-12 11-05-53-AM-error input-1：打印日志到文件中.py
+2018-21-12 11-05-53-AM-warning input-1：打印日志到文件中.py

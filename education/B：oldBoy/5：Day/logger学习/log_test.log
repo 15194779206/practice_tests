@@ -1,0 +1,12 @@
+ERROR:root:from sayhi...
+DEBUG:root:debug is inp
+INFO:root:info is inp
+WARNING:root:warning is inp
+ERROR:root:error is inp
+CRITICAL:root:critical is inp
+2018-12-13  11:28:36 AM from sayhi...
+2018-12-13  11:28:36 AM debug is inp
+2018-12-13  11:28:36 AM info is inp
+2018-12-13  11:28:36 AM warning is inp
+2018-12-13  11:28:36 AM error is inp
+2018-12-13  11:28:36 AM critical is inp

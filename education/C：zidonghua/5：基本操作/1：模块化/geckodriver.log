@@ -1,0 +1,282 @@
+1557587160481	geckodriver	INFO	geckodriver 0.21.0
+1557587160523	geckodriver	INFO	Listening on 127.0.0.1:2854
+1557587163480	mozrunner::runner	INFO	Running command: "F:\\anzhuang\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\liunan\\AppData\\Local\\Temp\\rust_mozprofile.6rQx5k6BlZRN"
+1557587174364	Marionette	INFO	Listening on port 2866
+1557587179108	Marionette	WARN	TLS certificate errors will be ignored for this session
+1557587179232	Marionette	DEBUG	[6442450945] Frame script loaded
+1557587179244	Marionette	DEBUG	[6442450945] Frame script registered
+1557587179335	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1557587185798	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1557587187998	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://mail.qq.com/
+1557587217672	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://mail.qq.com/
+[Parent 9788, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/commo1557587239216	mozrunner::runner	INFO	Running command: "F:\\anzhuang\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\liunan\\AppData\\Local\\Temp\\rust_mozprofile.UEMPmjLwguie"
+1557587251189	Marionette	INFO	Listening on port 3098
+1557587251518	Marionette	WARN	TLS certificate errors will be ignored for this session
+1557587251723	Marionette	DEBUG	[6442450945] Frame script loaded
+1557587251734	Marionette	DEBUG	[6442450945] Frame script registered
+1557587252081	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1557587255203	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1557587255865	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://mail.qq.com/
+1557587287512	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://mail.qq.com/
+[Parent 9104, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9504, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9504, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/bu1557587322151	mozrunner::runner	INFO	Running command: "F:\\anzhuang\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\liunan\\AppData\\Local\\Temp\\rust_mozprofile.p0cMsIuYKQ7x"
+1557587334142	Marionette	INFO	Listening on port 3292
+1557587337043	Marionette	WARN	TLS certificate errors will be ignored for this session
+1557587337118	Marionette	DEBUG	[4294967297] Frame script loaded
+1557587337120	Marionette	DEBUG	[4294967297] Frame script registered
+1557587337172	Marionette	DEBUG	[4294967297] Received DOM event beforeunload for about:blank
+1557587341699	Marionette	DEBUG	[4294967297] Received DOM event pagehide for about:blank
+1557587342853	Marionette	DEBUG	[4294967297] Received DOM event DOMContentLoaded for https://mail.qq.com/
+1557587374467	Marionette	DEBUG	[4294967297] Received DOM event pageshow for https://mail.qq.com/
+[Parent 9900, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 101557587520844	mozrunner::runner	INFO	Running command: "F:\\anzhuang\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\liunan\\AppData\\Local\\Temp\\rust_mozprofile.HACEsXML1P7u"
+[Child 6976, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1557587534989	Marionette	INFO	Listening on port 3721
+1557587535204	Marionette	WARN	TLS certificate errors will be ignored for this session
+1557587535309	Marionette	DEBUG	[6442450945] Frame script loaded
+1557587535311	Marionette	DEBUG	[6442450945] Frame script registered
+1557587536283	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1557587543189	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1557587550495	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://mail.qq.com/
+1557587582720	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://mail.qq.com/
+[Parent 10728, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 10728, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 11120, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 10936, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 10728, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 10000, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 10000, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1557587587854	Marionette	INFO	Stopped listening on port 3721
+[GPU 11172, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+vToolsUtils.js:109:14
+onStartRequest@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:439:5
+Line: 1888, column: 0
+console.error: "Handler function NetworkEventActorProxy.addSecurityInfo threw an exception: [Exception... \"Component not initialized\"  nsresult: \"0xc1f30001 (NS_ERROR_NOT_INITIALIZED)\"  location: \"JS frame :: resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js :: NetworkEventActorProxy.methodFactory/< :: line 1888\"  data: no]\nStack: NetworkEventActorProxy.methodFactory/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:1888:5\nexports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14\nNetworkResponseListener.prototype._getSecurityInfo<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:519:5\nexports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14\nonStartRequest@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:439:5\nLine: 1888, column: 0"
+Handler function NetworkEventActorProxy.addResponseContent threw an exception: [Exception... "Component not initialized"  nsresult: "0xc1f30001 (NS_ERROR_NOT_INITIALIZED)"  location: "JS frame :: resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js :: NetworkEventActorProxy.methodFactory/< :: line 1888"  data: no]
+Stack: NetworkEventActorProxy.methodFactory/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:1888:5
+exports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+_onComplete@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:664:5
+onStreamClose@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:621:7
+onInputStreamReady@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:715:7
+Line: 1888, column: 0
+console.error: "Handler function NetworkEventActorProxy.addResponseContent threw an exception: [Exception... \"Component not initialized\"  nsresult: \"0xc1f30001 (NS_ERROR_NOT_INITIALIZED)\"  location: \"JS frame :: resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js :: NetworkEventActorProxy.methodFactory/< :: line 1888\"  data: no]\nStack: NetworkEventActorProxy.methodFactory/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:1888:5\nexports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14\n_onComplete@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:664:5\nonStreamClose@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:621:7\nonInputStreamReady@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:715:7\nLine: 1888, column: 0"
+[Child 9904, Chrome_ChildThread] WARNING: pipe error: 232: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 513
+[Child 9904, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9904, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 9900, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1557587522526	Marionette	INFO	Stopped listening on port 3292
+[GPU 10428, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1557617495605	geckodriver	INFO	geckodriver 0.21.0
+1557617495645	geckodriver	INFO	Listening on 127.0.0.1:1827
+1557617500549	mozrunner::runner	INFO	Running command: "F:\\anzhuang\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\liunan\\AppData\\Local\\Temp\\rust_mozprofile.Px5aqex3R7DB"
+[Child 7312, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 7312, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1557617532455	Marionette	INFO	Listening on port 1841
+1557617533122	Marionette	WARN	TLS certificate errors will be ignored for this session
+1557617533185	Marionette	DEBUG	[6442450945] Frame script loaded
+1557617533186	Marionette	DEBUG	[6442450945] Frame script registered
+1557617537117	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1557617545193	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1557617547307	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://www.126.com/
+1557617558228	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://www.126.com/
+JavaScript error: chrome://browser/content/contentSearchUI.js, line 754: Error: Element is not a row
+JavaScript error: https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/plugins/every_cookie_4644b13.js, line 4: ReferenceError: c is not defined
+1557617904286	addons.xpi-utils	WARN	Add-on telemetry-coverage-bug1487578@mozilla.org is not correctly signed.
+1557617904287	addons.xpi-utils	WARN	Add-on telemetry-coverage-bug1487578@mozilla.org is not correctly signed.
+1557617904311	addons.xpi-utils	WARN	Add-on baidu-code-update@mozillaonline.com is not correctly signed.
+1557617904312	addons.xpi-utils	WARN	Add-on baidu-code-update@mozillaonline.com is not correctly signed.
+1557617904312	addons.xpi	WARN	System add-on baidu-code-update@mozillaonline.com isn't compatible with the application.
+1557617904313	addons.manager	WARN	Failed to update system addons: Error: Rejecting updated system add-on set that either could not be downloaded or c1557618211110	addons.xpi-utils	WARN	Add-on telemetry-coverage-bug1487578@mozilla.org is not correctly signed.
+1557618211111	addons.xpi-utils	WARN	Add-on telemetry-coverage-bug1487578@mozilla.org is not correctly signed.
+1557618219857	addons.xpi-utils	WARN	Add-on baidu-code-update@mozillaonline.com is not correctly signed.
+1557618219858	addons.xpi-utils	WARN	Add-on baidu-code-update@mozillaonline.com is not correctly signed.
+1557618219859	addons.xpi	WARN	System add-on baidu-code-update@mozillaonline.com isn't compatible with the application.
+1557618219860	addons.manager	WARN	Failed to update system addons: Error: Rejecting updated system add-on set that either could not be downloaded or contained unusable add-ons. (resource://gre/modules/addons/XPIInstall.jsm:3645:13) JS Stack trace: updateSystemAddons@XPIInstall.jsm:3645:13[Parent 7872, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 8792, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 8792, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 6580, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 6580, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/box-model.js, line 416: TypeError: quads is undefined
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/box-model.js, line 416: TypeError: quads is undefined
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript warning: https://urswebzj.nosdn.127.net/webzj_cdn101/pp_index_dl_31d8bb0bd16ed8cf0678e17da377b0ff.js, line 1: Error: WebGL warning: Exceeded 16 live WebGL contexts for this principal, losing the least recently used one.
+WebGL(000000000C7A8800)::ForceLoseContext
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript warning: https://urswebzj.nosdn.127.net/webzj_cdn101/pp_index_dl_31d8bb0bd16ed8cf0678e17da377b0ff.js, line 1: Error: WebGL warning: Exceeded 16 live WebGL contexts for this principal, losing the least recently used one.
+WebGL(0000000010537800)::ForceLoseContext
+JavaScript error: , line 0: uncaught exception: null
+JavaScript warning: https://urswebzj.nosdn.127.net/webzj_cdn101/pp_index_dl_31d8bb0bd16ed8cf0678e17da377b0ff.js, line 1: Error: WebGL warning: Exceeded 16 live WebGL contexts for this principal, losing the least recently used one.
+WebGL(000000001134D000)::ForceLoseContext
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript warning: https://urswebzj.nosdn.127.net/webzj_cdn101/pp_index_dl_31d8bb0bd16ed8cf0678e17da377b0ff.js, line 1: Error: WebGL warning: Exceeded 16 live WebGL contexts for this principal, losing the least recently used one.
+WebGL(000000001284E000)::ForceLoseContext
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+[Parent 7872, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 7512, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 7512, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9872, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9872, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1557655852868	Marionette	INFO	Stopped listening on port 1841
+[GPU 7228, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+pc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1557618792336	geckodriver	INFO	geckodriver 0.21.0
+1557618792353	geckodriver	INFO	Listening on 127.0.0.1:2967
+1557618795352	mozrunner::runner	INFO	Running command: "F:\\anzhuang\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\liunan\\AppData\\Local\\Temp\\rust_mozprofile.xOd6Wmjk6Weh"
+[Parent 9824, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 8280, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1557618805610	Marionette	INFO	Listening on port 2975
+1557618805949	Marionette	WARN	TLS certificate errors will be ignored for this session
+1557618806025	Marionette	DEBUG	[6442450945] Frame script loaded
+1557618806028	Marionette	DEBUG	[6442450945] Frame script registered
+1557618806059	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1557618811094	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1557618813455	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://www.126.com/
+1557618817740	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://www.126.com/
+[Parent 9824, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 9824, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 7576, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9832, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9832, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 3376, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 3376, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1557618927033	Marionette	INFO	Stopped listening on port 2975
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1557618941442	geckodriver	INFO	geckodriver 0.21.0
+1557618941486	geckodriver	INFO	Listening on 127.0.0.1:3075
+1557618944422	mozrunner::runner	INFO	Running command: "F:\\anzhuang\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\liunan\\AppData\\Local\\Temp\\rust_mozprofile.Ak1V8US623qk"
+[Parent 8628, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9516, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9516, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1557618955163	Marionette	INFO	Listening on port 3085
+1557618960329	Marionette	WARN	TLS certificate errors will be ignored for this session
+1557618960457	Marionette	DEBUG	[6442450945] Frame script loaded
+1557618960460	Marionette	DEBUG	[6442450945] Frame script registered
+1557618960561	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1557618967458	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1557618968865	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://www.126.com/
+1557618973921	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://www.126.com/
+1557618977819	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+[Parent 8628, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 2936, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 2936, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 8628, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9916, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9916, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1557618997175	Marionette	INFO	Stopped listening on port 3085
+[GPU 8384, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1557619217854	geckodriver	INFO	geckodriver 0.21.0
+1557619217990	geckodriver	INFO	Listening on 127.0.0.1:3215
+1557619220856	mozrunner::runner	INFO	Running command: "F:\\anzhuang\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\liunan\\AppData\\Local\\Temp\\rust_mozprofile.2ktr9vSh6zsC"
+[Child 4396, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 4396, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1557619235176	Marionette	INFO	Listening on port 3224
+1557619236943	Marionette	WARN	TLS certificate errors will be ignored for this session
+1557619237006	Marionette	DEBUG	[4294967297] Frame script loaded
+1557619237013	Marionette	DEBUG	[4294967297] Frame script registered
+1557619237042	Marionette	DEBUG	[4294967297] Received DOM event beforeunload for about:blank
+1557619241954	Marionette	DEBUG	[4294967297] Received DOM event pagehide for about:blank
+1557619244728	Marionette	DEBUG	[4294967297] Received DOM event DOMContentLoaded for https://www.126.com/
+1557619248322	Marionette	DEBUG	[4294967297] Received DOM event pageshow for https://www.126.com/
+[Parent 7356, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 8488, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 2680, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 7356, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9012, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1557619352191	Marionette	INFO	Stopped listening on port 3224
+[GPU 5556, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+97] Received DOM event pageshow for https://www.126.com/
+1557619323707	Marionette	DEBUG	[4294967297] Canceled page load listener because no navigation has been detected
+JavaScript warning: https://s3.music.126.net/web/s/core_f16f3d64fea1d9422fc2bf1bd62d6dc9.js?f16f3d64fea1d9422fc2bf1bd62d6dc9, line 94: unreachable code after return statement
+JavaScript warning: https://s3.music.126.net/web/s/core_f16f3d64fea1d9422fc2bf1bd62d6dc9.js?f16f3d64fea1d9422fc2bf1bd62d6dc9, line 133: unreachable code after return statement
+JavaScript warning: https://s3.music.126.net/web/s/pt_musicbox_mailplayer_0f88fd803d9ffb2e9e0732324c74d928.js?0f88fd803d9ffb2e9e0732324c74d928, line 11: unreachable code after return statement
+JavaScript warning: https://s3.music.126.net/web/s/pt_musicbox_mailplayer_0f88fd803d9ffb2e9e0732324c74d928.js?0f88fd803d9ffb2e9e0732324c74d928, line 11: unreachable code after return statement
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[Parent 7496, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 5852, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 5852, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1557619349114	Marionette	INFO	Stopped listening on port 3318
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+

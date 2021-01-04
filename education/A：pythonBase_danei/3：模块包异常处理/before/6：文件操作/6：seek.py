@@ -1,0 +1,1 @@
+f=open('alpha_number')

@@ -1,0 +1,3786 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="renderer" content="webkit|ie-comp|ie-stand">
+		<meta http-equiv= "X-UA-Compatible" content = "IE=edge,chrome=1"/>
+		<meta name="renderer" content="webkit">
+					<title>在线建立计划-股书-精益股权期权管理工具</title>
+		        <meta name="keywords" content="股书，精益股权期权管理工具，从期权池设立到期权行权，股书为企业制定个性化的员工股权激励计划。" />
+        <meta name="股书, kapbook, capbook, 员工激励, 股权激励, 期权, 股权, ESOP, 员工持股计划, 干股, 受限股, 股权激励设计, 股权激励方案, 股权激励协议, captable, 期权管理, 股权管理, 期权管理系统, 期权管理平台" />
+
+		<link  href="/resources_v101150/images/favicon.ico" type="image/x-icon" rel="shortcut icon" />
+		<link  href="/resources_v101150/images/apple_icon.png" type="image/x-icon" rel="apple-touch-icon" />
+		<!-- 资源 路径 全局变量  -->
+		<script>var format_resources = "/resources_v101150";</script>
+		<!-- css js Acommon start -->
+		<link  href="/resources_v101150/css/base.css" rel="stylesheet" />
+		<!-- jquery  -->
+		<script src="/resources_v101150/scripts/jquery.min.js" type="text/javascript"></script>
+
+		<!-- toast start -->
+		<link rel="stylesheet" href="/resources_v101150/plugins/toast/jquery.toast.min.css">
+		<script src="/resources_v101150/plugins/toast/jquery.toast.min.js"></script>
+		<!-- toast end -->
+
+		<!-- css base v1.0 -->
+		<script src="/resources_v101150/scripts/common/base.js" type="text/javascript"></script>
+		<script src="/resources_v101150/scripts/common/common.ajax.js" type="text/javascript"></script>
+		<!-- css js Acommon end -->
+
+        <!-- css js v2 start-->
+        <link href="/resources_v101150/css/cc.css" rel="stylesheet" />
+        <script src="/resources_v101150/scripts/common/cc.js" type="text/javascript"></script>
+        <!-- css js v2 end-->
+
+		<!-- css js new layout start -->
+		<link href="/resources_v101150/css/layout/layout.css" rel="stylesheet" />
+		<script src="/resources_v101150/scripts/common/layout.js" type="text/javascript"></script>
+		<!-- css js new layout end -->
+
+		<!-- css ie兼容性处理  start-->
+		<link href="/resources_v101150/css/ie.css" rel="stylesheet" />
+        <!-- css ie兼容性处理 end-->
+
+        <!-- 文档上传插件 start -->
+        <script src="/resources_v101150/plugins/plupload.full.js"></script>
+        <script src="/resources_v101150/scripts/upload/plupload.js"></script>
+		<!-- 文档上传插件 end -->
+
+		<!-- 时间插件 css js start -->
+
+		<script src="/resources_v101150/plugins/flatpickr-4.6.3/flatpickr.min.js"></script>
+		<script src="/resources_v101150/plugins/flatpickr-4.6.3/flatpickr.l10n.zh.js"></script>
+		<link href="/resources_v101150/plugins/flatpickr-4.6.3/flatpickr.min.css" rel="stylesheet" type="text/css" >
+		<script src="/resources_v101150/plugins/flatpickr-4.6.3/polyfill.min.js"></script>
+		<script>flatpickr.localize(flatpickr.l10ns.zh)</script>
+		<!-- 时间插件 css js end  -->
+
+		<!--[if IE 9]>
+		<link rel="stylesheet" type="text/css" href="https://npmcdn.com/flatpickr/dist/ie.css">
+		<![endif]-->
+
+		<!-- 左侧菜单滚动插件 css js start  -->
+		<script src="/resources_v101150/plugins/jquery.slimscroll.min.js"></script>
+        <!-- 左侧菜单滚动插件 css js end  -->
+
+        <!-- 教学视频 js start -->
+        <link href="/resources_v101150/plugins/video/video-js.min.css" rel="stylesheet" type="text/css" >
+		<script src="/resources_v101150/plugins/video/video.min.js"></script>
+        <script src="/resources_v101150/scripts/common/auto.js" type="text/javascript"></script>
+        <!-- 教学视频 js end -->
+
+		<!-- 统计  -->
+				<script src="/resources_v101150/scripts/statistics.js" type="text/javascript"></script>
+		        <!-- 统计  -->
+
+		<!-- 小程序上线通知 -->
+		<link href="/resources_v101150/css/swiper.min.css" rel="stylesheet" type="text/css">
+		<script src="/resources_v101150/scripts/common/swiper.min.js"></script>
+
+		<!-- 招商定制版UI -->
+		<link href="/resources_v101150/css/layout/skin.css" rel="stylesheet" />
+	</head>
+	    	<body>
+
+<!--加载中 start-->
+<div class="is_load" id="is_load"></div>
+<div class="is_load" id="is_load2"></div>
+<!--加载中 end-->
+<!-- 加载动画  start -->
+<div class="is_load_img" id="is_load_img" alt="">
+	<img src="/resources_v101150/images/loading.gif" alt="" class="fl">
+</div>
+<!-- 加载动画  end -->
+<!-- 弹窗上的alert  start -->
+<div id="tipsAlert" class="alert tipsAlert">
+	<div class="alert_title">
+		<div class="fl">提示</div>
+		<span class="pic alert_btn_yes"></span>
+	</div>
+	<div class="alert_cont">
+		content
+	</div>
+	<div class="alert_btn_box">
+		<a id="" class="btn minbtn alert_btn_yes" href="javascript:;">确定</a>
+	</div>
+</div>
+<!-- 弹窗上的alert  end -->
+<!-- 错误弹出提示窗口  start -->
+<div id="alert" class="alert">
+	<div class="alert_title">
+		<div class="fl">提示</div>
+		<span class="pic alert_btn_yes"></span>
+	</div>
+	<div class="alert_cont alert_cont2">
+		content
+	</div>
+	<div class="alert_btn_box">
+		<a id="" class="btn minbtn alert_btn_yes" href="javascript:;">确定</a>
+	</div>
+</div>
+<!-- 弹出提示窗口  end -->
+<!-- 错误弹出提示窗口  start -->
+<div id="errorsalert" class="alert">
+	<div class="alert_title">
+		<div class="fl">提示</div>
+		<span class="pic alert_btn_yes"></span>
+	</div>
+	<div class="alert_cont alert_cont2">
+		操作有误，请稍后重试
+	</div>
+	<div class="alert_btn_box">
+		<a id="" class="btn minbtn alert_btn_yes" href="javascript:;">确定</a>
+	</div>
+</div>
+<!-- 错误弹出提示窗口  end -->
+<!-- 【公用 confirm】 start -->
+<div id="confirm" class="confirm">
+		<div class="confirm_title">
+			<span class="fl">确认操作</span>
+			<span class="closright pic confirm_no"></span>
+		</div>
+		<div class="confirm_content">
+		</div>
+		<div class="confirm_btn">
+			<a href="javascript:;" id="" class="btn minbtn fl confirm_yes">确定</a>
+			<a href="javascript:;" id="" class="btn minbtn fr confirm_no">取消</a>
+		</div>
+</div>
+<!-- 【公用 confirm】end -->
+<!-- 【公用 公司认证弹窗】 start -->
+<div id="company_edit_certification" class="common_alert">
+	<div class="alert_title">
+		<div class="fl">企业认证</div>
+		<span class="cc alert_btn_no"></span>
+	</div>
+	<div class="alert_cont">
+		<ul class="ckForm" id="edit_cer_information" style="width:550px;">
+			<li>
+				<span>企业全称</span>
+				<div id="edit_cer_name" class="fl" style="display:inline-block;margin-top:6px;"></div>
+			</li>
+			<li>
+				<span>企业简称</span>
+				<div id="edit_cer_abbreviation" class="fl" style="display:inline-block;margin-top:6px;"></div>
+			</li>
+			<li>
+				<span>企业类型</span>
+				<div id="edit_cer_type" class="fl" style="display:inline-block;margin-top:6px;"></div>
+			</li>
+			<li>
+				<span>资本币种</span>
+				<div id="edit_cer_currency" class="fl" style="display:inline-block;margin-top:6px;"></div>
+			</li>
+			<li id="company_upload_backgroundImageDiv" class="oh">
+				<span id="edit_generalManager">营业执照</span>
+				<div class="fl upload_company_logo" id="company_upload_backgroundImage" style="width:120px;height:120px;">
+					<div class="pic newcompanylogo" style="margin-top: 28px;"></div>
+					<p style="height:20px;line-height:20px;">上传营业执照</p>
+					<p style="height:20px;line-height:20px;">扫描件</p>
+					<input type="hidden" id="company_upload_backgroundImage_input" name="" value=""/>
+					<div class="havepic">
+						<div class="havepic_bar">重新上传</div>
+					</div>
+				</div>
+				<br />
+				<i class="picTips" style="padding:0;">1.仅支持JPG,PNG格式</i>
+				<br />
+				<br />
+				<i class="picTips" style="padding:0;">2.文件不超过10M</i>
+				<br />
+				<br />
+				<i class="picTips" style="padding:0;">3.请用营业执照原件扫描</i>
+				<em id="company_edit_Authentication" class="error"></em>
+			</li>
+			<div class="clear"></div>
+		</ul>
+	</div>
+	<div class="alert_btn_box">
+		<a class="btn minbtn" href="javascript:;" id="company_certification_qr">确定</a>
+	</div>
+</div>
+<script>
+	// 企业认证
+	$("#company_upload_backgroundImage").hover(function(){
+		$("#company_edit_Authentication").css("display","none");
+	});
+	function Enter_certi(comId, comJson){
+        if(!comJson){
+            comJson = {};
+        }
+		if(comId){
+			var datas={
+				company_id: comId
+			}
+		}else{
+			var datas=""
+		}
+		cc.ajax({
+			url:"/company/setting/company_info",
+			data:datas
+		},function(msg){
+			error_code = msg.error_code;
+			error_msg  = msg.error_msg;
+			if( error_code ){
+				cc.alert({obj:"#company_edit_certification"});
+				$("#company_upload_backgroundImage").css("background","");
+    			$("#company_upload_backgroundImageDiv .upload_company_logo .newcompanylogo").show();
+				$("#company_upload_backgroundImageDiv .upload_company_logo p").show();
+				cc.ckForm("#company_edit_certification", "#company_certification_qr", {}, function () {
+					if($("#company_upload_backgroundImage_input").val() == ""){
+						$("#company_edit_Authentication").html("该项不能为空 !");
+						$("#company_edit_Authentication").css({"display":"block","color":"#f77771","position":"absolute","bottom":"-3px","left":"389px","background-position":"0px 8px","padding-left":"20px","width":"200px"});
+						return false;
+					}else{
+						var ajaxData = {};
+						if(comId){
+							ajaxData.id = comId;
+						}else{
+							ajaxData.id = "";
+						}
+						ajaxData.id = comId;
+						ajaxData.license_path = $("#company_upload_backgroundImage_input").val();
+						if(comJson.comToken){
+                            ajaxData.company_token = comJson.comToken;
+                        }
+						cc.ajax({
+							url:"/company/setting/edit_lisence_path_ajax",
+							data : ajaxData
+						},function(msg){
+							error_code = msg.error_code;
+							error_msg  = msg.error_msg;
+							if( error_code ){
+                                if(comJson.jump_url){
+                                    cc.location(comJson.jump_url);
+                                } else {
+                                    cc.location();
+                                }
+							}else{
+								cc.tips({
+									id:"#company_edit_certification",
+									msg:msg.error_msg
+								});
+							}
+						})
+					}
+				})
+			}else{
+				cc.alert({
+					obj:msg.error_msg
+				});
+			}
+			$("#edit_cer_name").html(error_msg.full_name);
+			$("#edit_cer_abbreviation").html(error_msg.company_name);
+			$("#edit_cer_type").html(error_msg.company_type);
+			$("#edit_cer_currency").html(error_msg.currency);
+			// 上传营业执照
+			$("#company_upload_backgroundImage .havepic").hover(function(){
+				$("#company_upload_backgroundImage .havepic_bar").fadeIn(50);
+			},function(){
+				$("#company_upload_backgroundImage .havepic_bar").fadeOut(50);
+			});
+		})
+	}
+</script>
+<!-- 【公用 公司认证弹窗】 end -->
+<!-- 支付结果弹窗 start -->
+<div id="payCheckAlert" class="common_alert pay_check_alert">
+    <div class="alert_title" style="background:#fff;">
+        <span class="cc alert_btn_no"></span>
+    </div>
+    <div class="alert_cont oh">
+        <div class="payCheckAlertCm" style="margin:35px auto 0;width: 100px;">
+            <span class="fl pic money"></span>
+            <span class="fl" style="margin: 3px 0 0 5px;">支付结果</span>
+        </div>
+    </div>
+    <div class="alert_btn_box">
+        <a href="javascript:;" class="btn" id="payOk">支付完成</a>
+        <a href="javascript:;" class="btn white" id="payFail">稍后支付</a>
+    </div>
+</div>
+<!-- 支付结果弹窗 end -->
+
+<!--提示开启二次验证弹框 start-->
+<div id="openTwoVer" class="common_alert openTwoVer_al" style="width:500px;">
+	<div class="alert_title">
+		<div class="fl">提示</div>
+		<!-- <span class="cc alert_btn_no "></span> -->
+	</div>
+	<div class="alert_cont" style="height:100px;">
+		<div style="margin-top:29px;margin-bottom:20px;">您的账号安全级别较低，建议您开启登录二次验证，保障账号安全。</div>
+		<div class="checkYes fl">
+			<div class="checkbox fl checked_false" id="TwoValidation"></div>
+			<i class="fl" id="NotPrompt">不再提示</i>
+		</div>
+	</div>
+	<div class="alert_btn_box">
+		<a class="btn minbtn white" id="AfterSay"href="javascript:;">以后再说</a>
+		<a class="btn minbtn" href="javascript:;" id="btn_go">去开启</a>
+	</div>
+</div>
+<!--提示开启二次验证弹框 end-->
+<!-- 手机号未绑定提示弹窗 start-->
+<div id="bindCellPhoneAlert" class="common_alert bind_cellPhone_alert">
+	<div class="alert_title">
+		<div class="fl">提示</div>
+		<span class="cc alert_btn_no"></span>
+	</div>
+	<div class="alert_cont">
+		<span class="fl bind_tel_icon" style="display:inlien-block;"><img src="/resources_v101150/images/mark_huang.png" alt=""></span>
+		<span class="fl bind_tel">您还未绑定手机号，请先绑定手机号再操作。</span>
+	</div>
+	<div class="alert_btn_box">
+		<a class="btn minbtn alert_btn_no" href="javascript:;">取消</a>
+		<a class="btn minbtn alert_btn_yes" href="javascript:;" id="bindTelGo">去绑定</a>
+	</div>
+</div>
+<!-- 手机号未绑定提示弹窗 end-->
+<!-- 密码未设置提示弹窗 start-->
+<div id="setPWDTipsAlert" class="common_alert set_PWDTips_alert">
+	<div class="alert_title">
+		<div class="fl">提示</div>
+		<span class="cc alert_btn_no"></span>
+	</div>
+	<div class="alert_cont">
+        <div class="set_PWDTips_cont">
+            <span class="fl"><img src="/resources_v101150/images/mark_huang.png" alt=""></span>
+            <span class="fl set_pwd_tips">请先设置登录密码</span>
+            <div class="clear"></div>
+        </div>
+	</div>
+	<div class="alert_btn_box">
+		<a class="btn minbtn alert_btn_no" href="javascript:;">取消</a>
+		<a class="btn minbtn alert_btn_yes" href="javascript:;">去设置</a>
+	</div>
+</div>
+<!-- 密码未设置提示弹窗 end-->
+<!-- 手机号修改-密码未设置弹窗 start-->
+<div id="editCellNoPWDAlert" class="common_alert editCell_NoPwd_alert">
+	<div class="alert_title">
+		<div class="fl">股书提示</div>
+		<span class="cc alert_btn_no"></span>
+	</div>
+	<div class="alert_cont">
+		<img src="/resources_v101150/images/mark_huang.png" class="fl" alt="">
+		<p class="fl">为保证您在更换手机过程中的账号安全，请先设置账号密码，在当前个人信息页面中点击“账号安全”一栏右侧的“设置密码”功能，按照引导完成密码设置即可。</p>
+        <div class="clear"></div>
+    </div>
+	<div class="alert_btn_box">
+		<a class="btn minbtn alert_btn_yes" href="javascript:;">我知道了</a>
+	</div>
+</div>
+<!-- 手机号修改-密码未设置弹窗 end-->
+<!--手机验证弹框 start-->
+<div id="telVerifyAlert_v1" class="common_alert tel_verify_alert" style="width:500px;">
+	<div class="alert_title">
+		<div class="fl">手机验证</div>
+		<span class="cc alert_btn_no"></span>
+	</div>
+	<div class="alert_cont" style="height:123px;">
+		<div style="margin-top:29px;margin-bottom:26px;">验证码已发送至尾号为<span id="telVerifyCode">4001</span>的手机上，请正确填写。</div>
+		<div class="tel_verify_cont">
+			<!-- <input type="text" id="mobileVeriAlert_text" class="fl tel_verify_input"> -->
+			<input type="text" id="telVerifyInput" class="fl tel_verify_input">
+			<a id="telVerifySendBtn">发送验证码</a>
+			<em></em>
+		</div>
+	</div>
+	<div class="alert_btn_box">
+		<a class="btn minbtn alert_btn_yes noclick" href="javascript:;" id="openTwoVerifyBtn">开启二次验证</a>
+	</div>
+</div>
+<script>
+	//手机验证码输入框事件
+	$("#telVerifyInput").off("focus").on("focus",function(){
+		$(this).siblings("em").hide();
+	});
+	$("#telVerifyInput").off("keyup").on("keyup",function(e){
+		if($(this).val().length == 6){
+			$("#openTwoVerifyBtn").removeClass("noclick");
+			$("#openTwoVerifyBtn").css({"background" : "#268ccf","border-color" : "#268ccf"});
+		}else{
+			$("#openTwoVerifyBtn").addClass("noclick");
+			$("#openTwoVerifyBtn").css({"background" : "#cae4f6","border-color" : "#cae4f6"});
+		};
+		if(e.keyCode == 13){
+			$("#openTwoVerifyBtn").click();
+		};
+	});
+	//发送验证码按钮点击事件
+	var verifyNum = 1;
+	var verifyTimecount = 60;
+	function fnVerifyStartTime(){
+		if(verifyTimecount >= 1) {
+			verifyTimecount--;
+			$("#telVerifySendBtn").addClass("noclick").html(verifyTimecount+'s'+'后重试');
+			setTimeout('fnVerifyStartTime()',1000);
+		}else {
+			$("#telVerifySendBtn").html("重新获取验证码");
+			$("#telVerifySendBtn").removeClass("noclick");
+		}
+	};
+	$("#telVerifySendBtn").off("click").on("click",function(){
+		if(!$(this).hasClass("noclick")){
+			cc.ajax({
+				url:"/user/get_verification_ajax"
+			},function(msg){
+				var error_code = msg.error_code;
+				var error_msg  = msg.error_msg;
+				if(error_code){
+					$("#telVerifySendBtn").html("59s后重试");
+					verifyTimecount = 60;
+					fnVerifyStartTime();
+					verifyNum = 1;
+				}else{
+					$("#telVerifyInput").siblings("em").html(error_msg.data).addClass("error").show();
+				}
+			});
+		}
+	});
+
+	//封装方法--二次验证弹窗
+	/*
+	fnSecondVerifyAlert({
+		"url":'"/user/is_verification_ajax' //验证码通过后，开启二次验证接口ulr
+		"data":{	//验证码通过后，开启二次验证交互参数
+			"verify_code": $("#").val()
+		}
+	},function(){
+		//回调函数
+	})
+	*/
+	function fnSecondVerifyAlert(jsonParams,callback){
+		$("#telVerifyInput").val("");
+		$("#openTwoVerifyBtn").addClass("noclick");
+		$("#openTwoVerifyBtn").css({"background" : "#cae4f6","border-color" : "#cae4f6"});
+		$("#telVerifySendBtn").click();
+		cc.alert({
+            obj:"#telVerifyAlert_v1",
+            ckForm:true
+        },function(fn){
+			var verifyCodeObj = $("#telVerifyInput");
+			if(verifyCodeObj.val().length == 6 && !$("#openTwoVerifyBtn").hasClass("noclick")){
+				if(verifyNum > 3){
+					verifyCodeObj.siblings("em").html("验证码已失效，请重新获取").addClass("error").show();
+					return;
+				}
+				cc.ajax({
+					url:jsonParams.url,
+					data:{
+						"verify_code" : verifyCodeObj.val()
+					}
+				},function(msg){
+					var error_code = msg.error_code;
+					var error_msg  = msg.error_msg;
+					if(error_code){
+						fn();
+						callback && callback();
+					}else{
+						verifyNum ++;
+						verifyCodeObj.siblings("em").html(error_msg).addClass("error").show();
+					};
+				});
+			};
+		});
+		$("#telVerifyInput").focus();
+	}
+</script>
+
+<!--手机验证弹框 end-->
+<!--反馈弹窗 start-->
+<div id="feedBackAlert" class="common_alert">
+	<div class="alert_title">
+		<div class="fl">反馈</div>
+		<span class="cc alert_btn_no"></span>
+	</div>
+	<div class="alert_cont">
+		<ul class="ckForm" style="width:550px;">
+			<li>
+				<div>欢迎您写下对此页面的想法和建议，便于我们更快地发现和解决问题。</div>
+				<textarea has=""></textarea>
+				<em class="error">请填写反馈建议</em>
+			</li>
+		</ul>
+	</div>
+	<div class="alert_btn_box">
+		<a class="btn minbtn  alert_btn_yes" href="javascript:;">提交建议</a>
+	</div>
+</div>
+<!--反馈弹窗 end-->
+<script>
+	var verify = "";
+	var AccessUrl = "/equity/company/certificate_list";
+	// 关闭二次验证提示的弹框
+	$(function(){
+		$("#openTwoVer .btn_future").click(function(){
+			$("#openTwoVer .alert_btn_no").click();
+		});
+		openTVer(verify);
+
+		$(".user_top_feedback").click(function(){
+			cc.alert({
+				obj:"#feedBackAlert",
+				ckForm:true,
+				reg:{
+					"strings": /^[\s\S]*$/i, // 表单正则
+				}
+			},function(){
+				cc.ajax({
+					url: '/feedback/add_feedback_ajax',
+					data: {
+						content : $("#feedBackAlert textarea").val(),
+						accessUrl : AccessUrl,
+					}
+				},function(msg){
+					if(msg.error_code){
+						cc.xalert('#feedBackAlert')
+					}else{
+						cc.tips({
+							id:"#feedBackAlert",
+							msg:msg.error_msg
+						});
+					}
+				});
+			});
+		});
+		$("#feedBackAlert textarea").focus(function(){
+			$(this).siblings("em").hide();
+        });
+        $(".user_video").click(function(){
+            cc.ajax({
+                url: "/support/video_lists",
+            }, function(msg){
+                if(msg.error_code) {
+                    if(msg.error_msg && msg.error_msg.length > 0) {
+                        showViewList(msg.error_msg)
+                    } else {
+                        cc.alert({obj:"暂无视频，请在帮助中心查看文档"})
+                    }
+                } else {
+					cc.alert({obj:msg.error_msg})
+                }
+            })
+        })
+	})
+
+	function openTVer(verify){
+		if(verify){
+			cc.alert({
+				obj:"#openTwoVer"
+			});
+		};
+		// 不再提示
+		var is_verify;
+		$("#TwoValidation").click(function(){
+			if($(this).hasClass("checked_false")){
+				$(this).removeClass("checked_false").addClass("checked_true");
+			}else{
+				$(this).removeClass("checked_true").addClass("checked_false");
+			}
+		});
+		$("#AfterSay").click(function(){
+			if($("#TwoValidation").hasClass("checked_false")){
+				is_verify = 1;
+			}else{
+				is_verify = 0;
+			}
+			cc.ajax({
+				url:"/user/is_verify_ajax",
+				data:{
+					is_verify : is_verify,
+					type : 1
+				},
+			},function(msg){
+				error_code = msg.error_code;
+				error_msg  = msg.error_msg;
+				if(error_code){
+					cc.closeAlert('#openTwoVer');
+					location.reload();
+				}else{
+					cc.tips({
+						id:"#TwoValidation",
+						msg:msg.error_msg
+					});
+				}
+			});
+		});
+		// 去开启二次验证
+		$("#btn_go").click(function(){
+			if($("#TwoValidation").hasClass("checked_false")){
+				is_verify = 1;
+			}else{
+				is_verify = 0;
+			}
+			cc.ajax({
+				url:"/user/is_verify_ajax",
+				data:{
+					is_verify : is_verify,
+					type : 2
+				},
+			},function(msg){
+				error_code = msg.error_code;
+				error_msg  = msg.error_msg;
+				if(error_code){
+					if(error_msg.type == 2){
+						location.href="/user/user_index";
+					}
+				}else{
+					cc.tips({
+						id:"#TwoValidation",
+						msg:msg.error_msg
+					});
+				}
+			});
+		});
+		$("#NotPrompt").click(function(){
+			$("#TwoValidation").click();
+		});
+	};
+</script>
+<!-- 客服 satrt-->
+<script>
+	$(function(){
+		$(".user_service,#user_service").off().on("click",function(){
+			$(".customSer iframe").attr("src","//a1.7x24cc.com/phone_webChat.html?accountId=N000000008441&chatId=yxcw-11273760-847d-11e6-8a4e-af4fab039769");
+			$(".customSer").show().stop().animate({"bottom":0},1500);
+		});
+		$(".customSer .whitedelico").off().on("click",function(){
+			$(".customSer").stop().animate({"bottom":"-500px"},1500,fnBack);
+			function fnBack(){
+				$(".customSer iframe").attr("src","");
+				$(".customSer").hide();
+			}
+		});
+	})
+
+</script>
+<!-- 客服 end -->
+<!-- 续费提示窗口 -->
+<div id="renewTips" class="common_alert renewTips">
+	<div class="alert_title">
+		<div class="fl">提示</div>
+		<span class="cc alert_btn_no"></span>
+	</div>
+	<div class="alert_cont" style="width:430px;">
+		<br />
+		<p id="renewTipsTxt" style="line-height: 22px;margin-bottom:20px;text-align: left;"></p>
+		<p style="line-height: 22px;margin-bottom:20px;text-align: left;">再次感谢您选择股书服务。</p>
+	</div>
+	<div class="alert_btn_box">
+        <a class="btn minbtn fffBg mr10 go_on_use" href="javascript:;">稍后付费，继续使用</a>
+		<a class="btn minbtn alert_btn_yes" href="javascript:;">去付费</a>
+	</div>
+</div>
+
+
+<!-- 试用版限制提示窗 -->
+<div id="notPayAlert" class="common_alert">
+	<div class="alert_title">
+		<div class="fl">提示</div>
+		<span class="cc alert_btn_no"></span>
+	</div>
+	<div class="alert_cont" style="width: 450px;">
+		<p style="width: 74%;text-align: left;margin: 30px 13% 0;float: left;"></p>
+	</div>
+	<div class="alert_btn_box">
+		<a class="btn bai lanbtn alert_btn_no mr20" href="javascript:;">暂时不需要</a>
+		<a class="btn bai lanbtn alert_btn_yes" href="javascript:;"><img style="margin-top: 8px;width: 22px;" src="/resources/images/demo/paybtnicon.png" alt="">立刻付费</a>
+	</div>
+</div>
+
+<!-- 批量上传公共弹窗 start -->
+<div id="batchView" class="common_alert upload_view">
+	<div class="alert_title">
+		<div class="fl">导入预览</div>
+		<span class="cc alert_btn_no"></span>
+	</div>
+	<div class="alert_cont ">
+		<div class="tableDiv">
+			<p>您导入的信息有些错误，已使用红色单元格中标注，请检查您所填信息的正确性</p>
+			<div class="batch_table_box">
+				<div class="batch_error">
+					<span class="pic whitedown"></span>
+					<p>内容错误，请参考上传模板中的具体说明</p>
+				</div>
+				<table class="common_table">
+					<thead>
+						<tr>
+							<th>姓名</th>
+							<th>邮箱</th>
+							<th>证件类型</th>
+							<th>证件号</th>
+							<th>部门</th>
+							<th>姓名</th>
+							<th>邮箱</th>
+							<th>证件类型</th>
+							<th>证件号</th>
+							<th>部门</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr class="error_data" data-error="的撒旦却的撒旦却无法服务器访问去无法服务器访问去">
+							<td>Park Woo</td>
+							<td>woo@kapbook.com</td>
+							<td>身份证</td>
+							<td>158136189156156</td>
+							<td>技术部</td>
+							<td>Park Woo</td>
+							<td>woo@kapbook.com</td>
+							<td>身份证</td>
+							<td>158136189156156</td>
+							<td>技术部</td>
+						</tr>
+						<tr class="error_data" data-error="的撒旦却的撒旦却无法服务器访问去无法服务器访问去">
+							<td>Park Woo</td>
+							<td>woo@kapbook.com</td>
+							<td>身份证</td>
+							<td class="error_data" data-error="的撒旦却无法服务器访问去">
+								158136189156156
+							</td>
+							<td >技术部</td>
+							<td>Park Woo</td>
+							<td>woo@kapbook.com</td>
+							<td>身份证</td>
+							<td>158136189156156</td>
+							<td>技术部</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+
+		</div>
+	</div>
+	<div class="alert_btn_box">
+		<a id="" href="javascript:;" class="alert_btn alert_btn_no">返回</a>
+		<a id="" href="javascript:;" class="alert_btn alert_btn_yes batchSubmit">导入</a>
+	</div>
+</div>
+
+<div id="batchLoading" class="common_alert upload_loading">
+	<div class="alert_title"></div>
+	<div class="alert_cont ">
+		<div><img src="/resources_v101150/images/loading.gif" /></div>
+		<span>正在检索您的文件，请稍后...</span>
+	</div>
+</div>
+
+<div id="batchSuccess" class="common_alert upload_success">
+	<div class="alert_title"><span class="cc alert_btn_no"></span></div>
+	<div class="alert_cont">
+		<div class="upload_success_con">
+			<i class="pic picyes"></i><strong>导入成功</strong>
+		</div>
+		<span id=""></span>
+	</div>
+	<div class="alert_btn_box">
+		<a id="" href="javascript:;" class="btn minbtn alert_btn_yes">确定</a>
+	</div>
+</div>
+
+<div id="batchFail" class="common_alert upload_fail">
+	<div class="alert_title"><span class="cc alert_btn_no"></span></div>
+	<div class="alert_cont ">
+		<div class="upload_fail_top">
+			<i class="pic"></i><strong>您导入的文件存在问题，请检查后重新上传</strong>
+		</div>
+		<div class="upload_fail_bottom">
+			<ul>
+				<li><span class="pic exclamation"></span>1个证书的“股权数量”无效，请查看股权管理E3单元格</li>
+				<li><span class="pic exclamation"></span>1个证书的无效的证书有误，查看股权管理E3单元格</li>
+			</ul>
+		</div>
+	</div>
+	<div class="alert_btn_box">
+		<a id="" href="javascript:;" class="btn minbtn alert_btn_yes">关闭</a>
+	</div>
+</div>
+<!-- 批量上传公共弹窗  end  -->
+
+<!-- 上传附件公共弹窗 start -->
+<div id="attUploadAlert" class="common_alert">
+	<div class="alert_title">
+		<div class="fl">上传附件</div>
+		<span class="cc alert_btn_no"></span>
+	</div>
+	<div class="alert_cont">
+		<ul class="ckForm" style="width:450px;">
+			<li>
+				<span class="fl">上传文件</span>
+				<div class="fl">
+					<a href="javascript:;" id="attUpload" class="btn fl uploads">上传</a>
+					<input type="hidden" id="attUploadInput" value="">
+				</div>
+			</li>
+		</ul>
+		<div class="clear"></div>
+	</div>
+	<div class="alert_btn_box">
+		<a class="btn minbtn white alert_btn_no" href="javascript:;">取消</a>
+		<a class="btn minbtn alert_btn_yes" href="javascript:;">确定</a>
+	</div>
+</div>
+<!-- 上传附件公共弹窗  end  -->
+
+<!-- 新用户授予。验证绑定邮箱弹窗 -->
+<div id="bindEmailDiv" class="common_alert">
+    <div class="alert_title">
+        <div class="fl">提示</div>
+        <span class="cc alert_btn_no"></span>
+    </div>
+    <div class="alert_cont" style="width:400px;padding:20px;">
+        <p class="textL">在开展股权激励业务前，为了您更好享受服务，需要您先填写一个邮箱，便于收取必要的提示（签字、待行权、回购等待处理）邮件。您也可以通过该邮箱登录Kapbook平台。</p>
+        <ul class="ckForm" style="padding:0;margin-top:30px;">
+            <li>
+                <span style="text-align:left;">您的常用邮箱</span>
+                <div class="clear"></div>
+                <input has="email" type="text" name="" value="">
+            </li>
+        </ul>
+        <div class="clear"></div>
+    </div>
+    <div class="alert_btn_box">
+        <a class="btn bai lanbtn alert_btn_yes" href="javascript:;">确定</a>
+    </div>
+</div>
+<!-- 用户视频教学弹窗 start -->
+<div id="videoListAlert" data-no-bottom="65" data-auto="0" class="common_alert user_video_alert">
+    <div class="alert_title">
+        <div>
+            <!-- <i class="video_ico"></i> -->
+            <img class="video_ico" src="/resources/images/common/video_ico.png" alt="">
+            新手视频教学
+        </div>
+        <span class="cc alert_btn_no"></span>
+    </div>
+    <div class="alert_cont">
+        <div class="video_item">
+            <img src="" alt="video">
+            <i>3:10</i>
+            <div class="video_filter"><div></div></div>
+            <p>激励计划的配置和协议模版的初始化</p>
+            <div class="progress"><span style="width:20%"></span></div>
+        </div>
+        <div class="video_item"></div>
+        <div class="video_item"></div>
+        <div class="video_item"></div>
+        <div class="video_item"></div>
+        <div class="video_item"></div>
+    </div>
+    <div class="clear"></div>
+</div>
+
+<div id="videoPlayAlert" data-no-bottom="20" class="common_alert play_video_alert">
+    <div class="alert_title">
+        <div class="video_play_close"></div>
+    </div>
+    <div class="video_play_content alert_cont">
+    </div>
+</div>
+<!-- 用户视频教学弹窗 end -->
+
+<!-- 微信小程序上线通知 start-->
+<div id="bootAlert" class="common_alert bootAlert" data-auto="0">
+    <div class="alert_title">
+        <div class="fl"></div>
+        <span class="cc alert_btn_no"></span>
+    </div>
+    <div class="alert_cont" style="position:relative;">
+		<div class="swiper-container">
+			<div class="swiper-wrapper">
+				<div class="swiper-slide">
+					<div class="swiper_img">
+						<img src="/resources/images/boot1.png" alt="">
+					</div>
+					<div class="swiper_div">
+						<div class="fl swiper_div_logo">
+							<div class="swiper_lpgo fl">
+								<img src="/resources/images/logo_login_1220.png" alt="">
+							</div>
+							<div class="fl swiper_txt1">小程序上线了</div>
+							<div class="clear"></div>
+							<div class="swiper_txt2">微信扫描右侧二维码体验股书小程序！</div>
+						</div>
+						<div class="fr swiper_lpgo2">
+							<img src="https://file.kapbook.com/7059b05f0568b821c7d47337c147b87e.png" alt="">
+						</div>
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="swiper_img">
+						<img src="/resources/images/boot2.png" alt="">
+					</div>
+					<div class="swiper_div">
+						<div class="fl swiper_div_logo">
+							<div class="fl swiper_txt1">待处理列表</div>
+							<div class="clear"></div>
+							<div class="swiper_txt2">手机操作，方便、高效</div>
+						</div>
+						<div class="fr swiper_lpgo2">
+							<img src="https://file.kapbook.com/7059b05f0568b821c7d47337c147b87e.png" alt="">
+						</div>
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="swiper_img">
+						<img src="/resources/images/boot3.png" alt="">
+					</div>
+					<div class="swiper_div">
+						<div class="fl swiper_div_logo">
+							<div class="fl swiper_txt1">我的资产</div>
+							<div class="clear"></div>
+							<div class="swiper_txt2">实时查看期权/股权/虚拟股价值</div>
+						</div>
+						<div class="fr swiper_lpgo2">
+							<img src="https://file.kapbook.com/7059b05f0568b821c7d47337c147b87e.png" alt="">
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- Add Pagination -->
+			<div class="swiper-pagination"></div>
+			<!-- Add Arrows -->
+			<div class="swiper-button-next"></div>
+			<div class="swiper-button-prev"></div>
+		</div>
+    </div>
+</div>
+<!-- 微信小程序上线通知 end-->
+
+<!-- 添加新币种弹窗 start -->
+<div id="addNewCurrencyAlert" class="common_alert add_newCurrency_alert">
+    <div class="alert_title">
+        <div class="fl">添加新币种</div>
+        <span class="cc alert_btn_no" open-prev-alert="true"></span>
+    </div>
+    <div class="alert_cont">
+        <div class="add_newCurrency_cont clearfix">
+            <span class="fl">币种名称</span>
+            <input type="text" placeholder="请输入自定义币种名称" id="newCurrencyName" maxlength="8" class="fl" />
+            <em class="fl error">请输入币种名称</em>
+        </div>
+        <p>请输入货币名称、符号或英文缩写，例如欧元、€、Euro，</p>
+        <p>或者输入虚拟币等其他币种，例如比特币、BTC。</p>
+    </div>
+    <div class="alert_btn_box">
+        <a class="btn alert_btn_no bai mr15" href="javascript:;">返回</a>
+        <a class="btn alert_btn_yes" href="javascript:;">确定</a>
+    </div>
+</div>
+<script>
+$(function(){
+    $("#newCurrencyName").off("focus").on("focus",function(){
+        $(this).removeClass("red").siblings("em").html("").hide();
+    });
+    $("#newCurrencyName").off("keyup").on("keyup",function(){
+        var _thisVal = $(this).val().replace(/^ +| +$/g,'');
+        _thisVal = $(this).val().replace(/\d/g,'');
+        // if(_thisVal.length > 8){
+        //     _thisVal = _thisVal.substring(0,8);
+        // }
+        $(this).val(_thisVal);
+    });
+})
+</script>
+<!-- 添加新币种弹窗 end -->
+<script>
+	var oTipsAlert = $(".commonTips");
+	if(oTipsAlert.length > 0){
+		oTipsAlert.each(function(){
+			var _this = $(this);
+			cc.alert({
+				obj: "#" + _this.attr("id")
+			},function(){
+				var _thisBtn = _this.find(".alert_btn_yes");
+				if(_thisBtn.attr("data-end") == "true"){
+					cc.ajax({
+						url: "/company_message/edit_message_status",
+						data: {
+							id: _thisBtn.attr("data-id")
+						}
+					},function(msg){
+						if(msg.error_code){
+							if(_thisBtn.attr("data-url")){
+								location.href = _thisBtn.attr("data-url");
+							}else{
+								location.reload();
+							}
+						}else{
+							cc.alert({
+								obj: msg.error_msg
+							});
+						}
+					});
+				}else{
+					if(_thisBtn.attr("data-url")){
+						location.href = _thisBtn.attr("data-url");
+					}else{
+						location.reload();
+					}
+				}
+			});
+		});
+	}
+</script><div class="Kap_layout">
+	<!-- 一般菜单 start -->
+	<div class="Kap_only_Menus  noMenus">
+		<!-- topbar -->
+		<div class="Kap_topbar posR">
+            <!-- logo company type -->
+		    <div class="topbar_componyDiv">
+                <div class="topbar_logo fl " >
+                    <a href="/entrance">
+                                                    <img src="/resources_v101150/images/logos/logo_layout_1.png" alt="logo_layout" style="height:24px;">
+                                            </a>
+                </div>
+
+                                    <!-- 公司名称 start -->
+                    <div class="fl Collectionusername hand posR" style="padding-right: 30px;">
+                                                                                                                                                                <div title="814日有限公司" class="topbar_company fl hand">814日有限公司</div>
+
+                        <div class="pic Collectionusclickrt"></div>
+                    </div>
+                    <!-- 公司名称 end -->
+
+					<!-- 未付费、未认证提示 start -->
+					<div class="company_state">
+												<!--  -->
+					</div>
+					<!-- 未付费、未认证提示 end -->
+							</div>
+
+				<!-- user status -->
+		    <div class="topbar_status fr">
+                                    <!-- 微信小程序二维码 start-->
+                                        <!-- 微信小程序二维码 end-->
+                                        <!-- 消息 -->
+                    <div class="topbar_msg fl hand">
+                        <div class="topbar_Ico"></div>
+                        <div class="topbar_Num">23</div>
+                    </div>
+                                        <!-- 技术支持 -->
+                    <div class="topbarMenuBtn topbar_help fl hand">
+                        <div class="help_title fl"><span class="fl">技术支持</span> <div class="fl downIcon"></div> </div>
+                        <div class="topbarMenuDiv barNavdiv" style='z-index:1000;'>
+                            <div class="barNavdivdownIcon"></div>
+                                                            <p data-link-url="/support/index?show_page=1" style="margin-bottom:10px;"> <span class="helpIcon helpBtn"></span> 帮助</p>
+                                                                                    <p class="user_top_feedback" style="margin-bottom:10px;"> <span class="helpIcon feedbackBtn"></span> 反馈</p>
+                                                            <p class="user_video" style="margin-bottom:10px;"> <span class="videoIcon feedbackBtn"></span> 视频</p>
+                                                        <p id="user_service" class="user_service"> <span class="helpIcon1 feedbackBtn"></span> 客服</p>
+                        </div>
+                    </div>
+                                <!-- 用户 -->
+                <div class="topbarMenuBtn topbar_user fl hand" id="user_top">
+                    <img class="fl" src="https://file.kapbook.com/909762641500dfc3644105c20e8e5781.jpg" alt="">
+                    <span class="fl">
+                        <div class="fl nowrap" style="max-width:240px;">你好，刘阳</div>
+                        <div class="fl downIcon"></div>
+                    </span>
+                    <div class="topbarMenuDiv topbar_userDivMenu">
+                        <div class="barNavdivdownIcon"></div>
+                        <p data-link-url="/user/user_index"> <span class="topbarUserIcon userinfoBtn"></span> 个人信息</p>
+                        <p data-link-url="/user/property" style="margin:14px 0"> <span class="topbarUserIcon topbarmymoneyIcon"></span> 我的资产</p>
+                        <p data-link-url="/logout"> <span class="topbarUserIcon topbaroutIcon"></span> 退出登录</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        	</div>
+	<!-- 一般菜单 end -->
+            <!-- 分组管理及计划 start -->
+        <div class="Kap_nav posR Kap_nav_group">
+            <ul>
+                                    <li class="navStyle" data-link-url="/equity/company/certificate_list">
+                        <div class="nav_company_ico equityIcon fl"></div>
+                        <div class="fl navTitle">期权</div>
+                        <div class="downIcon"></div>
+                        <div class="navChildren" style="width:160px;">
+                                                            <p data-link-url="/equity/company/certificate_list" class="active">
+                                    <span class="navYuanIcon childIcon childrenIconEquity" ></span>
+                                    期权管理                                </p>
+                                                            <p data-link-url="/equity_dashboard/index" class="">
+                                    <span class="navYuanIcon childIcon childrenIconDashboard" ></span>
+                                    期权概况                                </p>
+                                                            <p data-link-url="/equity/assign/index" class="">
+                                    <span class="navYuanIcon childIcon childrenIconEquityAssign" ></span>
+                                    智能配比                                </p>
+                                                            <p data-link-url="/company/report_service/report_list" class="">
+                                    <span class="navYuanIcon childIcon childrenIconReport" ></span>
+                                    报表服务                                </p>
+                                                    </div>
+                    </li>
+                    <li class="downIconLi">
+                        <div class="downIconDiv"></div>
+                    </li>
+                                            <!-- 计划 -->
+                        <li class="navStyle ml_4">
+                            <div class="fl navTitle group_title">在线建立计划</div>
+                        </li>
+                                                </ul>
+        </div>
+        <!-- 分组管理及计划 end -->
+
+
+	<!-- 悬浮菜单 start -->
+	<div class="Kap_fixed_Menus">
+		<!-- topbar -->
+		<div class="Kap_topbar posR">
+		    <div class="topbar_componyDiv">
+			    <div class="topbar_logo fl">
+                    <a href="/entrance">
+                        <img src="/resources_v101150/images/layout/fixedLogo.png" alt="">
+                    </a>
+                </div>
+
+                <!-- 公司名称 start -->
+                                    <div class="fl Collectionusername hand posR">
+                                                                                                                                                                <div title="814日有限公司" class="topbar_company fl hand">814日有限公司</div>
+                                                                                                                                                <div class="pic Collectionusclickrt"></div>
+                    </div>
+                            </div>
+            <div class="Kap_nav posR" >
+                                    <!-- 个人中心菜单 -->
+                    <ul class="uNenus">
+                                                <li data-link-url="/user/user_index" >
+                            <div class="navStyle">
+                                <div class="nav_user_ico userIco fl"></div><div class="fl navTitle">个人信息</div>
+                            </div>
+                                                    </li>
+                        <li data-link-url="/user/property" >
+                            <div class="navStyle">
+                                <div class="nav_user_ico assetsIco fl"></div><div class="fl navTitle">我的资产</div>
+                            </div>
+                        </li>
+                        <li data-link-url="/user/pending" >
+                            <div class="navStyle">
+                                <div class="nav_user_ico propertyIco fl"></div><div class="fl navTitle">待处理列表</div>
+                            </div>
+                        </li>
+                                                <li data-link-url="/user/message"  style="padding-right:0;">
+                            <div class="navStyle">
+                                <div class="nav_user_ico systemIco fl"></div><div class="fl navTitle">系统通知</div>
+                            </div>
+                        </li>
+                    </ul>
+                            </div>
+            <div class="pulldown_menu">
+                <img src="/resources_v101150/images/layout/pulldown_menu.png" alt="pulldown" />
+                                    <ul class="pulldown_menu_list user_menu">
+                                                <li data-url="/user/user_index" >
+                            <i class="userIco"></i>
+                            <span>个人信息</span>
+                        </li>
+                        <li data-url="/user/property" >
+                            <i class="assetsIco"></i>
+                            <span>我的资产</span>
+                        </li>
+                        <li data-url="/user/pending" >
+                            <i class="propertyIco"></i>
+                            <span>待处理列表</span>
+                        </li>
+                                                <li data-url="/user/message" >
+                            <i class="systemIco"></i>
+                            <span>系统通知</span>
+                        </li>
+                    </ul>
+                            </div>
+            <div class="topbar_status fr">
+                                                        <!-- 消息 -->
+                    <div class="topbar_msg fl hand">
+                        <div class="topbar_Ico"></div>
+                        <div class="topbar_Num">23</div>
+                    </div>
+                                        <!-- 技术支持 -->
+                    <div class="topbarMenuBtn topbar_help fl hand">
+                        <div class="help_title fl"><span class="fl">技术支持</span> <div class="fl downIcon"></div> </div>
+                        <div class="topbarMenuDiv barNavdiv">
+                            <div class="barNavdivdownIcon"></div>
+                                                            <p data-link-url="/support/index?show_page=1" style="margin-bottom:10px;"> <span class="helpIcon helpBtn"></span> 帮助</p>
+                                                                                                                    <p class="user_video" style="margin-bottom:10px;"> <span class="videoIcon feedbackBtn"></span> 视频</p>
+                                                        <p class="user_top_feedback" style="margin-bottom:10px;"> <span class="helpIcon feedbackBtn"></span> 反馈</p>
+                            <p id="user_service" class="user_service"> <span class="helpIcon1 feedbackBtn"></span> 客服</p>
+                        </div>
+                    </div>
+                                <!-- 用户 -->
+                <div class="topbarMenuBtn topbar_user fl hand">
+                    <span class="fl">
+                        <div class="fl nowrap" style="max-width:240px;">你好，刘阳                        </div>
+                        <div class="fl downIcon"></div>
+                    </span>
+                    <div class="topbarMenuDiv topbar_userDivMenu">
+                        <div class="barNavdivdownIcon"></div>
+                        <p data-link-url="/user/user_index"> <span class="topbarUserIcon userinfoBtn"></span> 个人信息</p>
+                        <p data-link-url="/user/property" style="margin:14px 0"> <span class="topbarUserIcon topbarmymoneyIcon"></span> 我的资产</p>
+                        <p data-link-url="/logout"> <span class="topbarUserIcon topbaroutIcon"></span> 退出登录</p>
+                    </div>
+                </div>
+            </div>
+		</div>
+	</div>
+	<!-- 悬浮菜单 end -->
+
+	<!-- 客服start -->
+	<div class="customSer">
+		<span class="whitedelico">X</span>
+		<iframe width=400 height=500 frameborder="0"></iframe>
+	</div>
+	<!-- 客服end -->
+	<div class="Site">
+<!-- 【公用弹窗与js】**** 系统头部左侧，公司列表管理弹窗 start  ****-->
+<!-- VIE IPO后 提示弹窗 start -->
+<!-- commonTips -->
+<div id="vieIpoTipsAlert2" class="common_alert commonTips">
+	<div class="alert_title">
+		<div class="fl">提示</div>
+	</div>
+	<div class="alert_cont">
+		<div>
+			<div>
+				<p class="vieIpoTipsCont">请联系股书客服，协助您完成企业初始化！</p>
+				<p class="vieIpoTipsCont2">以下是联系方式：</p>
+				<p>&nbsp;</p>
+				<p>
+
+					<img style="margin: 4px 6px 0px 0px;float: left;" src="/resources_v101150/images/opexDiv_02.png" alt="">010-56592118				</p>
+				<div class="clear"></div>
+				<p>
+
+					<img style="margin: 6px 6px 0px 0px;float: left;" src="/resources_v101150/images/opexDiv_01.png" alt="">service@kapbook.com				</p>
+				<p></p>
+
+			</div>
+		</div>
+	</div>
+	<div class="alert_btn_box">
+		<a class="btn enter_company" href="javascript:;">进入企业</a>
+		<a class="btn alert_btn_yes" href="javascript:;">初始化设置</a>
+		<a class="btn minbtn alert_btn_no" href="javascript:;">关闭</a>
+	</div>
+</div>
+<!-- VIE IPO后 提示弹窗 end -->
+
+<!-- 公司列表 start -->
+<div id="company_list" class="alert company_list" style="position: fixed;">
+	<div class="alert_title">企业切换<span class="pic alert_btn_no"></span></div>
+	<div class="alert_cont admin_add">
+																<div class="companylist_all">
+						<ul>
+															<li
+									class="
+										companyUrlClass
+																			"
+									data="/entrance/index"
+									data-alert="1"
+									data-token="f0dd4d84c6740077a074ba39148756c8"
+								>
+									<dl class="company_lists">
+										<dt style="background: url(https://file.kapbook.com/5a78aa7ce40dba75dd93137d5923a15b.png) no-repeat center;background-size:100%;"></dt>
+										<dd>
+																							<h3 title="智慧科技">智慧科技</h3>
+																					</dd>
+										<div class="clear"></div>
+									</dl>
+								</li>
+															<li
+									class="
+										companyUrlClass
+																			"
+									data="/entrance/index"
+									data-alert="1"
+									data-token="fc9eee1971a3a945bcfb471c7b57d093"
+								>
+									<dl class="company_lists">
+										<dt style="background: url(https://file.kapbook.com/5a78aa7ce40dba75dd93137d5923a15b.png) no-repeat center;background-size:100%;"></dt>
+										<dd>
+																							<h3 title="五二八">五二八</h3>
+																					</dd>
+										<div class="clear"></div>
+									</dl>
+								</li>
+															<li
+									class="
+										companyUrlClass
+																			"
+									data="/entrance/index"
+									data-alert="1"
+									data-token="09e8b80c8e5d82dd426d8668ccc7419b"
+								>
+									<dl class="company_lists">
+										<dt style="background: url(https://file.kapbook.com/5a78aa7ce40dba75dd93137d5923a15b.png) no-repeat center;background-size:100%;"></dt>
+										<dd>
+																							<h3 title="VIE公司">VIE公司</h3>
+																					</dd>
+										<div class="clear"></div>
+									</dl>
+								</li>
+															<li
+									class="
+										companyUrlClass
+																			"
+									data="/entrance/index"
+									data-alert="1"
+									data-token="b6d0f07d42de7678fce74934cdbc1e0b"
+								>
+									<dl class="company_lists">
+										<dt style="background: url(https://file.kapbook.com/b0304d87ff795aa0aac24e7c42ecee17.jpg) no-repeat center;background-size:100%;"></dt>
+										<dd>
+																							<h3 title="均加科技">均加科技</h3>
+																					</dd>
+										<div class="clear"></div>
+									</dl>
+								</li>
+															<li
+									class="
+										companyUrlClass
+																			"
+									data="/entrance/index"
+									data-alert="1"
+									data-token="116deb16a15de69f7e35b496f3d58b68"
+								>
+									<dl class="company_lists">
+										<dt style="background: url(https://file.kapbook.com/5a78aa7ce40dba75dd93137d5923a15b.png) no-repeat center;background-size:100%;"></dt>
+										<dd>
+																							<h3 title="北京家嘉乐">北京家嘉乐</h3>
+																					</dd>
+										<div class="clear"></div>
+									</dl>
+								</li>
+															<li
+									class="
+										companyUrlClass
+																			"
+									data="/entrance/index"
+									data-alert="1"
+									data-token="9b5671e6f6fcf23da44dac26ee52fee8"
+								>
+									<dl class="company_lists">
+										<dt style="background: url(https://file.kapbook.com/5a78aa7ce40dba75dd93137d5923a15b.png) no-repeat center;background-size:100%;"></dt>
+										<dd>
+																							<h3 title="二级权限有限公司">二级权限有限公司</h3>
+																					</dd>
+										<div class="clear"></div>
+									</dl>
+								</li>
+															<li
+									class="
+										companyUrlClass
+																			"
+									data="/entrance/index"
+									data-alert="1"
+									data-token="0c5f064abccf4d3957a3904052a21818"
+								>
+									<dl class="company_lists">
+										<dt style="background: url(https://file.kapbook.com/5a78aa7ce40dba75dd93137d5923a15b.png) no-repeat center;background-size:100%;"></dt>
+										<dd>
+																							<h3 title="made">made</h3>
+																					</dd>
+										<div class="clear"></div>
+									</dl>
+								</li>
+															<li
+									class="
+										companyUrlClass
+																			"
+									data="/entrance/index"
+									data-alert="1"
+									data-token="97ef4c0ce50573ccd08cc93d5b9cbf8b"
+								>
+									<dl class="company_lists">
+										<dt style="background: url(https://file.kapbook.com/5a78aa7ce40dba75dd93137d5923a15b.png) no-repeat center;background-size:100%;"></dt>
+										<dd>
+																							<h3 title="境内股份一">境内股份一</h3>
+																					</dd>
+										<div class="clear"></div>
+									</dl>
+								</li>
+															<li
+									class="
+										companyUrlClass
+																			"
+									data="/entrance/index"
+									data-alert="1"
+									data-token="cd32dcef5b4d78d5670eaead4a315c3a"
+								>
+									<dl class="company_lists">
+										<dt style="background: url(https://file.kapbook.com/5a78aa7ce40dba75dd93137d5923a15b.png) no-repeat center;background-size:100%;"></dt>
+										<dd>
+																							<h3 title="VIEBefore">VIEBefore</h3>
+																					</dd>
+										<div class="clear"></div>
+									</dl>
+								</li>
+															<li
+									class="
+										companyUrlClass
+																			"
+									data="/entrance/index"
+									data-alert="1"
+									data-token="20501d410816a7c528ec73358fa0e223"
+								>
+									<dl class="company_lists">
+										<dt style="background: url(https://file.kapbook.com/5a78aa7ce40dba75dd93137d5923a15b.png) no-repeat center;background-size:100%;"></dt>
+										<dd>
+																							<h3 title="VIEAtferUSA">VIEAtferUSA</h3>
+																					</dd>
+										<div class="clear"></div>
+									</dl>
+								</li>
+															<li
+									class="
+										companyUrlClass
+										vieUnpaid									"
+									data="/entrance/index"
+									data-alert="1"
+									data-token="83758dd1b90f2871d96172fa69097b72"
+								>
+									<dl class="company_lists">
+										<dt style="background: url(https://file.kapbook.com/5a78aa7ce40dba75dd93137d5923a15b.png) no-repeat center;background-size:100%;"></dt>
+										<dd>
+																							<h3 title="VIEAfterGang">VIEAfterGang</h3>
+																					</dd>
+										<div class="clear"></div>
+									</dl>
+								</li>
+															<li
+									class="
+										companyUrlClass
+																			"
+									data="/entrance/index"
+									data-alert="1"
+									data-token="0652fd48c62e9ed99be94b6625164054"
+								>
+									<dl class="company_lists">
+										<dt style="background: url(https://file.kapbook.com/5a78aa7ce40dba75dd93137d5923a15b.png) no-repeat center;background-size:100%;"></dt>
+										<dd>
+																							<h3 title="优化第二次test数据">优化第二次test数据</h3>
+																					</dd>
+										<div class="clear"></div>
+									</dl>
+								</li>
+															<li
+									class="
+										companyUrlClass
+																			"
+									data="/entrance/index"
+									data-alert="1"
+									data-token="8d37e433c47f3d2eed96ca8cd08371f1"
+								>
+									<dl class="company_lists">
+										<dt style="background: url(https://file.kapbook.com/5a78aa7ce40dba75dd93137d5923a15b.png) no-repeat center;background-size:100%;"></dt>
+										<dd>
+																							<h3 title="Test_company">Test_company</h3>
+																					</dd>
+										<div class="clear"></div>
+									</dl>
+								</li>
+															<li
+									class="
+										companyUrlClass
+																			"
+									data="/entrance/index"
+									data-alert="1"
+									data-token="b597f138cdcfdc2a6dba300740228872"
+								>
+									<dl class="company_lists">
+										<dt style="background: url(https://file.kapbook.com/5a78aa7ce40dba75dd93137d5923a15b.png) no-repeat center;background-size:100%;"></dt>
+										<dd>
+																							<h3 title="有限公司无简称">有限公司无简称</h3>
+																					</dd>
+										<div class="clear"></div>
+									</dl>
+								</li>
+															<li
+									class="
+										companyUrlClass
+																			"
+									data="/entrance/index"
+									data-alert="1"
+									data-token="308b7423b195061b6ef64bc7b59e45bb"
+								>
+									<dl class="company_lists">
+										<dt style="background: url(https://file.kapbook.com/5a78aa7ce40dba75dd93137d5923a15b.png) no-repeat center;background-size:100%;"></dt>
+										<dd>
+																							<h3 title="一二测试有限公司">一二测试有限公司</h3>
+																					</dd>
+										<div class="clear"></div>
+									</dl>
+								</li>
+															<li
+									class="
+										companyUrlClass
+																			"
+									data="/entrance/index"
+									data-alert="1"
+									data-token="ef23d9d2473ea37876387bebca785271"
+								>
+									<dl class="company_lists">
+										<dt style="background: url(https://file.kapbook.com/5a78aa7ce40dba75dd93137d5923a15b.png) no-repeat center;background-size:100%;"></dt>
+										<dd>
+																							<h3 title="0320测试有限公司">0320测试有限公司</h3>
+																					</dd>
+										<div class="clear"></div>
+									</dl>
+								</li>
+															<li
+									class="
+										companyUrlClass
+																			"
+									data="/entrance/index"
+									data-alert="1"
+									data-token="6b643472ce2d50079356194672a0bc01"
+								>
+									<dl class="company_lists">
+										<dt style="background: url(https://file.kapbook.com/5a78aa7ce40dba75dd93137d5923a15b.png) no-repeat center;background-size:100%;"></dt>
+										<dd>
+																							<h3 title="0324日有限公司">0324日有限公司</h3>
+																					</dd>
+										<div class="clear"></div>
+									</dl>
+								</li>
+															<li
+									class="
+										companyUrlClass
+																			"
+									data="/entrance/index"
+									data-alert="1"
+									data-token="ecfced8778ad39f5d757d961acbb9c00"
+								>
+									<dl class="company_lists">
+										<dt style="background: url(https://file.kapbook.com/5a78aa7ce40dba75dd93137d5923a15b.png) no-repeat center;background-size:100%;"></dt>
+										<dd>
+																							<h3 title="2020-0406智能版有限公司">2020-0406智能版有限公司</h3>
+																					</dd>
+										<div class="clear"></div>
+									</dl>
+								</li>
+															<li
+									class="
+										companyUrlClass
+																			"
+									data="/entrance/index"
+									data-alert="1"
+									data-token="44b12611998a56f2ad296290355ad138"
+								>
+									<dl class="company_lists">
+										<dt style="background: url(https://file.kapbook.com/5a78aa7ce40dba75dd93137d5923a15b.png) no-repeat center;background-size:100%;"></dt>
+										<dd>
+																							<h3 title="2020-0408-China-company">2020-0408-China-company</h3>
+																					</dd>
+										<div class="clear"></div>
+									</dl>
+								</li>
+															<li
+									class="
+										companyUrlClass
+																			"
+									data="/entrance/index"
+									data-alert="1"
+									data-token="2f19263542b8a27a0e4338729f92c0ac"
+								>
+									<dl class="company_lists">
+										<dt style="background: url(https://file.kapbook.com/5a78aa7ce40dba75dd93137d5923a15b.png) no-repeat center;background-size:100%;"></dt>
+										<dd>
+																							<h3 title="2020-0411智能版测试有限公司">2020-0411智能版测试有限公司</h3>
+																					</dd>
+										<div class="clear"></div>
+									</dl>
+								</li>
+															<li
+									class="
+										companyUrlClass
+																			"
+									data="/entrance/index"
+									data-alert="1"
+									data-token="c03f610897c53ccbd1705db57bdaeadb"
+								>
+									<dl class="company_lists">
+										<dt style="background: url(https://file.kapbook.com/5a78aa7ce40dba75dd93137d5923a15b.png) no-repeat center;background-size:100%;"></dt>
+										<dd>
+																							<h3 title="Chinese_company">Chinese_company</h3>
+																					</dd>
+										<div class="clear"></div>
+									</dl>
+								</li>
+															<li
+									class="
+										companyUrlClass
+																			"
+									data="/entrance/index"
+									data-alert="1"
+									data-token="bec00dbd448a582ad6595194954edee1"
+								>
+									<dl class="company_lists">
+										<dt style="background: url(https://file.kapbook.com/5a78aa7ce40dba75dd93137d5923a15b.png) no-repeat center;background-size:100%;"></dt>
+										<dd>
+																							<h3 title="新建智能配比有限责任公司">新建智能配比有限责任公司</h3>
+																					</dd>
+										<div class="clear"></div>
+									</dl>
+								</li>
+															<li
+									class="
+										companyUrlClass
+																			"
+									data="/entrance/index"
+									data-alert="1"
+									data-token="f330be588fa76664e0b0784b431ff2fd"
+								>
+									<dl class="company_lists">
+										<dt style="background: url(https://file.kapbook.com/5a78aa7ce40dba75dd93137d5923a15b.png) no-repeat center;background-size:100%;"></dt>
+										<dd>
+																							<h3 title="519测试有限公司">519测试有限公司</h3>
+																					</dd>
+										<div class="clear"></div>
+									</dl>
+								</li>
+															<li
+									class="
+										companyUrlClass
+																			"
+									data="/entrance/index"
+									data-alert="1"
+									data-token="e00dc55d3f12193c86b002de519655bd"
+								>
+									<dl class="company_lists">
+										<dt style="background: url(https://file.kapbook.com/5a78aa7ce40dba75dd93137d5923a15b.png) no-repeat center;background-size:100%;"></dt>
+										<dd>
+																							<h3 title="522测试有限公司">522测试有限公司</h3>
+																					</dd>
+										<div class="clear"></div>
+									</dl>
+								</li>
+															<li
+									class="
+										companyUrlClass
+																			"
+									data="/entrance/index"
+									data-alert="1"
+									data-token="6b19aedf7696969c08834c341accb0ab"
+								>
+									<dl class="company_lists">
+										<dt style="background: url(https://file.kapbook.com/5a78aa7ce40dba75dd93137d5923a15b.png) no-repeat center;background-size:100%;"></dt>
+										<dd>
+																							<h3 title="811日有限公司">811日有限公司</h3>
+																					</dd>
+										<div class="clear"></div>
+									</dl>
+								</li>
+															<li
+									class="
+										companyUrlClass
+																			"
+									data="/entrance/index"
+									data-alert="1"
+									data-token="625bc868bb9f777ee801a92c673555d2"
+								>
+									<dl class="company_lists">
+										<dt style="background: url(https://file.kapbook.com/5a78aa7ce40dba75dd93137d5923a15b.png) no-repeat center;background-size:100%;"></dt>
+										<dd>
+																							<h3 title="814日有限公司">814日有限公司</h3>
+																					</dd>
+										<div class="clear"></div>
+									</dl>
+								</li>
+															<li
+									class="
+										companyUrlClass
+																			"
+									data="/entrance/index"
+									data-alert="1"
+									data-token="6b417940d1750bd9a6b7ab97d9aaa2b8"
+								>
+									<dl class="company_lists">
+										<dt style="background: url(https://file.kapbook.com/5a78aa7ce40dba75dd93137d5923a15b.png) no-repeat center;background-size:100%;"></dt>
+										<dd>
+																							<h3 title="20200910测试有限公司">20200910测试有限公司</h3>
+																					</dd>
+										<div class="clear"></div>
+									</dl>
+								</li>
+													</ul>
+						<div class="clear"></div>
+					</div>
+																								</div>
+	<div class="alert_btn_box"></div>
+</div>
+<!-- 公司列表 end -->
+
+<script type="text/javascript">
+	var companyLengthx = [{"id":"8924","access_role_id":"3","company_id":"1551","company_token":"f0dd4d84c6740077a074ba39148756c8","company_name":"\u667a\u6167\u79d1\u6280","full_name":"\u5317\u4eac\u667a\u6167\u79d1\u6280\u6709\u9650\u516c\u53f8","website":null,"company_icon":"https:\/\/file.kapbook.com\/5a78aa7ce40dba75dd93137d5923a15b.png","company_type":"2","organization_type":"1","is_ipo":"0","bourse":"0","initialize_status":"0","country_id":null,"currency":"1","is_partner":"0","verify_status":"3","custom_id":"0","end_date":"2020-05-30 00:00:00","max_number":"50","pay_status":"2","charge_service_detail_id":"0","is_generate_rsa":"1","is_open_bonus":"0","equity_plan_type":"1","is_lock":"0","company_financing_stage_id":"2","company_financing_name":null,"create_username":"+WHCnvnJrbkKUx\/P0d6voQ==","is_end":false,"currency_name":"\u4eba\u6c11\u5e01","company_type_name":"\u5883\u5185\u6709\u9650\u8d23\u4efb\u516c\u53f8","is_level":true,"question_entrance":false,"is_opens":false},{"id":"8931","access_role_id":"3","company_id":"1553","company_token":"fc9eee1971a3a945bcfb471c7b57d093","company_name":"\u4e94\u4e8c\u516b","full_name":"\u4e94\u4e8c\u516b\u6d4b\u8bd5\u6709\u9650\u516c\u53f8","website":null,"company_icon":"https:\/\/file.kapbook.com\/5a78aa7ce40dba75dd93137d5923a15b.png","company_type":"2","organization_type":"1","is_ipo":"0","bourse":"0","initialize_status":"0","country_id":null,"currency":"1","is_partner":"0","verify_status":"3","custom_id":"0","end_date":"2020-06-01 18:24:39","max_number":"30","pay_status":"2","charge_service_detail_id":"0","is_generate_rsa":"1","is_open_bonus":"1","equity_plan_type":"1","is_lock":"0","company_financing_stage_id":"2","company_financing_name":null,"create_username":"R9qT74F0IdPEWL806FQ67g==","is_end":false,"currency_name":"\u4eba\u6c11\u5e01","company_type_name":"\u5883\u5185\u6709\u9650\u8d23\u4efb\u516c\u53f8","is_level":true,"question_entrance":false,"is_opens":false},{"id":"8938","access_role_id":"3","company_id":"1554","company_token":"09e8b80c8e5d82dd426d8668ccc7419b","company_name":"VIE\u516c\u53f8","full_name":"kapbookVIE","website":null,"company_icon":"https:\/\/file.kapbook.com\/5a78aa7ce40dba75dd93137d5923a15b.png","company_type":"1","organization_type":"1","is_ipo":"0","bourse":"0","initialize_status":"0","country_id":null,"currency":"2","is_partner":"0","verify_status":"3","custom_id":"0","end_date":"2020-06-14 17:26:41","max_number":"30","pay_status":"2","charge_service_detail_id":"0","is_generate_rsa":"1","is_open_bonus":null,"equity_plan_type":"1","is_lock":"0","company_financing_stage_id":"0","company_financing_name":"1","create_username":"b2pYtg17ssoQV+XPf2yqwg==","is_end":false,"currency_name":"\u7f8e\u5143","company_type_name":"\u5883\u5916\u6709\u9650\u516c\u53f8","is_level":true,"question_entrance":false,"is_opens":false},{"id":"8948","access_role_id":"3","company_id":"1557","company_token":"b6d0f07d42de7678fce74934cdbc1e0b","company_name":"\u5747\u52a0\u79d1\u6280","full_name":"\u5317\u4eac\u5747\u52a0\u6709\u9650\u516c\u53f8","website":null,"company_icon":"https:\/\/file.kapbook.com\/b0304d87ff795aa0aac24e7c42ecee17.jpg","company_type":"2","organization_type":"1","is_ipo":"0","bourse":"0","initialize_status":"0","country_id":null,"currency":"1","is_partner":"0","verify_status":"3","custom_id":"0","end_date":"2020-02-01 11:33:06","max_number":"30","pay_status":"2","charge_service_detail_id":"0","is_generate_rsa":"1","is_open_bonus":null,"equity_plan_type":"1","is_lock":"0","company_financing_stage_id":"5","company_financing_name":null,"create_username":"5sTH5INtJtH4Kang3Zv6dQ==","is_end":false,"currency_name":"\u4eba\u6c11\u5e01","company_type_name":"\u5883\u5185\u6709\u9650\u8d23\u4efb\u516c\u53f8","is_level":true,"question_entrance":false,"is_opens":false},{"id":"24275","access_role_id":"3","company_id":"1570","company_token":"116deb16a15de69f7e35b496f3d58b68","company_name":"\u5317\u4eac\u5bb6\u5609\u4e50","full_name":"\u5317\u4eac\u5bb6\u5609\u4e50\u6709\u9650\u516c\u53f8","website":null,"company_icon":"https:\/\/file.kapbook.com\/5a78aa7ce40dba75dd93137d5923a15b.png","company_type":"2","organization_type":"1","is_ipo":"0","bourse":"0","initialize_status":"0","country_id":null,"currency":"1","is_partner":"0","verify_status":"3","custom_id":"0","end_date":"2022-07-27 15:08:29","max_number":"200","pay_status":"2","charge_service_detail_id":"0","is_generate_rsa":"1","is_open_bonus":"0","equity_plan_type":"1","is_lock":"0","company_financing_stage_id":"2","company_financing_name":null,"create_username":"5JETMu9y5\/oB1YTKwawTMQ==","is_end":true,"currency_name":"\u4eba\u6c11\u5e01","company_type_name":"\u5883\u5185\u6709\u9650\u8d23\u4efb\u516c\u53f8","is_level":true,"question_entrance":false,"is_opens":false},{"id":"30937","access_role_id":"3","company_id":"1648","company_token":"9b5671e6f6fcf23da44dac26ee52fee8","company_name":"\u4e8c\u7ea7\u6743\u9650\u6709\u9650\u516c\u53f8","full_name":"\u516b\u96f6\u516b\u6d4b\u8bd5\u6709\u9650\u516c\u53f8","website":null,"company_icon":"https:\/\/file.kapbook.com\/5a78aa7ce40dba75dd93137d5923a15b.png","company_type":"2","organization_type":"1","is_ipo":"0","bourse":"0","initialize_status":"0","country_id":null,"currency":"1","is_partner":"0","verify_status":"4","custom_id":"0","end_date":"2021-08-13 14:06:33","max_number":"200","pay_status":"2","charge_service_detail_id":"0","is_generate_rsa":"1","is_open_bonus":null,"equity_plan_type":"1","is_lock":"0","company_financing_stage_id":"0","company_financing_name":null,"create_username":"cL1L0\/s7COzRwS3udNi6\/A==","is_end":true,"currency_name":"\u4eba\u6c11\u5e01","company_type_name":"\u5883\u5185\u6709\u9650\u8d23\u4efb\u516c\u53f8","is_level":true,"question_entrance":false,"is_opens":false},{"id":"30948","access_role_id":"3","company_id":"1655","company_token":"0c5f064abccf4d3957a3904052a21818","company_name":"made","full_name":"Made_In_China","website":null,"company_icon":"https:\/\/file.kapbook.com\/5a78aa7ce40dba75dd93137d5923a15b.png","company_type":"1","organization_type":"1","is_ipo":"0","bourse":"0","initialize_status":"0","country_id":null,"currency":"2","is_partner":"0","verify_status":"3","custom_id":"0","end_date":"2021-08-27 11:15:34","max_number":"50","pay_status":"2","charge_service_detail_id":"0","is_generate_rsa":"1","is_open_bonus":null,"equity_plan_type":"1","is_lock":"0","company_financing_stage_id":"0","company_financing_name":"2","create_username":"3xK\/azzoQmUokO36c5RhAQ==","is_end":true,"currency_name":"\u7f8e\u5143","company_type_name":"\u5883\u5916\u6709\u9650\u516c\u53f8","is_level":true,"question_entrance":false,"is_opens":false},{"id":"30980","access_role_id":"3","company_id":"1664","company_token":"97ef4c0ce50573ccd08cc93d5b9cbf8b","company_name":"\u5883\u5185\u80a1\u4efd\u4e00","full_name":"\u6d4b\u8bd5\u516b\u4e8c\u4e03\u80a1\u4efd\u6709\u9650\u516c\u53f8","website":null,"company_icon":"https:\/\/file.kapbook.com\/5a78aa7ce40dba75dd93137d5923a15b.png","company_type":"1","organization_type":"1","is_ipo":"0","bourse":"0","initialize_status":"0","country_id":null,"currency":"1","is_partner":"0","verify_status":"3","custom_id":"0","end_date":"2020-12-27 10:17:36","max_number":"30","pay_status":"2","charge_service_detail_id":"0","is_generate_rsa":"1","is_open_bonus":"0","equity_plan_type":"1","is_lock":"0","company_financing_stage_id":"0","company_financing_name":null,"create_username":"+WHCnvnJrbkKUx\/P0d6voQ==","is_end":true,"currency_name":"\u4eba\u6c11\u5e01","company_type_name":"\u5883\u5185\u80a1\u4efd\u6709\u9650\u516c\u53f8","is_level":true,"question_entrance":false,"is_opens":false},{"id":"30981","access_role_id":"3","company_id":"1665","company_token":"cd32dcef5b4d78d5670eaead4a315c3a","company_name":"VIEBefore","full_name":"VIEBefore","website":null,"company_icon":"https:\/\/file.kapbook.com\/5a78aa7ce40dba75dd93137d5923a15b.png","company_type":"1","organization_type":"1","is_ipo":"0","bourse":"0","initialize_status":"0","country_id":null,"currency":"2","is_partner":"0","verify_status":"3","custom_id":"0","end_date":"2021-08-29 15:18:36","max_number":"30","pay_status":"2","charge_service_detail_id":"0","is_generate_rsa":"1","is_open_bonus":null,"equity_plan_type":"1","is_lock":"0","company_financing_stage_id":"0","company_financing_name":"2","create_username":"kDaIRByI20IobVhbMCOaHQ==","is_end":true,"currency_name":"\u7f8e\u5143","company_type_name":"\u5883\u5916\u6709\u9650\u516c\u53f8","is_level":true,"question_entrance":false,"is_opens":false},{"id":"30982","access_role_id":"3","company_id":"1666","company_token":"20501d410816a7c528ec73358fa0e223","company_name":"VIEAtferUSA","full_name":"VIEAfterUSA","website":null,"company_icon":"https:\/\/file.kapbook.com\/5a78aa7ce40dba75dd93137d5923a15b.png","company_type":"1","organization_type":"1","is_ipo":"1","bourse":"1","initialize_status":"1","country_id":null,"currency":"2","is_partner":"0","verify_status":"3","custom_id":"0","end_date":"2025-08-27 00:00:00","max_number":"5","pay_status":"2","charge_service_detail_id":"0","is_generate_rsa":"1","is_open_bonus":"1","equity_plan_type":"1","is_lock":"0","company_financing_stage_id":"0","company_financing_name":"3","create_username":"kDaIRByI20IobVhbMCOaHQ==","is_end":true,"currency_name":"\u7f8e\u5143","company_type_name":"VIE\u80a1\u4efd\u6709\u9650\u516c\u53f8","is_level":true,"question_entrance":false,"is_opens":false},{"id":"30983","access_role_id":"3","company_id":"1667","company_token":"83758dd1b90f2871d96172fa69097b72","company_name":"VIEAfterGang","full_name":"VIEAfterGang","website":null,"company_icon":"https:\/\/file.kapbook.com\/5a78aa7ce40dba75dd93137d5923a15b.png","company_type":"1","organization_type":"1","is_ipo":"2","bourse":"3","initialize_status":"1","country_id":null,"currency":"3","is_partner":"0","verify_status":"3","custom_id":"30983","end_date":"2020-08-27 00:00:00","max_number":"5","pay_status":1,"charge_service_detail_id":"0","is_generate_rsa":"1","is_open_bonus":"1","equity_plan_type":"1","is_lock":"0","company_financing_stage_id":"0","company_financing_name":"3","create_username":"xSixQfgVJU4ncOs9oBluZg==","is_end":false,"currency_name":"\u6e2f\u5143","company_type_name":"VIE\u80a1\u4efd\u6709\u9650\u516c\u53f8","is_level":true,"question_entrance":false,"is_opens":true},{"id":"31057","access_role_id":"3","company_id":"1678","company_token":"0652fd48c62e9ed99be94b6625164054","company_name":"\u4f18\u5316\u7b2c\u4e8c\u6b21test\u6570\u636e","full_name":"\u4f18\u5316\u7b2c\u4e8c\u6b21test\u6570\u636e\u6709\u9650\u516c\u53f8","website":null,"company_icon":"https:\/\/file.kapbook.com\/5a78aa7ce40dba75dd93137d5923a15b.png","company_type":"2","organization_type":"1","is_ipo":"0","bourse":"0","initialize_status":"0","country_id":null,"currency":"1","is_partner":"0","verify_status":"3","custom_id":"0","end_date":"2022-10-09 12:00:10","max_number":"100","pay_status":"2","charge_service_detail_id":"0","is_generate_rsa":"1","is_open_bonus":"1","equity_plan_type":"1","is_lock":"0","company_financing_stage_id":"3","company_financing_name":null,"create_username":"xSixQfgVJU4ncOs9oBluZg==","is_end":true,"currency_name":"\u4eba\u6c11\u5e01","company_type_name":"\u5883\u5185\u6709\u9650\u8d23\u4efb\u516c\u53f8","is_level":true,"question_entrance":false,"is_opens":false},{"id":"31153","access_role_id":"3","company_id":"1693","company_token":"8d37e433c47f3d2eed96ca8cd08371f1","company_name":"Test_company","full_name":"Test_company","website":null,"company_icon":"https:\/\/file.kapbook.com\/5a78aa7ce40dba75dd93137d5923a15b.png","company_type":"1","organization_type":"1","is_ipo":"0","bourse":"0","initialize_status":"0","country_id":null,"currency":"2","is_partner":"0","verify_status":"3","custom_id":"0","end_date":"2022-10-22 14:24:02","max_number":"50","pay_status":"2","charge_service_detail_id":"0","is_generate_rsa":"1","is_open_bonus":"0","equity_plan_type":"1","is_lock":"0","company_financing_stage_id":"5","company_financing_name":"1","create_username":"w80rqIgpWj5KYhiP5Cp+NA==","is_end":true,"currency_name":"\u7f8e\u5143","company_type_name":"\u5883\u5916\u6709\u9650\u516c\u53f8","is_level":true,"question_entrance":false,"is_opens":false},{"id":"31321","access_role_id":"3","company_id":"1791","company_token":"b597f138cdcfdc2a6dba300740228872","company_name":"","full_name":"\u6709\u9650\u516c\u53f8\u65e0\u7b80\u79f0","website":null,"company_icon":"https:\/\/file.kapbook.com\/5a78aa7ce40dba75dd93137d5923a15b.png","company_type":"2","organization_type":"1","is_ipo":"0","bourse":"0","initialize_status":"0","country_id":null,"currency":"1","is_partner":"0","verify_status":"1","custom_id":"0","end_date":"2019-11-15 11:31:35","max_number":"5","pay_status":"1","charge_service_detail_id":"0","is_generate_rsa":"1","is_open_bonus":null,"equity_plan_type":"1","is_lock":"0","company_financing_stage_id":"0","company_financing_name":null,"create_username":"Dop76rpp0\/38z0kx6PIXZQ==","is_end":false,"currency_name":"\u4eba\u6c11\u5e01","company_type_name":"\u5883\u5185\u6709\u9650\u8d23\u4efb\u516c\u53f8","is_level":true,"question_entrance":false,"is_opens":false},{"id":"31709","access_role_id":"3","company_id":"1818","company_token":"308b7423b195061b6ef64bc7b59e45bb","company_name":"\u4e00\u4e8c\u6d4b\u8bd5\u6709\u9650\u516c\u53f8","full_name":"\u4e00\u4e8c\u6d4b\u8bd5\u6709\u9650\u516c\u53f8","website":null,"company_icon":"https:\/\/file.kapbook.com\/5a78aa7ce40dba75dd93137d5923a15b.png","company_type":"2","organization_type":"1","is_ipo":"0","bourse":"0","initialize_status":"0","country_id":null,"currency":"1","is_partner":"0","verify_status":"3","custom_id":"0","end_date":"2020-12-24 18:01:03","max_number":"30","pay_status":"2","charge_service_detail_id":"0","is_generate_rsa":"1","is_open_bonus":"1","equity_plan_type":"1","is_lock":"0","company_financing_stage_id":"1","company_financing_name":null,"create_username":"0KcXVEcAOZGt+Jusc0aYdw==","is_end":true,"currency_name":"\u4eba\u6c11\u5e01","company_type_name":"\u5883\u5185\u6709\u9650\u8d23\u4efb\u516c\u53f8","is_level":true,"question_entrance":false,"is_opens":false},{"id":"32421","access_role_id":"3","company_id":"1907","company_token":"ef23d9d2473ea37876387bebca785271","company_name":"0320\u6d4b\u8bd5\u6709\u9650\u516c\u53f8","full_name":"0320\u6d4b\u8bd5\u6709\u9650\u516c\u53f8","website":null,"company_icon":"https:\/\/file.kapbook.com\/5a78aa7ce40dba75dd93137d5923a15b.png","company_type":"2","organization_type":"1","is_ipo":"0","bourse":"0","initialize_status":"0","country_id":null,"currency":"1","is_partner":"0","verify_status":"3","custom_id":"0","end_date":"2021-03-24 11:54:12","max_number":"50","pay_status":"2","charge_service_detail_id":"0","is_generate_rsa":"1","is_open_bonus":null,"equity_plan_type":"1","is_lock":"0","company_financing_stage_id":"5","company_financing_name":null,"create_username":"xcn2bdnklyqOz8r+XHbJ8A==","is_end":true,"currency_name":"\u4eba\u6c11\u5e01","company_type_name":"\u5883\u5185\u6709\u9650\u8d23\u4efb\u516c\u53f8","is_level":true,"question_entrance":false,"is_opens":false},{"id":"32440","access_role_id":"3","company_id":"1909","company_token":"6b643472ce2d50079356194672a0bc01","company_name":"0324\u65e5\u6709\u9650\u516c\u53f8","full_name":"0324\u65e5\u6709\u9650\u516c\u53f8","website":null,"company_icon":"https:\/\/file.kapbook.com\/5a78aa7ce40dba75dd93137d5923a15b.png","company_type":"2","organization_type":"1","is_ipo":"0","bourse":"0","initialize_status":"0","country_id":null,"currency":"1","is_partner":"0","verify_status":"3","custom_id":"0","end_date":"2021-04-08 11:56:42","max_number":"50","pay_status":"2","charge_service_detail_id":"0","is_generate_rsa":"1","is_open_bonus":"0","equity_plan_type":"1","is_lock":"0","company_financing_stage_id":"6","company_financing_name":null,"create_username":"W0LCUCnv9y4AW9Gqsr6FPg==","is_end":true,"currency_name":"\u4eba\u6c11\u5e01","company_type_name":"\u5883\u5185\u6709\u9650\u8d23\u4efb\u516c\u53f8","is_level":true,"question_entrance":false,"is_opens":false},{"id":"32548","access_role_id":"3","company_id":"1955","company_token":"ecfced8778ad39f5d757d961acbb9c00","company_name":"","full_name":"2020-0406\u667a\u80fd\u7248\u6709\u9650\u516c\u53f8","website":null,"company_icon":"https:\/\/file.kapbook.com\/5a78aa7ce40dba75dd93137d5923a15b.png","company_type":"2","organization_type":"1","is_ipo":"0","bourse":"0","initialize_status":"0","country_id":null,"currency":"1","is_partner":"0","verify_status":"3","custom_id":"0","end_date":"2022-04-06 00:00:00","max_number":"5","pay_status":"2","charge_service_detail_id":"0","is_generate_rsa":"1","is_open_bonus":null,"equity_plan_type":"1","is_lock":"0","company_financing_stage_id":"0","company_financing_name":null,"create_username":"xSixQfgVJU4ncOs9oBluZg==","is_end":true,"currency_name":"\u4eba\u6c11\u5e01","company_type_name":"\u5883\u5185\u6709\u9650\u8d23\u4efb\u516c\u53f8","is_level":true,"question_entrance":false,"is_opens":false},{"id":"32582","access_role_id":"3","company_id":"1962","company_token":"44b12611998a56f2ad296290355ad138","company_name":"2020-0408-China-company","full_name":"2020-0408-China-company","website":null,"company_icon":"https:\/\/file.kapbook.com\/5a78aa7ce40dba75dd93137d5923a15b.png","company_type":"1","organization_type":"1","is_ipo":"0","bourse":"0","initialize_status":"0","country_id":null,"currency":"2","is_partner":"0","verify_status":"3","custom_id":"0","end_date":"2021-04-09 17:37:36","max_number":"30","pay_status":"2","charge_service_detail_id":"0","is_generate_rsa":"1","is_open_bonus":null,"equity_plan_type":"1","is_lock":"0","company_financing_stage_id":"0","company_financing_name":"1","create_username":"uUqVewtFdyVQxuoLbOmyIg==","is_end":true,"currency_name":"\u7f8e\u5143","company_type_name":"\u5883\u5916\u6709\u9650\u516c\u53f8","is_level":true,"question_entrance":false,"is_opens":false},{"id":"32612","access_role_id":"3","company_id":"1967","company_token":"2f19263542b8a27a0e4338729f92c0ac","company_name":"2020-0411\u667a\u80fd\u7248\u6d4b\u8bd5\u6709\u9650\u516c\u53f8","full_name":"2020-0411\u667a\u80fd\u7248\u6d4b\u8bd5\u6709\u9650\u516c\u53f8","website":null,"company_icon":"https:\/\/file.kapbook.com\/5a78aa7ce40dba75dd93137d5923a15b.png","company_type":"2","organization_type":"1","is_ipo":"0","bourse":"0","initialize_status":"0","country_id":null,"currency":"1","is_partner":"0","verify_status":"3","custom_id":"0","end_date":"2021-06-01 00:00:00","max_number":"10","pay_status":"2","charge_service_detail_id":"0","is_generate_rsa":"1","is_open_bonus":null,"equity_plan_type":"1","is_lock":"0","company_financing_stage_id":"6","company_financing_name":null,"create_username":"Bu0Ju5y3ID5eppZZ2CKBPg==","is_end":true,"currency_name":"\u4eba\u6c11\u5e01","company_type_name":"\u5883\u5185\u6709\u9650\u8d23\u4efb\u516c\u53f8","is_level":true,"question_entrance":false,"is_opens":false},{"id":"32777","access_role_id":"3","company_id":"1983","company_token":"c03f610897c53ccbd1705db57bdaeadb","company_name":"Chinese_company","full_name":"Chinese_company","website":null,"company_icon":"https:\/\/file.kapbook.com\/5a78aa7ce40dba75dd93137d5923a15b.png","company_type":"1","organization_type":"1","is_ipo":"0","bourse":"0","initialize_status":"0","country_id":null,"currency":"2","is_partner":"0","verify_status":"3","custom_id":"0","end_date":"2020-04-15 18:46:17","max_number":"5","pay_status":"1","charge_service_detail_id":"0","is_generate_rsa":"1","is_open_bonus":"0","equity_plan_type":"1","is_lock":"0","company_financing_stage_id":"0","company_financing_name":"1","create_username":"s\/mFRoXFPVXTYMbrnX9IHQ==","is_end":false,"currency_name":"\u7f8e\u5143","company_type_name":"\u5883\u5916\u6709\u9650\u516c\u53f8","is_level":true,"question_entrance":false,"is_opens":false},{"id":"32890","access_role_id":"3","company_id":"1209","company_token":"bec00dbd448a582ad6595194954edee1","company_name":"","full_name":"\u65b0\u5efa\u667a\u80fd\u914d\u6bd4\u6709\u9650\u8d23\u4efb\u516c\u53f8","website":null,"company_icon":"https:\/\/file.kapbook.com\/5a78aa7ce40dba75dd93137d5923a15b.png","company_type":"2","organization_type":"1","is_ipo":"0","bourse":"0","initialize_status":"0","country_id":null,"currency":"1","is_partner":"0","verify_status":"3","custom_id":"0","end_date":"2019-08-22 14:26:54","max_number":"30","pay_status":"2","charge_service_detail_id":"0","is_generate_rsa":"1","is_open_bonus":null,"equity_plan_type":"1","is_lock":"0","company_financing_stage_id":"1","company_financing_name":null,"create_username":"iEhr+s+cFrCmSxk2JGZjgw==","is_end":false,"currency_name":"\u4eba\u6c11\u5e01","company_type_name":"\u5883\u5185\u6709\u9650\u8d23\u4efb\u516c\u53f8","is_level":true,"question_entrance":false,"is_opens":false},{"id":"32911","access_role_id":"3","company_id":"2004","company_token":"f330be588fa76664e0b0784b431ff2fd","company_name":"519\u6d4b\u8bd5\u6709\u9650\u516c\u53f8","full_name":"519\u65e5\u6d4b\u8bd5\u6709\u9650\u516c\u53f8","website":null,"company_icon":"https:\/\/file.kapbook.com\/5a78aa7ce40dba75dd93137d5923a15b.png","company_type":"2","organization_type":"1","is_ipo":"0","bourse":"0","initialize_status":"0","country_id":null,"currency":"1","is_partner":"0","verify_status":"3","custom_id":"0","end_date":"2021-07-21 11:38:29","max_number":"30","pay_status":"2","charge_service_detail_id":"0","is_generate_rsa":"1","is_open_bonus":"1","equity_plan_type":"1","is_lock":"0","company_financing_stage_id":"2","company_financing_name":null,"create_username":"9YjA0r3bJytbekNPpr7\/kg==","is_end":true,"currency_name":"\u4eba\u6c11\u5e01","company_type_name":"\u5883\u5185\u6709\u9650\u8d23\u4efb\u516c\u53f8","is_level":true,"question_entrance":false,"is_opens":false},{"id":"32917","access_role_id":"3","company_id":"2007","company_token":"e00dc55d3f12193c86b002de519655bd","company_name":"522\u6d4b\u8bd5\u6709\u9650\u516c\u53f8","full_name":"522\u6d4b\u8bd5\u6709\u9650\u516c\u53f8","website":null,"company_icon":"https:\/\/file.kapbook.com\/5a78aa7ce40dba75dd93137d5923a15b.png","company_type":"2","organization_type":"1","is_ipo":"0","bourse":"0","initialize_status":"0","country_id":null,"currency":"1","is_partner":"0","verify_status":"3","custom_id":"0","end_date":"2021-06-09 15:22:43","max_number":"50","pay_status":"2","charge_service_detail_id":"0","is_generate_rsa":"1","is_open_bonus":"0","equity_plan_type":"1","is_lock":"0","company_financing_stage_id":"5","company_financing_name":null,"create_username":"4sCJnRzLVzSYKhU\/XvoE5w==","is_end":true,"currency_name":"\u4eba\u6c11\u5e01","company_type_name":"\u5883\u5185\u6709\u9650\u8d23\u4efb\u516c\u53f8","is_level":true,"question_entrance":false,"is_opens":false},{"id":"33613","access_role_id":"3","company_id":"2168","company_token":"6b19aedf7696969c08834c341accb0ab","company_name":"811\u65e5\u6709\u9650\u516c\u53f8","full_name":"811\u65e5\u6709\u9650\u516c\u53f8","website":null,"company_icon":"https:\/\/file.kapbook.com\/5a78aa7ce40dba75dd93137d5923a15b.png","company_type":"2","organization_type":"1","is_ipo":"0","bourse":"0","initialize_status":"0","country_id":null,"currency":"1","is_partner":"0","verify_status":"3","custom_id":"0","end_date":"2021-08-12 16:15:38","max_number":"30","pay_status":"2","charge_service_detail_id":"0","is_generate_rsa":"1","is_open_bonus":"0","equity_plan_type":"1","is_lock":"0","company_financing_stage_id":"2","company_financing_name":null,"create_username":"+WHCnvnJrbkKUx\/P0d6voQ==","is_end":true,"currency_name":"\u4eba\u6c11\u5e01","company_type_name":"\u5883\u5185\u6709\u9650\u8d23\u4efb\u516c\u53f8","is_level":true,"question_entrance":false,"is_opens":false},{"id":"33631","access_role_id":"3","company_id":"2170","company_token":"625bc868bb9f777ee801a92c673555d2","company_name":"814\u65e5\u6709\u9650\u516c\u53f8","full_name":"814\u65e5\u6709\u9650\u516c\u53f8","website":null,"company_icon":"https:\/\/file.kapbook.com\/5a78aa7ce40dba75dd93137d5923a15b.png","company_type":"2","organization_type":"1","is_ipo":"0","bourse":"0","initialize_status":"0","country_id":null,"currency":"1","is_partner":"0","verify_status":"3","custom_id":"0","end_date":"2021-08-15 18:40:58","max_number":"50","pay_status":"2","charge_service_detail_id":"0","is_generate_rsa":"1","is_open_bonus":null,"equity_plan_type":"1","is_lock":"0","company_financing_stage_id":"2","company_financing_name":null,"create_username":"XcY507jGSp5BbR9mDORi3g==","is_end":true,"currency_name":"\u4eba\u6c11\u5e01","company_type_name":"\u5883\u5185\u6709\u9650\u8d23\u4efb\u516c\u53f8","is_level":true,"question_entrance":false,"is_opens":false},{"id":"33754","access_role_id":"3","company_id":"2199","company_token":"6b417940d1750bd9a6b7ab97d9aaa2b8","company_name":"20200910\u6d4b\u8bd5\u6709\u9650\u516c\u53f8","full_name":"20200910\u6d4b\u8bd5\u6709\u9650\u516c\u53f8","website":null,"company_icon":"https:\/\/file.kapbook.com\/5a78aa7ce40dba75dd93137d5923a15b.png","company_type":"2","organization_type":"1","is_ipo":"0","bourse":"0","initialize_status":"0","country_id":null,"currency":"1","is_partner":"0","verify_status":"3","custom_id":"0","end_date":"2021-10-11 10:42:59","max_number":"30","pay_status":"2","charge_service_detail_id":"0","is_generate_rsa":"1","is_open_bonus":null,"equity_plan_type":"1","is_lock":"0","company_financing_stage_id":"2","company_financing_name":null,"create_username":"SD\/w3sFa8ej5BfSigejQZA==","is_end":true,"currency_name":"\u4eba\u6c11\u5e01","company_type_name":"\u5883\u5185\u6709\u9650\u8d23\u4efb\u516c\u53f8","is_level":true,"question_entrance":false,"is_opens":false}];
+
+	$(function(){
+		// 管理公司列表
+		var base = new is();
+		if( companyLengthx.length > 1 ){
+			$(".Collectionusername").attr("data-companyLength",companyLengthx.length);
+		}else {
+			$(".Collectionusclickrt").hide();
+		}
+		$(".Collectionusername").click(function(){
+			// 控制股权总览页面的select
+			$("#pie").css("zIndex","0");
+			// 公司只有一个的时候，点击不显示切换企业弹窗
+			if( $(this).attr("data-companyLength") > 1 ){
+				base.alert("company_list",function(){
+					window.open('/company/create','_self');
+				});
+			}
+		});
+
+
+		$(".companyUrlClass").live("click",function(){
+			if($(this).attr("data-alert") == "0"){
+				base.TipsAlert("您还没有权限管理公司");
+				return false;
+			}
+
+			if($(this).hasClass("vieIpoCompany")){
+				$("#company_list .alert_btn_no").click();
+				$("#vieIpoTipsAlert2").find(".vieIpoTipsCont").html("请联系股书客服，协助您完成企业初始化！");
+				$("#vieIpoTipsAlert2").find(".vieIpoTipsCont2").html("以下是联系方式：");
+				$("#vieIpoTipsAlert2 .alert_btn_yes").hide();
+				$("#vieIpoTipsAlert2 .enter_company").hide();
+				cc.alert({
+					obj:"#vieIpoTipsAlert2",
+					ckForm:true
+				},function(){
+
+				});
+			}else if($(this).hasClass("vieUnpaid")){
+				$("#company_list .alert_btn_no").click();
+				$("#vieIpoTipsAlert2").find(".vieIpoTipsCont").html("请联系股书客服，了解续费事宜！");
+				$("#vieIpoTipsAlert2").find(".vieIpoTipsCont2").html("以下是联系方式：");
+				$("#vieIpoTipsAlert2 .alert_btn_yes").hide();
+				$("#vieIpoTipsAlert2 .enter_company").hide();
+				cc.alert({
+					obj:"#vieIpoTipsAlert2",
+					ckForm:true
+				},function(){
+
+				});
+			}else if($(this).hasClass("vieIpoInitSettingAdmin")){
+				//既是高级管理员，又是初始化调查问卷的提交人
+				$("#company_list .alert_btn_no").click();
+				var vieIpoToken = $(this).attr("data-token");
+				$("#vieIpoTipsAlert2").find(".vieIpoTipsCont").html("请进入初始化设置填写该相关企业信息提交之后待股书处理。");
+				$("#vieIpoTipsAlert2").find(".vieIpoTipsCont2").html("股书客服，将协助您完成企业初始化！以下是联系方式：");
+				$("#vieIpoTipsAlert2 .alert_btn_yes").show();
+				$("#vieIpoTipsAlert2 .enter_company").show();
+				cc.alert({
+					obj:"#vieIpoTipsAlert2",
+					ckForm:true
+				},function(){
+					// 回调
+					cc.fnRemoveCookie("company_token");
+					cc.fnAddCookie("company_token",vieIpoToken);
+					cc.loadingStart();
+					cc.location("/user_questionnaire");
+				});
+				//提示窗口-进入企业按钮点击事件
+				var urlPath = $(this).attr("data");
+				$("#vieIpoTipsAlert2 .enter_company").off().on("click",function(){
+					cc.loadingStart();
+					cc.location(urlPath);
+				});
+			}else if($(this).hasClass("vieIpoInitSetting")){
+				$("#company_list .alert_btn_no").click();
+				var vieIpoToken = $(this).attr("data-token");
+				$("#vieIpoTipsAlert2").find(".vieIpoTipsCont").html("请进入初始化设置填写该相关企业信息提交之后待股书处理。");
+				$("#vieIpoTipsAlert2").find(".vieIpoTipsCont2").html("股书客服，将协助您完成企业初始化！以下是联系方式：");
+				$("#vieIpoTipsAlert2 .alert_btn_yes").show();
+				$("#vieIpoTipsAlert2 .enter_company").hide();
+				cc.alert({
+					obj:"#vieIpoTipsAlert2",
+					ckForm:true
+				},function(){
+					// 回调
+					cc.fnRemoveCookie("company_token");
+					cc.fnAddCookie("company_token",vieIpoToken);
+					cc.loadingStart();
+					cc.location("/user_questionnaire");
+				});
+			}else{
+				var companyToken = $(this).attr("data-token");
+				cc.fnRemoveCookie("company_token");
+				cc.fnAddCookie("company_token",companyToken);
+				ajaxBeforeSend();
+				cc.location($(this).attr("data"));
+			}
+
+		});
+		// 未认证、未支付点击事件
+		$("#goCertification").click(function(){
+			if($(this).hasClass("notClick"))return;
+			Enter_certi($(this).attr("data-id"));
+		});
+
+		$("#goPay").click(function(){
+			if($(this).hasClass("no_access")) {
+				cc.alert({
+                    obj: "您无权限付费，请联系管理员进行付费"
+				});
+			} else {
+				cc.location("/company/service?position=1");
+			}
+		});
+
+		$("#tipsPay").click(function(){
+			cc.location("/company/service?position=1");
+		});
+
+		$("#tipsClose").click(function(){
+			if(cc.fnGetCookie("end_date_tips")){
+				var comToken = cc.fnGetCookie("end_date_tips").split(",");
+				if(findInArray(cc.fnGetCookie("company_token"),comToken)){
+					cc.fnAddCookie("end_date_tips",cc.fnGetCookie("end_date_tips")+','+cc.fnGetCookie("company_token"));
+				}
+			}else{
+				cc.fnAddCookie("end_date_tips",cc.fnGetCookie("company_token"));
+			}
+			$(".data_tips_box").stop().animate({height:0},500,function(){
+				$(".data_tips_box").hide();
+			});
+		});
+
+	});
+</script>
+<!-- 【公用弹窗与js】**** 系统头部左侧，公司列表管理弹窗 end  ****-->
+
+<!-- 右侧内容区 start -->
+<div class="site_right_frame">
+<link href="/resources_v101150/css/equity_plan/create.css" rel="stylesheet" />
+<script src="/resources_v101150/scripts/equity_plan/drag.js"></script>
+<script src="/resources_v101150/scripts/equity_plan/common.js"></script>
+<script src="/resources_v101150/scripts/equity_plan/online.js"></script>
+<script>
+    var initInfo = {"plan_name":"\u80a1\u6743\u6fc0\u52b1\u8ba1\u52123","company_name":"814\u65e5\u6709\u9650\u516c\u53f8","legal_person":null,"userList":{"1":[{"id":"33631","name":"\u5218\u9633","email":"2438401528@qq.com","company_user_type":"1","status":"3","uid":"535","role":"1","nationcode_id":"214","nationcode":"86","phone":"15194779206","address":"--","native_place":"--","english_name":"--","position":"\u4ea7\u54c1\u7ecf\u7406","is_investor":"0","board_type":"0","department":"\u4ea7\u54c1\u90e8","full_name":"--","certificate_type":"2","certificate_code":"3456677LL","id_no":"13","is_inside":"0","dimission":"0","is_rule":"0","is_affiliate":"0","country_id":"--","first_name":"--","last_name":"--","profession_no":"--","birth_date":"0000-00-00","sex":"--","entry_date":"0000-00-00","tax_code":"--","is_safe":"0","is_trader":"0","is_admin":"0","is_dimission":"0","pay_taxes_id":"1","wage":"0.00","city_name":"\u5317\u4eac\u5e02","province_id":"1","country_name":"--","custom_info":"--","level":"--","platform_type":"--","city_list":"--","is_complete":1,"type":"\u975e\u6295\u8d44\u4eba","emailfull":"2438401528@qq.com"},{"id":"33632","name":"\u6388\u4e88\u4eba1","email":"lyangluck@126.com","company_user_type":"1","status":"3","uid":"540","role":"1","nationcode_id":"214","nationcode":"86","phone":"15200000000","address":"--","native_place":"--","english_name":"--","position":"\u6d4b\u8bd5\u7ecf\u7406","is_investor":"0","board_type":"0","department":"\u6280\u672f\u90e8","full_name":"--","certificate_type":"2","certificate_code":"121121ll","id_no":"1","is_inside":"0","dimission":"0","is_rule":"0","is_affiliate":"0","country_id":"--","first_name":"--","last_name":"--","profession_no":"--","birth_date":"0000-00-00","sex":"--","entry_date":"0000-00-00","tax_code":"--","is_safe":"0","is_trader":"0","is_admin":"0","is_dimission":"0","pay_taxes_id":"1","wage":"0.00","city_name":"\u5317\u4eac\u5e02","province_id":"1","country_name":"--","custom_info":"--","level":"--","platform_type":"--","city_list":"--","is_complete":1,"type":"\u975e\u6295\u8d44\u4eba","emailfull":"lyangluck@126.com"},{"id":"33633","name":"\u6301\u80a1\u5e73\u53f0\u4eba1","email":"764492668@qq.com","company_user_type":"1","status":"3","uid":"539","role":"1","nationcode_id":"214","nationcode":"86","phone":"15100000000","address":"--","native_place":"--","english_name":"--","position":"\u6d4b\u8bd5","is_investor":"0","board_type":"0","department":"\u6d4b\u8bd5\u90e8","full_name":"--","certificate_type":"2","certificate_code":"098765ll","id_no":"2","is_inside":"0","dimission":"0","is_rule":"0","is_affiliate":"0","country_id":"--","first_name":"--","last_name":"--","profession_no":"--","birth_date":"0000-00-00","sex":"--","entry_date":"0000-00-00","tax_code":"--","is_safe":"0","is_trader":"0","is_admin":"0","is_dimission":"0","pay_taxes_id":"1","wage":"0.00","city_name":"\u5317\u4eac\u5e02","province_id":"1","country_name":"--","custom_info":"--","level":"--","platform_type":"--","city_list":"--","is_complete":1,"type":"\u975e\u6295\u8d44\u4eba","emailfull":"764492668@qq.com"},{"id":"33634","name":"\u6301\u80a1\u5e73\u53f0\u4eba2","email":"lzhangnan@126.com","company_user_type":"1","status":"3","uid":"538","role":"1","nationcode_id":"214","nationcode":"86","phone":"15194000000","address":"--","native_place":"--","english_name":"--","position":"\u5f00\u53d1","is_investor":"0","board_type":"0","department":"\u6280\u672f\u90e8","full_name":"--","certificate_type":"2","certificate_code":"267653ll","id_no":"3","is_inside":"0","dimission":"0","is_rule":"0","is_affiliate":"0","country_id":"--","first_name":"--","last_name":"--","profession_no":"--","birth_date":"0000-00-00","sex":"--","entry_date":"0000-00-00","tax_code":"--","is_safe":"0","is_trader":"0","is_admin":"0","is_dimission":"0","pay_taxes_id":"1","wage":"0.00","city_name":"\u5317\u4eac\u5e02","province_id":"1","country_name":"--","custom_info":"--","level":"--","platform_type":"--","city_list":"--","is_complete":1,"type":"\u975e\u6295\u8d44\u4eba","emailfull":"lzhangnan@126.com"},{"id":"33635","name":"\u674e\u56db","email":"3167281385@qq.com","company_user_type":"1","status":"3","uid":"536","role":"1","nationcode_id":"214","nationcode":"86","phone":"15100001100","address":"--","native_place":"--","english_name":"--","position":"\u6d4b\u8bd5\u5de5\u7a0b\u5e08","is_investor":"0","board_type":"0","department":"\u6d4b\u8bd5\u90e8","full_name":"--","certificate_type":"2","certificate_code":"34577888ii","id_no":"11","is_inside":"0","dimission":"0","is_rule":"0","is_affiliate":"0","country_id":"--","first_name":"--","last_name":"--","profession_no":"--","birth_date":"0000-00-00","sex":"--","entry_date":"0000-00-00","tax_code":"--","is_safe":"0","is_trader":"0","is_admin":"0","is_dimission":"0","pay_taxes_id":"1","wage":"0.00","city_name":"\u5317\u4eac\u5e02","province_id":"1","country_name":"--","custom_info":"--","level":"--","platform_type":"--","city_list":"--","is_complete":1,"type":"\u975e\u6295\u8d44\u4eba","emailfull":"3167281385@qq.com"},{"id":"33918","name":"\u6d4b\u8bd5","email":"123456@qq.com","company_user_type":"1","status":"1","uid":"0","role":"1","nationcode_id":"214","nationcode":"86","phone":"15194770000","address":"--","native_place":"--","english_name":"--","position":"--","is_investor":"0","board_type":"0","department":"--","full_name":"--","certificate_type":"2","certificate_code":"123456","id_no":"--","is_inside":"0","dimission":"0","is_rule":"0","is_affiliate":"0","country_id":"--","first_name":"--","last_name":"--","profession_no":"--","birth_date":"0000-00-00","sex":"--","entry_date":"0000-00-00","tax_code":"--","is_safe":"0","is_trader":"0","is_admin":"0","is_dimission":"0","pay_taxes_id":"1","wage":"0.00","city_name":"\u5317\u4eac\u5e02","province_id":"1","country_name":"--","custom_info":"--","level":"--","platform_type":"--","city_list":"--","is_complete":1,"type":"\u975e\u6295\u8d44\u4eba","emailfull":"123456@qq.com"}],"9":[]},"vesting_schedule_id":"<option value=28336>\u975e\u5300\u901f\u6210\u719f\u8ba1\u52122\uff0c\u7acb\u5373\u6210\u719f25.00%<\/option><option value=27643>\u975e\u5300\u901f\u6210\u719f\u8ba1\u52121\uff0c\u7acb\u5373\u6210\u719f25%<\/option><option value=27512>1\/48\u4e2a\u6708\uff0c12\u4e2a\u6708\u9501\u5b9a\u671f<\/option><option value=27513>1\/4\u5e74\uff0c\u65e0\u9501\u5b9a\u671f<\/option><option value=27514>1\/48\u4e2a\u6708\uff0c\u65e0\u9501\u5b9a\u671f<\/option>","buybackDefaultInfo":{"1":"\u88ab\u6388\u4e88\u4eba\u56e0\u6545\u610f\u6216\u91cd\u5927\u8fc7\u5931\u884c\u4e3a\uff0c\u4e25\u91cd\u8fdd\u53cd\u516c\u53f8\u6216\u5176\u5173\u8054\u516c\u53f8\u7684\u89c4\u7ae0\u5236\u5ea6\u3001\u52b3\u52a8\u5408\u540c\/\u987e\u95ee\u670d\u52a1\u534f\u8bae\u6216\u6709\u5176\u4ed6\u4e25\u91cd\u4e0d\u5f53\u884c\u4e3a\uff0c\u4f7f\u516c\u53f8\u6216\u5176\u5173\u8054\u516c\u53f8\u906d\u53d7\u91cd\u5927\u635f\u5931\u6216\u8005\u635f\u5bb3\u7684\uff1b","2":"\u88ab\u6388\u4e88\u4eba\u56e0\u9488\u5bf9\u516c\u53f8\u6216\u5173\u8054\u516c\u53f8\u7684\u4e0d\u5f53\u884c\u4e3a\u800c\u6784\u6210\u5211\u4e8b\u72af\u7f6a\u7684\uff1b","3":"\u88ab\u6388\u4e88\u4eba\u8fdd\u53cd\u672c\u534f\u8bae\u7b2c7.2\u6761\u4fdd\u5bc6\u4e49\u52a1\u53ca\u516c\u53f8\u6216\u5176\u5173\u8054\u516c\u53f8\u7684\u5546\u4e1a\u79d8\u5bc6\u7684\uff1b","4":"\u88ab\u6388\u4e88\u4eba\u8fdd\u53cd\u516c\u53f8\u6216\u5176\u5173\u8054\u516c\u53f8\u5173\u4e8e\u53cd\u8150\u8d25\u53ca\u53cd\u5546\u4e1a\u8d3f\u8d42\u7684\u5185\u90e8\u5236\u5ea6\u7684\uff1b","5":"\u88ab\u6388\u4e88\u4eba\u8fdd\u53cd\u516c\u53f8\u6216\u5176\u5173\u8054\u516c\u53f8\u7684\u7ade\u4e1a\u7981\u6b62\u3001\u7981\u6b62\u529d\u8bf1\u4e49\u52a1\u7684\uff1b","6":"\u88ab\u6388\u4e88\u4eba\u5728\u5176\u4efb\u804c\/\u63d0\u4f9b\u987e\u95ee\u670d\u52a1\u671f\u95f4\u6216\u8005\u79bb\u804c\/\u7ec8\u6b62\u987e\u95ee\u670d\u52a1\u540e\u5177\u6709\u5bf9\u516c\u53f8\u6216\u5176\u5173\u8054\u516c\u53f8\u7684\u4e0d\u6b63\u5f53\u7ade\u4e89\u884c\u4e3a\u6216\u5728\u516c\u5171\u573a\u5408\u6216\u901a\u8fc7\u5176\u4ed6\u516c\u5171\u6e20\u9053\u6545\u610f\u8bcb\u6bc1\u516c\u53f8\u58f0\u8a89\u3001\u6563\u5e03\u4e0d\u5229\u4e8e\u516c\u53f8\u7684\u8a00\u8bba\u6216\u6709\u5176\u4ed6\u6c61\u8511\u3001\u8bfd\u8c24\u516c\u53f8\u7684\u884c\u4e3a\u3002"},"uploadbtnArr":{"1":"EIP(\u80a1\u6743\u6fc0\u52b1\u8ba1\u5212)"},"signInitializeaArr":{"1":{"list":[{"sign_param_id":301,"nickname":"\u6fc0\u52b1\u5bf9\u8c61\u7b7e\u5b57","epsp_name":"\u6fc0\u52b1\u5bf9\u8c61\u7b7e\u5b57","is_radio":0,"format":1,"signx":0,"signy":0,"signdatex":0,"signdatey":0,"type":3,"branch":1}],"name":"\u6fc0\u52b1\u5bf9\u8c61\u7b7e\u5b57"},"2":{"list":[{"sign_param_id":601,"nickname":"\u51fa\u8ba9\u65b9\u7b7e\u5b57","epsp_name":"\u51fa\u8ba9\u65b9\u7b7e\u5b57","is_radio":0,"format":1,"signx":0,"signy":0,"signdatex":0,"signdatey":0,"type":6,"branch":1}],"name":"\u51fa\u8ba9\u65b9\u7b7e\u5b57"},"3":{"list":[{"sign_param_id":103,"nickname":"\u516c\u53f8\u76d6\u7ae0","epsp_name":"\u516c\u53f8\u76d6\u7ae0","is_radio":2,"format":2,"signx":0,"signy":0,"signdatex":0,"signdatey":0,"type":1,"branch":1},{"sign_param_id":102,"nickname":"\u6388\u6743\u4ee3\u8868\u7b7e\u5b57","epsp_name":"\u6388\u6743\u4ee3\u8868\u7b7e\u5b57","is_radio":2,"format":1,"signx":0,"signy":0,"signdatex":0,"signdatey":0,"type":1,"branch":1}],"name":"\u6388\u4e88\u4eba\u8bbe\u7f6e(\u81f3\u5c11\u9009\u62e9\u4e00\u9879)"}},"financing_stage":{"1":"\u5c1a\u672a\u83b7\u6295","2":"\u79cd\u5b50\u8f6e","3":"\u5929\u4f7f\u8f6e","4":"Pre-A\u8f6e","5":"A\u8f6e","6":"A+\u8f6e","7":"Pre-B\u8f6e","8":"B\u8f6e","9":"B+\u8f6e","10":"C\u8f6e","11":"D\u8f6e","12":"E\u8f6e","13":"F\u8f6e-\u4e0a\u5e02\u524d","14":"\u5176\u4ed6"},"exercise_retention_type_arr":{"1":"\u5e74","2":"\u6708","3":"\u5929"},"exerciseArr":{"401":{"branch":2,"sign_format":1,"sign_property_id":"401","sort":1,"type":4,"nickname":"\u53d7\u8ba9\u65b9"},"501":{"branch":2,"sign_format":1,"sign_property_id":"501","sort":2,"type":5,"nickname":"\u51fa\u8ba9\u65b9"}},"exercise_window_type_arr":[{"key":4,"value":"\u6682\u4e0d\u5f00\u653e"},{"key":1,"value":"\u968f\u65f6"},{"key":2,"value":"\u6bcf\u5e74\u4e00\u6b21"},{"key":3,"value":"\u6bcf\u6708\u4e00\u6b21"},{"key":5,"value":"\u6bcf\u5e74\u591a\u6b21\u81ea\u5b9a\u4e49\u65f6\u95f4\u6bb5"}],"regist_capital":"1,000,000.00","fair_value":"0.00","company_financing_stage_id":"2","is_update_company_regist_capital":0};
+</script>
+
+<div class="sub_page">
+    <!-- 内容 -->
+    <div class="sub_box">
+        <div class="sub_header">
+            <div class="active header_menu" data-index="1">
+                <i>1</i>
+                <span>公司基本信息</span>
+                <div class="line"></div>
+            </div>
+            <div class="header_menu" data-index="2">
+                <div class="line left"></div>
+                <i>2</i>
+                <span>期权池设置</span>
+                <div class="line"></div>
+            </div>
+            <div class="header_menu" data-index="3">
+                <div class="line left"></div>
+                <i>3</i>
+                <span>持有方式设置</span>
+                <div class="line left"></div>
+            </div>
+            <div class="header_menu" data-index="4">
+                <div class="line left"></div>
+                <i>4</i>
+                <span>行权设置</span>
+                <div class="line left"></div>
+            </div>
+            <div class="header_menu" data-index="5">
+                <div class="line left"></div>
+                <i>5</i>
+                <span>回购权设置</span>
+                <div class="line left"></div>
+            </div>
+            <div class="header_menu" data-index="6">
+                <div class="line left"></div>
+                <i>6</i>
+                <span>签字及盖章设置</span>
+                <div class="line left"></div>
+            </div>
+            <div class="header_menu" data-index="7">
+                <div class="line left"></div>
+                <i>7</i>
+                <span>计划预览</span>
+                <div class="line left"></div>
+            </div>
+            <div class="header_menu" data-index="8">
+                <div class="line left"></div>
+                <i>8</i>
+                <span>补充条款</span>
+            </div>
+            <p>如果已建立股权激励计划请点击<a href="/equity_plan/record/add">登记已有计划</a></p>
+        </div>
+        <div class="sub_content">
+            <div class="table_list_box" data-index="1">
+                <table class="table_list">
+                    <tbody>
+                        <tr>
+                            <td>
+                                <span>公司全称</span>
+                            </td>
+                            <td id="companyName"></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <span>本计划的管理人员</span>
+                            </td>
+                            <td>
+                                <div class="list_content">
+                                    <input type="text" id="planManager" class="min" data-check="people">
+                                    <span class="pic cite_pic cite ml10"></span>
+                                    <cite>激励计划的具体执行及协调人，通常由公司的核心高管担任</cite>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <span>融资轮次</span>
+                            </td>
+                            <td>
+                                <div class="list_content">
+                                    <div class="common_select min" max-count="6" id="CompanyFinance" data-check="select"></div>
+                                    <div class="clear"></div>
+                                    <div class="checkYes">
+                                        <div class="checkbox fl" id="assessCheck"></div>
+                                        <i>估值</i>
+                                    </div>
+                                    <span class="pic cite_pic cite ml10"></span>
+                                    <cite>请已完成融资的公司填写最近一轮融资的投后估值，以便于计算生成期权的行权价格</cite>
+                                    <div class="clear"></div>
+                                    <div id="assessBox" class="mt5">
+                                        <input type="text" data-check-title="估值" class="min disabledinput" disabled id="companyAssess">
+                                        <i class="list_inline">元人民币</i>
+                                        <blockquote>估值为系统设置中最新值，如需更新，请先去公司<a href="/company/setting/index">设置</a>页面中更新公司估值</blockquote>
+                                    </div>
+                                    <em style="margin-left:0;"></em>
+                                </div>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <div class="list_btn_box">
+                    <a href="javascript:;" class="btn" id="nextStep1">下一步</a>
+                </div>
+            </div>
+
+            <div class="table_list_box" style="display:none;" data-index="2">
+                <table class="table_list">
+                    <tbody>
+                        <tr id="trTotalUnit">
+                            <td><span>公司注册资本</span></td>
+                            <td>
+                                <div class="list_content">
+                                    <div>
+                                        <input type="text" data-check="float" id="planCapital">
+                                        <i class="list_inline">元人民币</i>
+                                        <span class="pic cite_pic cite ml10"></span>
+                                        <blockquote>注册资本为系统中最新值，如有需要更新，请先去公司<a href="/company/setting/index">设置</a>页面中更新注册资本</blockquote>
+                                        <cite>请填写公司实际注册资本，若工商登记的与实际情况不一致，按当前实际情况填写，为计算方便，本计划下的激励股权以股为发放单位，并不能影响公司的组织形式。</cite>
+                                    </div>
+                                    <div class="mt10">
+                                        拆分为 <input type="text" class="min cite" data-check="num" id="planUnit"> 股，每股的票面价格为 <span id="unitPrice">0</span> 元
+                                        <cite>提示：因人民币最小的计量单位为“分”，若拆分过细（每股低于0.01元），则人民币计量单位不予支持，在员工行权或公司回购交易中，可能出现交易金额四舍五入的情况，不利于计算</cite>
+                                    </div>
+                                </div>
+                                <em style="margin-left:0;"></em>
+                            </td>
+                        </tr>
+                        <tr id="trPlanPoolSet">
+                            <td>
+                                <span>期权池</span>
+                            </td>
+                            <td>
+                                <div class="list_content">
+                                    <div class="tab_switch">
+                                        <a href="javascript:;" class="active" data-index="1">按比例</a>
+                                        <a href="javascript:;" data-index="2">按注册资本</a>
+                                    </div>
+                                    <span class="pic cite_pic blockquote ml10"></span>
+                                    <blockquote>如何确定期权池大小？<a href="https://wwwtest.kapbook.cn/topics?pos=qqc" target="_blank" class="a_link">查看详情>></a></blockquote>
+                                    <div class="clear"></div>
+                                    <div class="mt10" id="equityPool" data-index="1">
+                                        期权池占公司股权的 <input type="text" class="mid" data-check="float" id="poolPer"> %，对应 <span id="poolCapital">0</span> 元注册资本，即 <span id="poolShares">0</span> 股
+                                    </div>
+                                    <div class="equity_pool_propose">
+                                        <p>激励股权池大小的建议范围</p>
+                                        <p class="img_equityGuide_p">
+                                            <span>5~10% 低</span>
+                                            <span>10~15% 中</span>
+                                            <span>15~25% 较高</span>
+                                            <span style="margin-right:0;">>25% 高</span>
+                                        </p>
+                                        <img src="/resources_v101150/images/equity_size.png" alt="" />
+                                        <h3>推荐</h3>
+                                        <h4>大部分企业选择<br />10~15%的期权池</h4>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <div class="list_btn_box">
+                    <a href="javascript:;" class="btn return_btn white">上一步</a>
+                    <a href="javascript:;" class="btn" id="nextStep2">下一步</a>
+                </div>
+            </div>
+
+            <div class="table_list_box" style="display:none;" data-index="3">
+                <table class="table_list">
+                    <tbody>
+                        <tr id="trHoldType">
+                            <td>
+                                <span>持有方式</span>
+                            </td>
+                            <td>
+                                <div class="list_content">
+                                    <div class="checkYes mr30">
+                                        <div class="checkbox radiobox fl checked_true" radio-name="radioHoldType" radio-data="2" data-check="radio"></div>
+                                        <i>持股平台</i>
+                                    </div>
+                                    <p class="list_strong_bottom mt10">同样便于创始人保持对公司的控制权，但需建立持股平台。相比创始人代持，较为规范，且被授予人直接登记为有限合伙企业的合伙人，激励效果更加明显。适用于已融资/A轮及之后阶段的企业  <a href="https://wwwtest.kapbook.cn/topics?pos=cyfs" class="lan" target="_blank">详情>></a></p>
+                                    <div class="img_box">
+                                                                                    <img src="/resources_v101150/images/sharestype_2.png" alt="持股平台">
+                                                                            </div>
+                                    <div class="checkYes">
+                                        <div class="checkbox radiobox fl" radio-name="radioHoldType" radio-data="1"></div>
+                                        <i>股东代持</i>
+                                    </div>
+                                    <p class="list_strong_bottom mt10">不需要走股权变更工商登记流程，且便于创始人保持对公司的控制权。适用于未融资/种子轮阶段的企业，早期企业在初创阶段会选择这种较灵活的方式  <a href="https://wwwtest.kapbook.cn/topics?pos=cyfs" class="lan" target="_blank">详情>></a></p>
+                                    <div class="img_box">
+                                                                                    <img src="/resources_v101150/images/sharestype_1.png" alt="股东代持">
+                                                                            </div>
+                                    <em style="margin-left:0;"></em>
+                                </div>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <div class="list_btn_box">
+                    <a href="javascript:;" class="btn return_btn white">上一步</a>
+                    <a href="javascript:;" class="btn" id="nextStep3">下一步</a>
+                </div>
+            </div>
+
+            <div class="table_list_box" style="display:none;" data-index="4">
+                <table class="table_list">
+                    <tbody>
+                        <tr id="trWindowSet">
+                            <td>
+                                <span>行权窗口期</span>
+                            </td>
+                            <td>
+                                <div class="list_content">
+                                    <div>
+                                        <div class="common_select" id="planExerciseSelect"></div>
+                                        <p class="list_tip_bottom">期权成熟后，可行权的区间</p>
+                                    </div>
+                                    <div class="list_period" id="windowBox">
+                                    </div>
+                                    <em style="margin-left:0;"></em>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr id="trWindowDate">
+                            <td>
+                                <span>行权有效期</span>
+                            </td>
+                            <td>
+                                <div class="list_content window_validity">
+                                    <div class="fl">
+                                        <input type="text" placeholder="例如：3" class="mini fl">
+                                        <div class="common_select mini ml10" id="planValiditySelect"></div>
+                                    </div>
+                                    <div class="fl">
+                                        <i class="list_tip_inline" style="font-size:13px;">默认至本计划有效期截止日</i>
+                                        <span class="pic cite_pic cite ml10"></span>
+                                        <cite>期权成熟后，可申请行权的期限，超过该期限，持有人未申请行权，则视为自动放弃该部分权利，该部分期权自动回归期权池</cite>
+                                    </div>
+                                    <em class="float"></em>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr id="trManager">
+                            <td>
+                                <span>行权管理人</span>
+                            </td>
+                            <td>
+                                <div class="list_content">
+                                    <input type="text" id="manager" data-check="people">
+                                    <span class="pic cite_pic cite ml5"></span>
+                                    <cite>负责公司发起行权，或审核批准员工申请行权的管理人员</cite>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr id="trPayment">
+                            <td><span>付款凭证</span></td>
+                            <td>
+                                <div class="list_content">
+                                    <div>
+                                        <div class="checkYes mr30">
+                                            <div class="checkbox radiobox fl checked_true" radio-name="radioPaymentType" radio-data="2" data-check="radio"></div>
+                                            <i>必传</i>
+                                        </div>
+                                        <div class="checkYes">
+                                            <div class="checkbox radiobox fl" radio-name="radioPaymentType" radio-data="1"></div>
+                                            <i>非必传</i>
+                                        </div>
+                                        <em></em>
+                                    </div>
+                                    <p class="list_tip_bottom">当授予受限股和申请行权时，需要激励对象确认时必须上传付款凭证</p>
+                                </div>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <p class="list_bottom">行权周期仅限股权激励计划有效期内有效，本设置可随时修改</p>
+                <div class="list_btn_box">
+                    <a href="javascript:;" class="btn return_btn white">上一步</a>
+                    <a href="javascript:;" class="btn" id="nextStep4">下一步</a>
+                </div>
+            </div>
+
+            <div class="table_list_box" style="display:none;" data-index="5">
+                <p class="list_cb_title">公司可以选择对离职员工的股权进行回购。</p>
+                <p class="list_cb_title">协商离职的情形下，未成熟期权自动放弃，已成熟的期权按照约定价格回购。</p>
+                <p class="list_cb_title mb5">过错开除的情形下，未成熟期权自动放弃，已成熟的期权按照成本价格回购。  <a href="https://wwwtest.kapbook.cn/topics?pos=cyfs" target="_blank" class="a_link">查看详情>></a></p>
+                <table class="table_list">
+                    <tbody>
+                        <tr id="trCblist">
+                            <td>
+                                <span>过错情形说明</span>
+                            </td>
+                            <td>
+                                <div class="list_content">
+                                    <p>员工因如下过错原因与公司解除劳动合同，公司有权以原始取得价格回购其股权</p>
+                                    <p class="list_cb_content">被授予人因故意或重大过失行为，严重违反公司或其关联公司的规章制度、劳动合同或有其他严重不当行为，使公司或其关联公司遭受重大。</p>
+                                    <p class="list_cb_content">被授予人因针对公司或关联公司的不当行为而构成刑事犯罪的。损失或者损害的。</p>
+                                    <p class="list_cb_content">被授予人违反本协议规定的保密义务及公司或其关联公司的商业秘密的。</p>
+                                    <p class="list_cb_content">被授予人违反公司或其关联公司关于反腐败及反商业贿赂的内部制度的。</p>
+                                    <p class="list_cb_content">被授予人违反公司或其关联公司的竞业禁止、禁止劝诱义务的。</p>
+                                    <p class="list_cb_content">被授予人在其任职期间或者离职后具有对公司或其关联公司的不正当竞争行为或在公共场合或通过其他公共渠道故意诋毁公司声誉、散布不利于公司的言论或有其他污蔑、诽谤公司的行为。</p>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <span>
+                                    更多情形
+                                </span>
+                                <i class="pic cite_pic cite"></i>
+                                <cite>如员工与公司签署了其他协议（如竞业禁止协议或保密协议）或员工因其职务特殊性需要承担特别义务的，可以进行补充</cite>
+                            </td>
+                            <td>
+                                <div class="list_content">
+                                    <input type="text" id="diyCallback" placeholder="更多过错情形请在此补充" style="width:620px;" onkeyup="ByteLengthCheck(this,60)" />
+                                    <a href="javascript:;" class="btn ml10">添加</a>
+                                </div>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <div class="list_btn_box">
+                    <a href="javascript:;" class="btn return_btn white">上一步</a>
+                    <a href="javascript:;" class="btn" id="nextStep5">下一步</a>
+                </div>
+            </div>
+
+            <div class="table_list_box sign_setting_box" style="display:none;" data-index="6">
+                <table class="table_list" id="signSetting">
+                    <tbody>
+                        <tr class="sign_setting_tr">
+                            <td>
+                                <span class="strong_color">签章类型</span>
+                            </td>
+                            <td>
+                                <div class="list_content strong_color">
+                                    签章人及顺序设置<span class="list_tip_inline_small">（默认签字顺序如下所示，如有需要，您可以拖拽进行排序）</span>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <span>期权授予</span>
+                            </td>
+                            <td>
+                                <div id="signEquity" class="list_content" data-type="1">
+
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <span>受限股授予</span>
+                            </td>
+                            <td>
+                                <div id="signOption" class="list_content" data-type="2">
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <span>行权</span>
+                            </td>
+                            <td>
+                                <div id="signExer" class="list_content" data-type="3">
+                                </div>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <div class="list_btn_box">
+                    <a href="javascript:;" class="btn return_btn white">上一步</a>
+                    <a href="javascript:;" class="btn" id="nextStep6">下一步</a>
+                </div>
+            </div>
+
+            <div class="table_list_box" style="display:none;" data-index="7">
+                <div class="table_list_option">
+                    <a href="javascript" target="_blank" id="viewFileBtn">
+                        <i></i>
+                        <span>查看大图</span>
+                    </a>
+                </div>
+                <div class="iframe_box">
+                    <iframe src="" frameborder="0" width="1030" height="600" id="iframeView" class="iframe_view"></iframe>
+                </div>
+                <div class="list_btn_box">
+                    <a href="javascript:;" class="btn return_btn white">上一步</a>
+                    <a href="javascript:;" class="btn" id="nextStep7">下一步</a>
+                </div>
+            </div>
+
+            <div class="table_list_box" style="display:none;" data-index="8">
+                <table class="table_list">
+                    <tbody>
+                        <tr>
+                            <td>
+                                <span>
+                                    补充条款
+                                </span>
+                            </td>
+                            <td>
+                                <div class="list_content">
+                                    <textarea name="" id="otherProtocal" cols="30" rows="10"></textarea>
+                                    <p class="list_tip_bottom_large">非必填项，请参照上一步的预览并根据实际情况补充条款</p>
+                                </div>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <div class="list_btn_box">
+                    <a href="javascript:;" class="btn return_btn white">上一步</a>
+                    <a href="javascript:;" class="btn" id="nextStep8">下一步</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 预览 -->
+    <div class="sub_view" style="display:none;" >
+        <div class="sub_view_header">计划预览</div>
+        <div class="sub_view_content">
+            <div class="table_view_box index_1">
+                <div class="fl table_view_step">1</div>
+                <div class="fl table_view_text">基本信息</div>
+                <div class="clear"></div>
+                <table class="table_list">
+                    <tbody>
+                        <tr>
+                            <td>
+                                激励计划名称
+                            </td>
+                            <td id="viewPlanName">
+                                <input type="text">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                            计划管理人
+                            </td>
+                            <td id="viewPlanManager"></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                注册资本
+                            </td>
+                            <td id="viewCapital"></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                融资轮次
+                            </td>
+                            <td id="viewFinance"></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                估值
+                            </td>
+                            <td id="viewAssess"></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="table_view_box index_2">
+                <div class="fl table_view_step">2</div>
+                <div class="fl table_view_text">期权池</div>
+                <div class="clear"></div>
+                <table class="table_list">
+                    <tbody>
+                        <tr>
+                            <td>
+                                公司总股数
+                            </td>
+                            <td id="viewPlanUnit"></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                期权池
+                            </td>
+                            <td id="viewPlanSize">
+                                占公司股权的<span></span>，对应<span></span>，即<span></span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                期权持有方式
+                            </td>
+                            <td id="viewPlanHold"></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="table_view_box index_3">
+                <div class="fl table_view_step">3</div>
+                <div class="fl table_view_text">行权设置</div>
+                <div class="clear"></div>
+                <table class="table_list">
+                    <tbody>
+                        <tr>
+                            <td>
+                                行权窗口期
+                            </td>
+                            <td id="viewPlanWinSet"></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                行权有效期
+                            </td>
+                            <td id="viewPlanWinDate"></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                行权管理人
+                            </td>
+                            <td id="viewPlanWinName"></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                付款凭证
+                            </td>
+                            <td id="viewPlanWinPay">
+                                必传
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="table_view_box index_4">
+                <div class="fl table_view_step">4</div>
+                <div class="fl table_view_text">签字及盖章设置</div>
+                <div class="clear"></div>
+                <table class="table_list">
+                    <tbody>
+                        <tr>
+                            <td>
+                                期权授予
+                            </td>
+                            <td id="viewEquitySign">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                受限股授予
+                            </td>
+                            <td id="viewOptionSign">
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="table_view_box index_5">
+                <div class="fl table_view_step">5</div>
+                <div class="fl table_view_text">计划文档</div>
+                <div class="clear"></div>
+                <table class="table_list">
+                    <tbody>
+                        <tr>
+                            <td>
+                                请点击下载
+                            </td>
+                            <td>
+                                <div>
+                                    <a href="javascript:;" id="planDocument1" target="_blank" class="lan">董事会决议</a>
+                                    /
+                                    <a href="javascript:;" id="planDocument11" target="_blank" class="lan">执行董事会决议</a>
+                                    <span class="pic cite_pic cite ml10"></span>
+                                    <cite>董事人数只有一人请下载执行董事决定，董事人数大于一人请下载董事会决议</cite>
+                                </div>
+                                <div>
+                                    <a href="javascript:;" id="planDocument2" target="_blank" class="lan">股东会决议</a>
+                                    /
+                                    <a href="javascript:;" id="planDocument12" target="_blank" class="lan">股东决议</a>
+                                    <span class="pic cite_pic cite ml10"></span>
+                                    <cite>股东人数只有一人请下载股东决定，股东人数大于一人请下载股东会决议</cite>
+                                </div>
+                                <div>及<a href="javascript:;" id="planDocument6" target="_blank" class="lan">授权书</a>共计三份文档并提交相关人员签字</div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                股权激励计划
+                            </td>
+                            <td>
+                                <a href="javascript:;" id="planDocument3" target="_blank" class="lan">下载</a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="table_view_box index_6">
+                <div class="fl table_view_step">6</div>
+                <div class="fl table_view_text">超额成熟</div>
+                <div class="clear"></div>
+                <table class="table_list">
+                    <tbody>
+                        <tr>
+                            <td>超额成熟</td>
+                            <td>
+                                <i id="overMaturity" class="btnoffon btnoff"></i>
+                                <p class="red bottom_tip"></p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="table_view_box index_7">
+                <div class="fl table_view_step">7</div>
+                <div class="fl table_view_text">备注（可选）</div>
+                <div class="clear"></div>
+                <table class="table_list">
+                    <tbody>
+                        <tr>
+                            <td>
+                                备注
+                            </td>
+                            <td>
+                                <textarea name="" id="record_remark"></textarea>
+                                <i class="list_tip_text">200个字以内</i>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="list_btn_box">
+                <a href="javascript:;" id="returnEdit" class="btn white">返回修改</a>
+                <a href="javascript:;" id="submitPlan" class="btn ml15">确认生成</a>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<!--线上期权计划创建成功弹窗 start-->
+<div id="guideSuccessAlert" class="common_alert guide_success_alert">
+    <div class="alert_title">
+        <div class="fl">提示</div>
+        <span class="cc alert_btn_no"></span>
+    </div>
+    <div class="alert_cont" style="width:630px;padding:10px">
+        <h2>恭喜！</h2>
+        <h3>您已完成股权激励计划！</h3>
+        <p>在正式授予前，股权激励计划随时可以修改。</p>
+        <p style="margin-top:10px;margin-bottom:20px;">当您开始授予并提交签字，如同您认可该计划的有效性。请确保与公司股权激励计划相关的所有事宜已经同公司管理层确认并通过。</p>
+    </div>
+    <div class="alert_btn_box">
+        <a href="javascript:;" class="btn alert_btn_yes">我知道了</a>
+    </div>
+</div>
+<!-- 线上期权计划创建成功弹窗 end-->
+
+<!-- 【参与方公共方法】 start -->
+	<!--
+	fnPopupPeople({
+		type: 'add',//类型add：添加 edit：编辑
+		addType: 3,//1：自然人 2：法人 3：所有人默认显示自然人
+		defaultType: 1,//1：默认自然人 2：默认法人
+		bossType: $(this).attr("data-boss"),//1：普通员工 2：董事会成员
+		noLimit: true,//true：不显示权限部分 true：显示权限部分
+		data: {},//编辑时的数据
+		callback: function(){},//回掉函数
+		limitData: {//权限部分数据
+			limitDetail: msg.res,
+			sRoleDetail: msg.roleDetail
+		},
+		checkId: true,证件信息是否必填
+		isSearch: true,//是否是联想添加
+		preAlert: json.preAlert,//用于联想，控制源弹窗
+		isOldAlert: json.isOldAlert,//用于联想，是否是 base.alert的弹窗
+	});
+    -->
+	<script src="/resources_v101150/scripts/common/check_cardid.js" type="text/javascript"></script>
+	<div id="setPeopleAlert" class="common_alert managerClass"  data-type="2_3">
+		<div class="alert_title">
+			<div class="fl">添加参与方</div>
+			<span class="cc alert_btn_no"></span>
+		</div>
+		<div class="alert_cont" style="overflow-x:hidden;">
+			<div class="cont_title">
+							</div>
+			<div class="cont_main">
+			</div>
+		</div>
+		<div class="alert_btn_box">
+            <a href="javascript:;" class="btn minbtn alert_btn_no white">返回</a>
+			<a href="javascript:;" class="btn minbtn alert_btn_yes">确定</a>
+			<a href="javascript:;" class="del_btn hide">删除</a>
+		</div>
+	</div>
+	<script type="text/javascript">
+        var certificateType = 0;
+		var accessRoleInfo = 0;
+		var roleProfileInfo = 0;
+		if(!certificateType)certificateType = [];
+        if(!accessRoleInfo)accessRoleInfo = [];
+        if(!roleProfileInfo)roleProfileInfo = [];
+		var is_ipo = "0";
+		var is_adminmanager = "";
+		var has_inside = "0";
+		var taxCodeList = [];
+		var countryList = [];
+		var stock_user_info = [];
+        var check_people_info = {"error_code":true,"error_msg":[]};
+
+		// 参与方 判断是否有服务，判断是否超过服务人数
+		// cc.ajax({
+		// 	url:"/company/people/check_people_info",
+		// 	loading:false, // 不显示loading状态
+		// 	async : false
+		// },function(msg){
+		// 	check_people_info = msg;
+		// });
+
+		var add_type=1;
+		//参与方自然人输入项id命名前缀
+		var idPrefixName = 'natural_';
+
+		function fnPopupPeople(paraJson){
+			paraJson.type = paraJson.type || 'add';
+			paraJson.addType = paraJson.addType || 3;
+			paraJson.defaultType = paraJson.defaultType || 1;
+			paraJson.bossType = paraJson.bossType || 1;
+			paraJson.noLimit = paraJson.noLimit || false;
+            paraJson.checkId = paraJson.checkId || false;// 待确认
+			var itemDataInfo = '';
+			cc.ajax({
+				url: "/company/people/get_manager_list_ajax"
+			},function(getMsgInfo){
+				if(getMsgInfo.error_code){
+					itemDataInfo = getMsgInfo.error_msg;
+					if(paraJson.isSearch){
+						paraJson.addType = 1;
+						paraJson.bossType = 1;
+						paraJson.noLimit = true;
+					}
+					function fnSetPeopleType(index){
+						if(paraJson.type == "edit"){
+							$("#setPeopleAlert .alert_title > div").html("编辑参与方");
+						}else{
+							$("#setPeopleAlert .alert_title > div").html("添加参与方");
+						}
+						if(paraJson.addType == "3"){
+							$("#setPeopleAlert .cont_title").show();
+						}else{
+							$("#setPeopleAlert .cont_title").hide();
+						}
+						$("#setPeopleAlert .alert_btn_box > a.alert_btn_yes").show();
+						// 自然人基础标签
+						var naturalHtmlUl = '<ul class="ckForm js-naturalUl" style="width:750px;padding-bottom:20px;" data-type-id=1></ul>';
+						// 法人基础标签
+						var legalHtml = '' +
+						'<ul class="ckForm" style="width:750px;" data-type-id=2>' +
+							'<li>' +
+								'<span>企业名称</span>' +
+								'<input type="text" has="name" id="legalName" value=""/>' +
+							'</li>' +
+							'<li>' +
+								'<span>负责人姓名</span>' +
+								'<input type="text" has="name" id="legalPeople" value=""/>' +
+							'</li>' +
+							'<li class="mb5">' +
+								'<span>统一社会信用代码</span>' +
+								'<input type="text" has="strings" id="legalCode" placeholder="请输入统一社会信用代码或注册号"/>' +
+							'</li>' +
+							'<li class="mb5"><span></span><i class="down_tips">请与下面上传的营业执照的号码一致，否则审核不通过。</i></li>' +
+							'<li id="perfectCompanyInfoDiv" class="oh">' +
+								'<span id="generalManager">营业执照</span>' +
+								'<div class="fl upload_company_logo" id="upload_backgroundImage" style="width:120px;height:120px;" data-document-type=2 data-document-custom="upload_backgroundImage" data-file-type="onlyimg">' +
+								'<div class="pic newcompanylogo" style="margin-top: 28px;"></div>' +
+								'<p style="height:20px;line-height:20px;">上传营业执照</p>' +
+								'<p style="height:20px;line-height:20px;">扫描件</p>' +
+								'<input type="hidden" id="upload_backgroundImage_input" name="" value=""/>' +
+								'<div class="havepic">' +
+								'<div class="havepic_bar">重新上传</div>' +
+								'</div>' +
+								'</div>' +
+								'<div class="uploadTips fl">' +
+								'<i class="picTips red">1.为必填项，用于企业认证</i>' +
+								'<i class="picTips">2.仅支持JPG,PNG格式</i>' +
+								'<i class="picTips">3.文件不超过10M</i>' +
+								'<i class="picTips">4.请用营业执照原件扫描</i>' +
+								'</div>' +
+							'</li>' +
+						'</ul>';
+
+						function fnPushLimitData(data,selectId){
+							// 权限管理赋值
+							sRoleDetail = data.sRoleDetail;
+							fnInitLimit({
+								limitDetail: data.limitDetail,
+								index: selectId
+							});
+							$("#setPeopleAlert .viewlimitDiv").show();
+							cc.pushSelect($("#addstatementAccess"),selectId);
+						}
+
+						if(index == 1){
+							$("#setPeopleAlert .cont_main").html(naturalHtmlUl);
+                            // 变量
+                            var nationCodeList = null; // 国际手机区号数据
+                            var nationCodeId = '214'; // 国际手机区号对应的id: 86 - 214
+                            //系统变量&自定义变量 布局
+							$.each(itemDataInfo,function(dataIndex,dataItem){
+								$.each(dataItem,function(i,v){
+									var naturalHtml = '';
+									switch(v.type){
+										case 'input':
+											if(v.key == 'first_and_last_name'){
+												naturalHtml += '<li><span>First Name</span>';
+												naturalHtml += '<input type="text" id="'+idPrefixName+'first_name" data-key-type="'+v.type+'" data-item="engName" no-empty=true ';
+												if(v.is_mandatory == 1){
+													naturalHtml += 'has="english_20" ';
+												}
+												naturalHtml += 'style="width:120px;"/>';
+												naturalHtml += '<p style="float: left;line-height: 32px;margin: 0 6px;">Last Name</p>';
+												naturalHtml += '<input type="text" id="'+idPrefixName+'last_name" data-key-type="'+v.type+'" data-item="engName" no-empty=true ';
+												if(v.is_mandatory == 1){
+													naturalHtml += 'has="english_20" ';
+												}
+												naturalHtml += 'style="width:120px;"/>';
+												if(v.is_mandatory == 0){
+													naturalHtml += '<div class="fl kxuan">（英文名选填）</div>';
+												}
+												naturalHtml += '</li>';
+											}else if(v.key == 'phone'){
+                                                naturalHtml += '<li><span>'+v.name+'</span>';
+                                                if(v.nationcodeList){
+                                                    nationCodeList = v.nationcodeList;
+                                                    naturalHtml += '<div id="'+idPrefixName+'nationcode" class="nation_code_select"></div>';
+                                                }
+												naturalHtml += '<input type="text" id="'+idPrefixName+v.key+'" data-key-type="'+v.type+'" style="margin-left:10px;width:168px;" no-empty=true ';
+												if(v.is_mandatory == 1){
+													naturalHtml += 'has="phone"';
+												}
+												naturalHtml += '/>';
+												if(v.is_mandatory == 0){
+													naturalHtml += '<div class="fl kxuan">（可选）</div>';
+                                                }
+												naturalHtml += '</li>';
+                                            }else{
+												naturalHtml += '<li><span>'+v.name+'</span>';
+												naturalHtml += '<input type="text" id="'+idPrefixName+v.key+'" data-key-type="'+v.type+'" no-empty=true ';
+												if(v.is_mandatory == 1 && v.key == 'name'){
+                                                    naturalHtml += 'has="name"';
+                                                    if(paraJson.data && paraJson.data.is_edit == 1 && paraJson.data.cite) {
+                                                        naturalHtml += 'class="cite"';
+                                                    }
+												}else if(v.is_mandatory == 1 && v.key == 'email'){
+                                                    naturalHtml += 'has="email"';
+												}else if(v.is_mandatory == 1 && v.key == 'phone'){
+													naturalHtml += 'has="phone"';
+												}else if(v.is_mandatory == 1){
+													naturalHtml += 'has="strings"';
+												}
+												naturalHtml += '/>';
+												if(v.is_mandatory == 0){
+													naturalHtml += '<div class="fl kxuan">（可选）</div>';
+                                                }
+                                                if(paraJson.data && v.key == 'name' && paraJson.data.is_edit == 1 && paraJson.data.cite) {
+                                                    naturalHtml += '<cite>'+ paraJson.data.cite +'</cite>';
+                                                }
+												naturalHtml += '</li>';
+											}
+											$("#setPeopleAlert .js-naturalUl").append(naturalHtml);
+											break;
+										case 'date':
+											naturalHtml += '<li><span>'+v.name+'</span>';
+											naturalHtml += '<input type="text" id="'+idPrefixName+v.key+'" data-key-type="'+v.type+'" no-empty=true class="time_picker" ';
+											if(v.is_mandatory == 1){
+												naturalHtml += 'has="strings"';
+											}
+											naturalHtml += '/>';
+											if(v.is_mandatory == 0){
+												naturalHtml += '<div class="fl kxuan">（可选）</div>';
+											}
+											naturalHtml += '</li>';
+											$("#setPeopleAlert .js-naturalUl").append(naturalHtml);
+											if(v.key == 'birth_date' || v.key == 'entry_date'){
+												$("#"+idPrefixName+v.key).flatpickr({
+													maxDate: new Date()
+												});
+											}else{
+												$("#"+idPrefixName+v.key).flatpickr();
+											}
+											break;
+										case 'select':
+											naturalHtml += '<li><span>'+v.name+'</span>';
+											if(v.key == 'certificate_type_code'){
+												naturalHtml += '<div id="'+idPrefixName+'certificate_type"  data-key-type="'+v.type+'" class="common_select" style="width:80px;"></div>';
+                                                if(paraJson.data && paraJson.data.is_edit == 1 && paraJson.data.cite) {
+                                                    naturalHtml += '<input class="identityInput fl ml10 cite" type="text" id="'+idPrefixName+'certificate_code"  data-key-type="input" no-empty=true ';
+                                                } else {
+                                                    naturalHtml += '<input class="identityInput fl ml10" type="text" id="'+idPrefixName+'certificate_code"  data-key-type="input" no-empty=true ';
+                                                }
+												if(v.is_mandatory == 1){
+													naturalHtml += 'has="strings"';
+                                                }
+
+												naturalHtml += '/>';
+											}else if(v.key == 'pay_taxes_id'){
+												naturalHtml += '<div id="'+idPrefixName+'province_id" data-key-type="'+v.type+'" class="common_select" style="width:130px;margin-right:12px"></div>';
+												naturalHtml += '<div id="'+idPrefixName+v.key+'" data-key-type="'+v.type+'" style="width:118px;" class="common_select" ';
+												if(v.is_mandatory == 1){
+													naturalHtml += 'has="select"';
+												}
+												naturalHtml += '></div>';
+											}else if(v.key == 'country_id'){
+												naturalHtml += '<div id="'+idPrefixName+v.key+'" data-key-type="'+v.type+'" class="common_select" style="width:150px;" ';
+												if(v.is_mandatory == 1){
+													naturalHtml += 'has="select"';
+												}
+												naturalHtml += '></div>';
+												naturalHtml += '<input class="fl ml12" type="text" id="'+idPrefixName+'country_name" style="width:154px;display:none;" data-key-type="input" no-empty=true />';
+											}else{
+												naturalHtml += '<div id="'+idPrefixName+v.key+'" data-key-type="'+v.type+'" class="common_select" ';
+												if(v.is_mandatory == 1){
+													naturalHtml += 'has="select"';
+												}
+												naturalHtml += '></div>';
+											}
+
+											if(v.is_mandatory == 0){
+												naturalHtml += '<div class="fl kxuan">（可选）</div>';
+                                            }
+                                            if(paraJson.data && v.key == 'certificate_type_code' && paraJson.data.is_edit == 1 && paraJson.data.cite) {
+                                                naturalHtml += '<cite>'+ paraJson.data.cite +'</cite>';
+                                            }
+											naturalHtml += '</li>';
+											$("#setPeopleAlert .js-naturalUl").append(naturalHtml);
+											var valueJson = {};
+											$.each(v.value,function(ii,vv){
+												valueJson[vv.id] = vv.name;
+											});
+											v.value = valueJson;
+											break;
+										case 'radio':
+											naturalHtml += '<li class="mt5"><span>'+v.name+'</span>';
+											$.each(v.value,function(ii,vv){
+												naturalHtml += '<div class="checkYes"><div class="checkbox radiobox fl rb_'+v.key+'" radio-name="'+v.key+'" radio-data="'+vv.id+'" ';
+												if(ii == 0){
+													naturalHtml += 'id="'+idPrefixName+v.key+'" data-key-type="'+v.type+'" ';
+													if(v.is_mandatory == 1){
+														naturalHtml += 'has="radio" ';
+													}
+												}
+												naturalHtml += '></div><i>'+vv.name+'</i></div>';
+											});
+											if(v.key == 'is_affiliate' || v.key == 'is_inside' || v.key == 'is_safe'){
+												naturalHtml += '<div class="cite_div"><span class="cite_position"><span class="pic cite_pic cite"></span><cite>';
+												var citeMsg = '';
+												if(v.key == 'is_affiliate'){
+													citeMsg = 'Affiliate人员卖出前，须进限售登记，目前系统只能限制对期权发起的委托交易，受限股部分需要激励对象在自己的证券账户中自行处理';
+												}else if(v.key == 'is_inside'){
+													citeMsg = '该人员卖出期权时，需要公司内部的额外批准';
+												}else if(v.key == 'is_safe'){
+													citeMsg = 'SAFE人员对应的收益及税收金需走外管局结汇通道回到境内';
+												}
+												naturalHtml += citeMsg+'</cite></span></div>';
+											}
+											if(v.is_mandatory == 0){
+												naturalHtml += '<div class="fl kxuan" style="margin-left:15px;">（可选）</div>';
+											}
+											naturalHtml += '</li>';
+											$("#setPeopleAlert .js-naturalUl").append(naturalHtml);
+											break;
+										case 'checkbox':
+											naturalHtml += '<li class="mt5"><span>'+v.name+'</span>';
+											$.each(v.value,function(ii,vv){
+												naturalHtml += '<div class="checkYes"><div class="checkbox fl" style="margin-top:8px;" checkbox-name="'+v.key+'" data-id="'+vv.id+'" ';
+												if(ii == 0){
+													naturalHtml += 'id="'+idPrefixName+v.key+'" data-key-type="'+v.type+'" ';
+													if(v.is_mandatory == 1){
+														naturalHtml += 'has="checkbox" ';
+													}
+												}
+												naturalHtml += '></div><i>'+vv.name+'</i></div>';
+											});
+											if(v.is_mandatory == 0){
+												naturalHtml += '<div class="fl kxuan">（可选）</div>';
+											}
+											naturalHtml += '</li>';
+											$("#setPeopleAlert .js-naturalUl").append(naturalHtml);
+											break;
+										case 'textarea':
+											naturalHtml += '<li><span>'+v.name+'</span>';
+											naturalHtml += '<textarea id="'+idPrefixName+v.key+'" data-key-type="'+v.type+'" no-empty=true style="height: 100px;margin-bottom:20px;" ';
+											if(v.is_mandatory == 1){
+												naturalHtml += 'has="strings"';
+											}
+											naturalHtml += '></textarea>';
+											if(v.is_mandatory == 0){
+												naturalHtml += '<div class="fl kxuan">（可选）</div>';
+											}
+											naturalHtml += '</li>';
+											$("#setPeopleAlert .js-naturalUl").append(naturalHtml);
+											break;
+                                        default:
+                                            break;
+									}
+								});
+                            });
+                            //实例化chebox&radiobox
+							cc.checkbox("#setPeopleAlert .ckForm .checkbox");
+                            //系统变量&自定义变量 实例化div模拟select
+							$.each(itemDataInfo,function(dataIndex,dataItem){
+								$.each(dataItem,function(i,v){
+									switch(v.type){
+										case 'select':
+											if(v.key == 'certificate_type_code'){
+												cc.divSelect({
+													obj: "#"+idPrefixName+"certificate_type",
+													check_id: 1,
+													list: v.value
+												});
+											}else if(v.key == 'pay_taxes_id'){
+												cc.divSelect({
+													obj: "#"+idPrefixName+v.key,
+													txt: '请选择城市',
+													list: {
+														0: '请选择城市'
+													}
+												});
+												$("#"+idPrefixName+v.key).addClass("noclick");
+
+												cc.divSelect({
+													obj: "#"+idPrefixName+"province_id",
+													txt: '请选择省份',
+													list: v.value
+												},function(obj,selIndex){
+													cc.ajax({
+														url:"/company/people/getCommonLocationCityList_ajax",
+														data: {"province_id":selIndex}
+													},function(getCityMsg){
+														if(getCityMsg.error_code){
+															if(getCityMsg.error_msg.length > 0){
+																var cityList = {};
+																$.each(getCityMsg.error_msg,function(cityItem,cityValue){
+																	cityList[cityValue.id] = cityValue.name;
+																});
+																cc.divSelect({
+																	obj: "#"+idPrefixName+"pay_taxes_id",
+																	txt: '请选择城市',
+																	list: cityList
+																});
+																$("#"+idPrefixName+"pay_taxes_id").removeClass("noclick");
+															}
+														}else{
+															cc.tips({
+																id: "#setPeopleAlert",
+																msg: getCityMsg.error_msg
+															});
+															cc.divSelect({
+																obj: "#"+idPrefixName+"pay_taxes_id",
+																txt: '请选择城市',
+																list: {
+																	0: '请选择城市'
+																}
+															});
+															$("#"+idPrefixName+"pay_taxes_id").addClass("noclick");
+														}
+													});
+												});
+											}else if(v.key == 'country_id'){
+												cc.divSelect({
+													obj: "#"+idPrefixName+v.key,
+													txt: v.txt,
+													list: v.value
+												},function(obj,selIndex){
+													if(selIndex == 1){
+														cc.pushSelect($("#"+idPrefixName+"certificate_type"),1);
+														$("#"+idPrefixName+v.key).attr("has","select").siblings("input").hide().val("").attr("has","");
+													}else if(selIndex == 2){
+														cc.pushSelect($("#"+idPrefixName+"certificate_type"),4);
+														$("#"+idPrefixName+v.key).attr("has","select").siblings("input").hide().val("").attr("has","");
+													}else if(selIndex == 3){
+														cc.pushSelect($("#"+idPrefixName+"certificate_type"),3);
+														$("#"+idPrefixName+v.key).attr("has","select").siblings("input").hide().val("").attr("has","");
+													}else{
+														cc.pushSelect($("#"+idPrefixName+"certificate_type"),2);
+														$("#"+idPrefixName+v.key).attr("has","").siblings("input").show().attr("has","strings");
+													}
+													$("#"+idPrefixName+"certificate_type").addClass("noclick");
+												});
+											}else{
+												cc.divSelect({
+													obj: "#"+idPrefixName+v.key,
+													txt: v.txt,
+													list: v.value
+												});
+
+												if(v.key == 'sex'){
+													$("#"+idPrefixName+v.key).children("span").css("min-width","70px");
+												}else{
+													$("#"+idPrefixName+v.key).children("span").css("min-width","232px");
+												}
+											}
+                                            break;
+                                        case 'radio':
+                                            if(v.key == 'dimission'){
+                                                // 就职状态
+                                                cc.checkbox("#setPeopleAlert .rb_"+v.key, function(){
+                                                    if(paraJson.noLimit){
+                                                        return false;
+                                                    }
+                                                    if(cc.getRadio(v.key) == 1){
+                                                        // 离职
+                                                        cc.pushSelectCb($("#addstatementAccess"),7);
+                                                        $("#addstatementAccess").addClass("noclick");
+                                                        $("#setPeopleAlert .viewlimitDiv .sliderIco").addClass("nomove");
+                                                    } else {
+                                                        // 在职
+                                                        $("#addstatementAccess").removeClass("noclick");
+                                                        $("#setPeopleAlert .viewlimitDiv .sliderIco").removeClass("nomove");
+                                                    }
+                                                });
+                                                cc.pushRadiobox(".checkbox[radio-name='"+v.key+"']",0);
+                                            }
+                                            break;
+									}
+								});
+							});
+
+                            // 访问权限 布局
+							var naturalHtml = '';
+							naturalHtml += '<li class="looklimitLi mb5">' +
+								'<span>访问权限</span>' +
+								'<div id="addstatementAccess" class="common_select looklimit"></div>' +
+								'<div class="minidivtips checkYes">' +
+									'<div class="checkbox fl checked_false" id="addstatementBool"></div>' +
+									'<i>董事会成员</i>' +
+								'</div>' +
+							'</li>';
+							if(is_ipo == 2){
+								//港股
+								naturalHtml += '<li id="limitTipsLi" class="mb0" style="min-height: 20px;">' +
+									'<span></span>' +
+									'<p style="font-size: 12px;color: #9b9b9b;">只能查看个人相关信息，无法进入企业查看相关信息</p>' +
+								'</li>';
+							}
+							naturalHtml += '<li class="isBossDiv mb5" style="min-height:24px;">' +
+								'<span></span>' +
+								'<div class="checkYes">' +
+									'<div class="checkbox fl radiobox limit_type checked_true"  radio-name="limit_type" radio-data=1></div>' +
+									'<i>董事</i>' +
+								'</div>' +
+								'<div class="checkYes">' +
+									'<div class="checkbox fl radiobox limit_type"  radio-name="limit_type" radio-data=2></div>' +
+									'<i>观察员</i>' +
+								'</div>' +
+							'</li>';
+							if(is_ipo != 2){
+								naturalHtml += '<li class="viewlimitDiv hide oh mb0">' +
+									'<span></span>' +
+									'<div class="viewlimititbox">' +
+									'<dl>';
+									$.each(roleProfileInfo,function(k,v){
+										naturalHtml += '<dd>';
+										naturalHtml += '<span roleId="'+k+'">'+v.name+'</span>';
+										naturalHtml += '<div class="slider">';
+                                        naturalHtml += '<div class="sliderSet"></div>';
+                                        // 权限等级区分1，2，3，4
+                                        naturalHtml += '<div class="sliderIco" data-slide="'+v.slide+'" data-type = "'+v.type+'"></div>';
+										naturalHtml += '</div>';
+										naturalHtml += '<div class="viewlimititNew">';
+										naturalHtml += '<p></p>';
+										naturalHtml += '<i></i>';
+										naturalHtml += '</div>';
+										naturalHtml += '</dd>';
+									});
+									naturalHtml+= '</dl>' +
+									'</div>' +
+								'</li>';
+							}
+							naturalHtml += '<li id="emailBok">' +
+								'<span></span>' +
+								'<div class="checkYes emailBok">' +
+									'<div class="checkbox fl checked_false"></div>' +
+									'<i>发送邀请邮件</i>' +
+								'</div>' +
+								// '<i style="font-size:13px;margin-left:0;">（试用阶段无法使用该功能）</i>' +
+							'</li>';
+                            $("#setPeopleAlert .js-naturalUl").append(naturalHtml);
+                            // 分组管理员权限判断
+                            var accessRoleArr = {};
+                            if(paraJson.type == "edit" && paraJson.data.is_group_manager) {
+                                $.each(accessRoleInfo, function(k,v){
+                                    if(k == 2 || k == 3) {
+                                        accessRoleArr[k] = v;
+                                    }
+                                });
+                            } else {
+                                $.each(accessRoleInfo, function(k,v){
+                                    if(k != 2) {
+                                        accessRoleArr[k] = v;
+                                    }
+                                });
+                            }
+							// 访问权限select初始化
+							if(accessRoleArr){
+								cc.divSelect({
+									obj: "#addstatementAccess",
+									check_id: is_ipo == 2 ? 9 : 7,
+									list: accessRoleArr
+								},function(obj,selectId){
+									if(is_ipo == 2){
+										//港股
+										if(selectId == "9"){
+											$("#emailBok .checkbox").addClass("checked_true");
+											$("#limitTipsLi > p").html("可进入企业查看公司管理、期权管理、操作日志等模块相关信息");
+										}else{
+											$("#emailBok .checkbox").removeClass("checked_true");
+											$("#limitTipsLi > p").html("只能查看个人相关信息，无法进入企业查看相关信息");
+										}
+									}else{
+										if(selectId == "3"){
+											$("#emailBok .checkbox").addClass("checked_true");
+										}else{
+											$("#emailBok .checkbox").removeClass("checked_true");
+										}
+									}
+									var dataTyle = $("#setPeopleAlert").attr("data-type").split("_");
+									// dataTyle[0]	付费状态	1未付费
+									// dataTyle[1]	认证状态
+									// 2017-04-17 安吉-修改状态为付费与未付费状态，认证状态取消掉。
+									// if(dataTyle[0] != "2" || dataTyle[1] != 3){
+									if(dataTyle[0] != "2"){
+										$("#emailBok .checkbox").removeClass("checked_true").addClass("nolick");
+										$("#emailBok > i").show();
+									}else{
+										$("#emailBok .checkbox").removeClass("nolick");
+										$("#emailBok > i").hide();
+									}
+									// 权限管理赋值
+									if(!paraJson.noLimit && is_ipo!=2){
+										fnPushLimitData(paraJson.limitData,selectId);
+									}
+								});
+							}
+							// 董事会checkbox成员初始化
+							cc.checkbox("#addstatementBool",function(selectObj){
+								if(selectObj.hasClass("checked_true")){
+									$(".isBossDiv").show();
+								}else {
+									$(".isBossDiv").hide();
+								}
+							});
+							// 董事会类型radiobox初始化
+							cc.checkbox("#setPeopleAlert .limit_type");
+							if(paraJson.type == "edit"){
+								$("#setPeopleAlert .del_btn").show();
+                                var editData = paraJson.data.peopleData;
+								$.each(editData,function(itemName,itemValue){
+									var curObj = $("#"+idPrefixName+itemName);
+									if(curObj[0] && itemValue != '' && itemValue != '--'){
+										var dkType = curObj.attr("data-key-type");
+										switch(dkType){
+											case 'input':
+												curObj.val(itemValue).attr("no-empty",true);
+												if(itemName == 'name'){
+													curObj.attr("data-id",editData.id);
+												}
+												break;
+											case 'date':
+												var dateJson = {};
+												if(itemValue == '0000-00-00' || itemValue == '0000-00-00 00:00:00'){
+													dateJson.defaultDate = '';
+												}else{
+													dateJson.defaultDate = itemValue;
+												}
+												if(itemName == 'birth_date' || itemName == 'entry_date'){
+													dateJson.maxDate = new Date();
+												}
+												curObj.flatpickr(dateJson);
+												break;
+											case 'select':
+												if(itemName == 'country_id'){
+													cc.pushSelectCb("#"+idPrefixName+itemName,itemValue);
+													// if(itemValue == 4){
+													// 	$("#"+idPrefixName+"country_name").val(editData.country_name=='--'?'':editData.country_name);
+													// }
+												}else if(itemName == 'pay_taxes_id'){
+													var cityList = {};
+													$.each(editData.city_list,function(cityItem,cityValue){
+														cityList[cityValue.id] = cityValue.name;
+													});
+													cc.divSelect({
+														obj: "#"+idPrefixName+itemName,
+														txt: '请选择城市',
+														check_id:itemValue,
+														list: cityList
+													});
+													$("#"+idPrefixName+itemName).removeClass("noclick");
+												}else{
+													cc.pushSelect(curObj,itemValue);
+												}
+
+												if(is_ipo == 1 || is_ipo == 2){
+													if(itemName == 'certificate_type'){
+														curObj.addClass("noclick")
+													}
+												}
+												break;
+											case 'radio':
+												cc.pushRadiobox(".checkbox[radio-name='"+itemName+"']",itemValue);
+												break;
+											case 'checkbox':
+												cc.pushCheckbox(".checkbox[checkbox-name='"+itemName+"']",itemValue);
+												break;
+											case 'textarea':
+												curObj.val(itemValue).attr("no-empty",true);
+												break;
+										}
+									}
+								});
+                                if(editData.nationcode_id){
+                                    nationCodeId = editData.nationcode_id;
+                                }
+								if(editData.access_role_id != 3 && editData.access_role_id != 7 && editData.access_role_id != 2){
+									editData.access_role_id = 9;
+								}
+								if(!paraJson.noLimit){
+									if(is_ipo == 2){
+										//港股
+										cc.pushSelectCb($("#addstatementAccess"),editData.access_role_id);
+									}else{
+										fnPushLimitData(paraJson.limitData,editData.access_role_id);
+									}
+								}
+								if(editData.board_type != "0"){
+									cc.pushRadiobox("#setPeopleAlert .limit_type",editData.board_type);
+									$("#addstatementBool").click();
+									$(".isBossDiv").show();
+								}else{
+									$(".isBossDiv").hide();
+								}
+								$("#emailBok").hide();
+								if(paraJson.data.is_edit == 1){
+									cc.disableInput($("#"+idPrefixName+"name"));
+									cc.disableInput($("#"+idPrefixName+"certificate_code"));
+									$("#"+idPrefixName+"certificate_type").addClass("noclick");
+                                }
+                                // 判断是否为自己，如果是自己则不可以拖动权限块
+								if(paraJson.data.is_oneself){
+									$("#addstatementAccess").addClass("noclick");
+									if(is_ipo != 2){
+										$("#setPeopleAlert .viewlimitDiv .sliderIco").addClass("nomove");
+                                    }
+                                    if($("#setPeopleAlert .rb_dimission").length > 0){
+                                        $("#setPeopleAlert .rb_dimission").addClass("noclick");
+                                    }
+									$("#setPeopleAlert .del_btn").hide();
+                                } else {
+                                    if(paraJson.data.is_group_manager) {
+                                        $("#setPeopleAlert .viewlimitDiv .sliderIco").addClass("nomove");
+                                    }
+                                }
+                                // 判断是否为分组管理员，如果是分组管理员则不可以拖动权限块
+								if(is_ipo == 2 && editData.access_role_id == 3 && accessRoleArr){
+									$("#addstatementAccess").addClass("noclick");
+									$("#addstatementAccess > span").html("高级管理员");
+									$("#addstatementAccess > input[type='hidden']").val(editData.access_role_id);
+									$("#limitTipsLi > p").html("可进入企业查看/编辑公司管理、期权管理、操作日志等模块相关信息");
+								}
+							}else{
+								//添加
+								// 发送邮件checkbox初始化
+								cc.checkbox("#emailBok .checkbox");
+								// 判断是否是从董事会栏弹出
+								if(paraJson.bossType == 2){
+									// 董事会成员
+									$("#setPeopleAlert .alert_title > div").html('添加董事会成员');
+									$("#addstatementBool").click().addClass("noclick");
+									cc.pushSelectCb($("#addstatementAccess"),9);
+                                }
+								if(!paraJson.noLimit){
+									if(is_ipo == 2){
+										//港股
+										cc.pushSelectCb($("#addstatementAccess"),7);
+									}else{
+										fnPushLimitData(paraJson.limitData,7);
+									}
+								}
+								$("#setPeopleAlert .del_btn").hide();
+                            }
+                            // 实例化区号选择
+                            if(nationCodeList && $("#setPeopleAlert #"+idPrefixName+"nationcode")[0]){
+                                cc.nationCodeSel({
+                                    obj: "#setPeopleAlert #"+idPrefixName+"nationcode",
+                                    check_id: nationCodeId,
+                                    data: nationCodeList,
+                                    hoverCB: function(obj){
+                                        obj.siblings("em").hide();
+                                    }
+                                },function(obj,id){
+                                    // 回调，返回：this 与 选中id
+                                    if(id == '214') {
+                                        obj.siblings("#"+idPrefixName+"phone").attr("has","phone");
+                                    } else {
+                                        obj.siblings("#"+idPrefixName+"phone").attr("has","nationPhone");
+                                    }
+                                });
+                            }
+							if(paraJson.checkId){
+								$("#"+idPrefixName+"certificate_code").attr("has","strings").siblings("div.kxuan").hide();
+							}
+							if(paraJson.isSearch){
+								$(".looklimitLi ").remove();
+								$("#viewlimitDiv").remove();
+								$("#limitTipsLi").remove();
+								$(".isBossDiv").remove();
+								$("#emailBok").remove();
+								$(".del_btn").hide();
+							}
+							$("#setPeopleAlert .js-naturalUl li > span").css('min-width','130px');
+						}else{
+							$("#setPeopleAlert .del_btn").hide();
+							$("#setPeopleAlert .cont_main").html(legalHtml);
+							cc.ajax({
+								url:"/company/people/company_user_list"
+							},function(msg){
+								stock_user_info[0] = '';
+								stock_user_info[1] = msg.error_msg;
+								// 初始化 - 人员搜索
+								cc.userSearch({
+									id:"#legalPeople",
+									css:"left: 122px;top: 31px;", // 用来做定位（必填）
+									type:"人员",
+									txt:"若负责人没在列表中，请先去参与方添加。",
+								});
+							});
+							if(paraJson.type == "edit"){
+								var legalData = paraJson.data.peopleData;
+								var managerData = paraJson.data.manageInfo;
+								$("#legalName").val(legalData.name).attr({
+									"no-empty": true,
+									"data-id": legalData.id
+								});
+								$("#legalPeople").val(managerData.name).attr({
+									"data-id": managerData.id,
+									"no-empty": true
+								});
+								$("#legalCode").val(legalData.legal_code).attr("no-empty",true);
+								if(legalData.status == 1){
+									// 审核中 所有信息不可更改
+									$("#setPeopleAlert .alert_btn_box > a").hide();
+									cc.closeAlert($("#perfectCompanyInfoDiv"));
+									$(".down_tips").hide();
+									cc.disableInput($("#legalName"));
+									cc.disableInput($("#legalPeople"));
+									cc.disableInput($("#legalCode"));
+								}else if(legalData.status == 2){
+									// 驳回 所有信息都可更改
+									$("#upload_backgroundImage").css({
+										"position": "relative","z-index": "1", "background": "transparent url("+legalData.document_path+")no-repeat center","background-size":"100%","width":"120px","height":"120px"
+									});
+									$("#upload_backgroundImage div.newcompanylogo").css("display","none");
+									$("#upload_backgroundImage p").css("display","none");
+									$("#upload_backgroundImage_input").val(legalData.document_path).attr({
+										"uploadname" : legalData.clname,
+										"cl-id" : legalData.company_library_id
+									});
+									$("#setPeopleAlert .del_btn").show();
+								}else{
+									// 通过 只可更改代表人信息
+									cc.disableInput($("#legalName"));
+									cc.disableInput($("#legalCode"));
+									$("#upload_backgroundImage").addClass("noclick").css({
+										"position": "relative","z-index": "0", "background": "transparent url("+legalData.document_path+")no-repeat center","background-size":"100%","width":"120px","height":"120px"
+									});
+									$("#upload_backgroundImage div.newcompanylogo").css("display","none");
+									$("#upload_backgroundImage p").css("display","none");
+									$("#setPeopleAlert .del_btn").show();
+								}
+							}
+							fnInitUploadplguin({
+								obj: $("#upload_backgroundImage")
+							});
+						}
+					}
+
+					if(!check_people_info.error_code && paraJson.type == 'add'){
+						if(check_people_info.error_msg["res"] == 1){
+							ajaxCommonError(check_people_info.error_msg["msg"]);
+						}else {
+							$("#renewTips .alert_title>div").html(check_people_info.error_msg["tips"]);
+							$("#renewTips #renewTipsTxt").html(check_people_info.error_msg["msg"]);
+							$("#renewTips .alert_btn_yes").html(check_people_info.error_msg["action"]);
+                            $("#equityGuide").css("z-index","1");
+                            $("#renewTips .go_on_use").hide();
+							cc.alert({
+								obj: "#renewTips"
+							},function(){
+								if(check_people_info.error_msg["res"] == 3){
+									cc.location("/company/service?position=1&auto=1");
+								}else if(check_people_info.error_msg["res"] == 4) {
+									cc.closeAlert($("#renewTips"));
+								}else{
+									cc.location("/company/service?position=1");
+								}
+								$("#equityGuide").css("z-index","2000");
+							});
+							$("#renewTips .alert_btn_no").click(function(){
+								$("#equityGuide").css("z-index","2000");
+							});
+
+
+						}
+						return false;
+					}
+					cc.ajax({
+						url: "/company/people/check_user_certificate_info"
+					},function(msg){
+						if( msg.error_code ){
+							// 根据类型判断显示自然人还是法人
+							if(paraJson.addType == 1){
+								fnSetPeopleType(1);
+								$("#setPeopleAlert .cont_title").hide();
+							}else if(paraJson.addType == 2){
+								fnSetPeopleType(2);
+								$("#setPeopleAlert .cont_title").hide();
+							}else{
+								if(paraJson.defaultType == 1){
+									$("#setPeopleAlert .people_type").removeClass("checked_true").eq(0).addClass("checked_true");
+									fnSetPeopleType(1);
+								}else{
+									$("#setPeopleAlert .people_type").removeClass("checked_true").eq(1).addClass("checked_true");
+									fnSetPeopleType(2);
+								}
+								cc.checkbox("#setPeopleAlert .people_type",function(selectObj){
+									if(selectObj.attr("radio-data") == 1){
+										fnPopupPeople(paraJson);
+									}else{
+										fnSetPeopleType(2);
+									}
+									cc.center("#setPeopleAlert");
+								});
+							}
+
+							if(paraJson.isSearch){
+								$("#setPeopleAlert .alert_btn_no.white").show();
+							}else{
+								$("#setPeopleAlert .alert_btn_no.white").hide();
+							}
+							if(is_ipo == 2 && is_adminmanager != '1'){
+								$("#setPeopleAlert .alert_btn_box .btn").hide();
+								$("#setPeopleAlert .alert_btn_box .del_btn").hide();
+							}
+							cc.alert({
+								obj: "#setPeopleAlert",
+								ckForm: true,
+								reg: {
+									"strings": /^\s*(.){1,500}\s*$/i,
+									"name": /^[\s\S]{1,50}$/i,
+									"email": /^([0-9A-Za-z\-_\.]+)@[0-9a-z\-_]+\.[\.0-9a-z\-_]{2,50}$/i,
+									"phone": /^1([3|4|5|6|7|8|9])\d{9}$/, // 手机
+                                    "nationPhone": /^[A-Za-z0-9]+$/, // 国际手机
+									"staff_id": /^[a-zA-Z0-9]+$/,
+									"english_20":  /^[a-zA-Z]{1,20}$/i
+								}
+							},function(){
+								addUsersAjax({
+									add_type: 1,
+									is_search: paraJson.isSearch,
+									ajax_type: paraJson.type,
+									data:itemDataInfo,
+									id: paraJson.type == "edit" ? paraJson.data.peopleData.id : '',
+									callback: paraJson.callback
+								});
+							});
+							if(paraJson.preAlert){
+								paraJson.preAlert.hide();
+								if(paraJson.isOldAlert){
+									$("#is_load").hide();
+								}
+								$(".search_user_div").remove();
+								$("#setPeopleAlert .alert_btn_no").off().on("click",function(){
+									altArr.pop();
+									$(".load").animate({"opacity":0},100,function(){
+										$(".load").hide(100);
+									});
+									// 显示弹窗的渐显效果
+									$("#setPeopleAlert").animate({"opacity":0,"top":"49%"},300,function(){
+										$("#setPeopleAlert").hide();
+									});
+									paraJson.preAlert.show();
+									if(paraJson.isOldAlert){
+										$("#is_load").show();
+									}
+								});
+							}
+						}
+					});
+
+				}else{
+					cc.alert({
+						obj: getMsgInfo.error_msg
+					});
+				}
+			});
+		}
+
+		function addUsersAjax(json,callback){
+			var pushData;
+			var addType = $("#setPeopleAlert .ckForm").attr("data-type-id");
+			if(addType == 1){
+				var board_type = 0;
+				var access_role_val_json = {};
+				var access_role_id = cc.getSelect("#addstatementAccess");
+				if($("#addstatementBool").hasClass("checked_true")){
+					board_type = $("#setPeopleAlert .limit_type.checked_true").attr("radio-data")
+				}
+				if(access_role_id == "9" && is_ipo != 2){
+					$('#setPeopleAlert .viewlimititbox .sliderSet').each(function(){
+                        var _thistype = $(this).siblings(".sliderIco").attr("data-type");
+                        var dataSlide = $(this).siblings(".sliderIco").attr("data-slide");
+						switch($(this).css("width")){
+							case "0px":
+								access_role_val_json[_thistype] = 1;
+							break;
+							case "70px":
+                                if( dataSlide == "134" ){
+                                    access_role_val_json[_thistype] = 3;
+                                } else {
+								    access_role_val_json[_thistype] = 2;
+                                }
+                            break;
+                            case "105px":
+								access_role_val_json[_thistype] = 3;
+							break;
+							case "140px":
+								access_role_val_json[_thistype] = 4;
+							break;
+							default:
+								access_role_val_json[_thistype] = 1;
+							break;
+						}
+					});
+                }
+				pushData = {
+					type: 1,
+					board_type: board_type,
+					access_role_id: access_role_id,
+					access_role_val: JSON.stringify(access_role_val_json),
+					add_type: json.add_type,
+					is_send_email: $("#emailBok .checkbox").hasClass("checked_true") ? 1 : 0
+                };
+                if($("#setPeopleAlert #"+idPrefixName+"nationcode")[0]){
+                    pushData.nationcode_id = cc.getNationCode("#"+idPrefixName+"nationcode")[0];
+                    pushData.nationcode = cc.getNationCode("#"+idPrefixName+"nationcode")[1];
+                }
+				$.each(json.data,function(dataIndex,dataItem){
+					$.each(dataItem,function(i,v){
+						switch(v.type){
+							case 'input':
+								if(v.key == 'first_and_last_name'){
+									pushData.first_name = $("#"+idPrefixName+"first_name").val();
+									pushData.last_name = $("#"+idPrefixName+"last_name").val();
+								}else{
+									pushData[v.key] = $("#"+idPrefixName+v.key).val();
+								}
+								break;
+							case 'date':
+								pushData[v.key] = $("#"+idPrefixName+v.key).val();
+								break;
+							case 'select':
+								if(v.key == 'certificate_type_code'){
+									pushData.certificate_type = cc.getSelect("#"+idPrefixName+"certificate_type");
+									pushData.certificate_code = $("#"+idPrefixName+"certificate_code").val();
+								}else if(v.key == 'pay_taxes_id'){
+									pushData.province_id = cc.getSelect("#"+idPrefixName+"province_id");
+									pushData[v.key] = cc.getSelect("#"+idPrefixName+v.key);
+								}else if(v.key == 'country_id'){
+									pushData[v.key] = cc.getSelect("#"+idPrefixName+v.key);
+									pushData.country_name = $("#"+idPrefixName+"country_name").val();
+								}else{
+									pushData[v.key] = cc.getSelect("#"+idPrefixName+v.key);
+								}
+								break;
+							case 'radio':
+								var getRadioValue = cc.getRadio(v.key+"");
+								if(!getRadioValue){
+									getRadioValue = '';
+								}
+								pushData[v.key] = getRadioValue;
+								break;
+							case 'checkbox':
+								pushData[v.key] = JSON.stringify(cc.getCheckbox(v.key+""));
+								break;
+							case 'textarea':
+								pushData[v.key] = $("#"+idPrefixName+v.key).val();
+								break;
+						}
+					});
+				});
+			}else{
+				pushData = {
+					type: 2,
+					name: $("#legalName").val(),
+					manage_id: $("#legalPeople").attr("data-id"),
+					legal_code: $("#legalCode").val(),
+					document_name: $("#upload_backgroundImage_input").attr("uploadname"),
+					document_path: $("#upload_backgroundImage_input").val(),
+					company_library_id: $("#upload_backgroundImage_input").attr("cl-id")
+				}
+			}
+			if(json.ajax_type == "edit"){
+				ajaxUrl = '/company/people/edit_manager_ajax';
+				pushData.id = json.id;
+				pushData.is_search = json.is_search ? 1 : 0;
+			}else{
+				ajaxUrl = '/company/people/add_manager_ajax';
+            }
+			cc.ajax({
+				url: ajaxUrl,
+				data: pushData
+			},function(msg){
+				if(msg.error_code){
+					var checkInvite = $("#emailBok .checkbox").hasClass("checked_true");
+                    cc.closeAlert("#setPeopleAlert");
+					if(json.ajax_type == "edit"){
+					}else{
+						pushData.id = msg.error_msg;
+                    }
+                    if(addType == 1 && !json.is_search && json.ajax_type != "edit" && isHidePopup == 0 && checkInvite){
+                        // 自然人 && 非联想 && 添加(非编辑) && 显示二维码弹窗
+                        cc.ajax({
+                            url:'/company/people/get_company_qr_code_ajax',
+                            loading:false,
+                        },function(msg){
+                            if(msg.error_code){
+								$("#proceInvitation").find("img").attr("src",msg.error_msg);
+								$("#proceInvitation .alert_check").show();
+                                cc.alert({obj:"#proceInvitation"},function(){
+                                    json.callback&&json.callback(pushData);
+                                });
+                            }else{
+                                cc.alert({
+                                    txt:{
+                                        title:"提示",
+                                        content:msg.error_msg,
+                                        yes_btn:"确定"
+                                    },
+                                });
+                            }
+                        });
+                    } else {
+                        json.callback&&json.callback(pushData);
+                    }
+				}else{
+					cc.tips({
+						id: "#setPeopleAlert",
+						msg: msg.error_msg
+					});
+				}
+			});
+		}
+
+		$(function(){
+			var base = new is();
+			// 添加参与方
+			$("#addPeople").click(function(){
+				if( company_pay_status == 1 && company_user_count >= 5 ){
+					cc.notPayAlert({txt:"您目前在免费试用中，最多可以添加5个参与方，购买服务后可以增加人数上限。"});
+				} else if( isComExpired == 1 && company_user_count >= 5 ){
+                    // 公司过期，参与方人数》=5人
+                    cc.notPayAlert({txt:"您目前在免费试用中，最多可以添加5个参与方，购买服务后可以增加人数上限。"});
+                } else {
+					$.post("/company/people/get_permission_info",function(msg){
+						msg = msg.error_msg;
+						fnPopupPeople({
+							type: 'add',//类型1：添加 2：编辑
+							addType: 3,//1：自然人 2：法人 3：所有人默认显示自然人
+							defaultType: 1,//1：默认自然人 2：默认法人
+							bossType: 1,//1：普通员工 2：董事会成员
+							callback: function(){
+								$("#bubbleDiv a").eq(0).click();
+							},
+							limitData: {
+								limitDetail: msg.res,
+								sRoleDetail: msg.roleDetail
+							}
+						});
+					},"json");
+				}
+			});
+			// 董事会添加
+			$("#addManager").click(function(){
+				if( company_pay_status == 1 && company_user_count >= 5 ){
+					cc.notPayAlert({txt:"您目前在免费试用中，最多可以添加5个参与方，购买服务后可以增加人数上限。"});
+				} else if( isComExpired == 1 && company_user_count >= 5 ){
+                    // 公司过期，参与方人数》=5人
+                    cc.notPayAlert({txt:"您目前在免费试用中，最多可以添加5个参与方，购买服务后可以增加人数上限。"});
+                } else {
+					$.post("/company/people/get_permission_info",function(msg){
+						msg = msg.error_msg;
+						fnPopupPeople({
+							type: 'add',//类型1：添加 2：编辑
+							addType: 3,//1：自然人 2：法人 3：所有人默认显示自然人
+							defaultType: 1,//1：默认自然人 2：默认法人
+							bossType: 2,//1：普通员工 2：董事会成员
+							callback: function(){
+								$("#bubbleDiv a").eq(1).click();
+							},
+							limitData: {
+								limitDetail: msg.res,
+								sRoleDetail: msg.roleDetail
+							}
+						});
+					},"json");
+				}
+			});
+
+			// 参与方编辑
+			$(".edit_people").click(function(ev){
+				var _this = $(this);
+				$.post("/company/people/get_permission_info",{"id":_this.attr("data-id")},function(limitMsg){
+					limitMsg = limitMsg.error_msg;
+					cc.ajax({
+						url: "/company/people/get_userinfo_by_id",
+						data: {
+							id:_this.attr("data-id"),
+							type: _this.attr("data-people-type")
+						}
+					},function(msg){
+						if(msg.error_code){
+							fnPopupPeople({
+								type: 'edit',
+								addType: _this.attr("data-people-type"),//1：自然人 2：法人 3：所有人默认显示自然人
+								defaultType: 1,//1：默认自然人 2：默认法人
+								data: msg.error_msg,//编辑时的数据
+								callback: function(){
+									cc.location();
+								},
+								limitData: {
+									limitDetail: limitMsg.res,
+									sRoleDetail: limitMsg.roleDetail
+								}
+							});
+						}else{
+							cc.alert({
+								obj: msg.error_msg,
+								isTips: true
+							});
+						}
+					});
+				},'json');
+				ev.stopPropagation();
+			});
+
+			//参与方删除
+			$("#setPeopleAlert .del_btn").click(function(){
+				var index = $("#tab-title .ParticipatingNav li.active").attr("data-id") - 1;
+				cc.alert({
+					txt:{
+						title:"提示",
+						content:"您确定要删除该用户？",
+						yes_btn:"确定",
+						no_btn:"取消",
+					}
+				},function(){
+					cc.ajax({
+						url: "/company/people/delete_userinfo_ajax",
+						data: {
+							company_user_ids: $("#"+idPrefixName+"name")[0] ? $("#"+idPrefixName+"name").attr("data-id") : $("#legalName").attr("data-id")
+						}
+					},function(msg){
+						if( msg.error_code ){
+							cc.location();
+						}else {
+							cc.alert({
+								obj: msg.error_msg,
+								isTips: true
+							});
+						}
+					});
+				});
+			});
+
+			// 编辑 tr  [人员]
+			$("#managerTableId tbody tr,#legalTable tbody tr").click(function(ev){
+				$(this).find(".edit_people").click();
+			});
+
+			// 上传营业执照
+			$(".havepic").live("mouseover",function(){
+				$(this).find(".havepic_bar").fadeIn(50);
+			}).live("mouseleave",function(){
+				$(this).find(".havepic_bar").fadeOut(50);
+			});
+
+			//VIE-IPO 信息不全
+			$(".ipoUserInfoNot").click(function(ev){
+				$(this).parents("tr").find(".edit_people").click();
+				ev.stopPropagation();
+			});
+		});
+	</script>
+<!-- 【参与方公共方法】 end -->
+
+<!--以下是确认是否实名认证和公司认证弹窗-->
+<div id="isIdentifyDiv" class="common_alert isIdentifyDiv">
+    <div class="alert_title">提示<span class="cc alert_btn_no"></span></div>
+    <div class="alert_cont"></div>
+    <div class="alert_btn_box">
+        <a id="" href="javascript:;" class="btn alert_btn_yes">确定</a>
+    </div>
+</div>
+<!-- 续费提示窗口 -->
+<!-- <div id="renewTips" class="common_alert renewTips">
+	<div class="alert_title">
+		<div class="fl">提示</div>
+		<span class="cc alert_btn_no"></span>
+	</div>
+	<div class="alert_cont" style="width:800px;">
+		<br />
+		<p id="renewTipsTxt" style="line-height: 22px;margin-bottom:20px;text-align: left;"></p>
+		<p style="line-height: 22px;margin-bottom:20px;text-align: left;">再次感谢您选择股书服务。</p>
+	</div>
+	<div class="alert_btn_box">
+		<a class="btn minbtn alert_btn_yes" href="javascript:;"></a>
+	</div>
+</div> -->
+            </div>
+            <div class="clear"></div>
+        </div>
+    </div>
+</body>
+</html>
