@@ -9,18 +9,18 @@ import random
 import copy
 class GameCoreController():
     def __init__(self):
-        # self.__map=[
-        #     [0]*4,
-        #     [0]*4,
-        #     [0]*4,
-        #     [0]*4,
-        # ]
-        self.__map= [
-            [2, 8, 2, 16],
-            [8, 16, 64, 4],
-            [4, 32, 8, 2],
-            [8, 2, 4, 16],
+        self.__map=[
+            [0]*4,
+            [0]*4,
+            [0]*4,
+            [0]*4,
         ]
+        # self.__map= [
+        #     [2, 8, 2, 16],
+        #     [8, 16, 64, 4],
+        #     [4, 32, 8, 32],
+        #     [8, 2, 16,0],
+        # ]
         self.__list_merge = [] #用于存储去零和合并列表
         self.__list_empty_location = [] #用于存储空位置的列表
         self.is_change = False
@@ -135,6 +135,12 @@ class GameCoreController():
         #1：如果存在空位置，不能结束
         if len(self.__list_empty_location) >0:
             return False
+        #横纵合并
+        for r in range(4):
+            for c in range(3):
+                if self.__map[r][c] == self.__map[r][c+1] or self.__map[c][r] == self.__map[c+1][r]:
+                    return False
+        return True
             # # 如果水平方向 具有相同元素
             # for r in range(4):
             #     for c in range(3):
@@ -147,11 +153,6 @@ class GameCoreController():
             #         if self.__map[r][c] == self.__map[r+1][c]:
             #             return False
 
-            for r in range(4):
-                for c in range(3):
-                    if self.__map[r][c] == self.__map[r][c + 1] or self.__map[c][r] == self.__map[c + 1][r]:
-                        return False
-            return True
 
 # if __name__ == '__main__':
 #     core = GameCoreController()

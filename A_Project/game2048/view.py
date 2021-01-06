@@ -1,5 +1,7 @@
 from A_Project.game2048.bll2 import *
 from A_Project.game2048.model import *
+import os
+import pygame
 
 class GameConsoleView:
     def __init__(self):
@@ -12,10 +14,11 @@ class GameConsoleView:
         self.print_map()
 
     def print_map(self):
-        print("--------------")
+        # os.system("clear")
+        print("-----------------------------")
         for r in range(len(self.__controller.map)):
             for c in range(len(self.__controller.map[r])):
-                print(self.__controller.map[r][c],end=" ")
+                print(self.__controller.map[r][c],end="\t")
             print()
 
     def update(self):#更新，游戏逻辑
