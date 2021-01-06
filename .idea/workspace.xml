@@ -62,18 +62,22 @@
         <entry file="file://$PROJECT_DIR$/A_Project/game2048/main.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="120">
-              <caret line="4" column="12" lean-forward="true" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
+              <caret line="4" column="12" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/A_Project/game2048/test_again.py">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="1" column="8" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="8" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/kapbookUI/main.py">
+        <entry file="file://$PROJECT_DIR$/tests.py">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
@@ -89,8 +93,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/A_Project/game2048/bll2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4080">
-              <caret line="142" column="13" lean-forward="true" selection-start-line="142" selection-start-column="13" selection-end-line="142" selection-end-column="13" />
+            <state relative-caret-position="4200">
+              <caret line="142" column="13" selection-start-line="142" selection-start-column="13" selection-end-line="142" selection-end-column="13" />
               <folding>
                 <element signature="e#116#154#0" expanded="true" />
               </folding>
@@ -101,7 +105,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/A_Project/game2048/view.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="840">
+            <state relative-caret-position="810">
               <caret line="28" column="25" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
               <folding>
                 <element signature="e#0#37#0" expanded="true" />
@@ -145,14 +149,13 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="liu_dev" />
       </map>
     </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/education/2：pythonBase_danei/3：模块包异常处理/2Days/3：作业.py" />
         <option value="$PROJECT_DIR$/education/2：pythonBase_danei/3：模块包异常处理/3Days/2：函数式编程思想.py" />
         <option value="$PROJECT_DIR$/Test_interface/Zno_interface/lib/read_data.py" />
         <option value="$PROJECT_DIR$/tong_price/Interface/1：获取公司列表.py" />
@@ -203,6 +206,7 @@
         <option value="$PROJECT_DIR$/A_Project/game2048/bll2.py" />
         <option value="$PROJECT_DIR$/A_Project/game2048/test_again.py" />
         <option value="$PROJECT_DIR$/kapbookUI/main.py" />
+        <option value="$PROJECT_DIR$/tests.py" />
       </list>
     </option>
   </component>
@@ -215,9 +219,9 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="1504" />
-    <option name="y" value="190" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="1432" />
+    <option name="y" value="178" />
     <option name="width" value="1270" />
     <option name="height" value="709" />
   </component>
@@ -475,7 +479,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1504" y="190" width="1270" height="709" extended-state="0" />
+    <frame x="1432" y="178" width="1270" height="709" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.8056266" visible="true" weight="0.16084485" />
@@ -483,7 +487,7 @@
       <window_info id="Structure" order="2" sideWeight="0.1943734" weight="0.17449665" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49515286" weight="0.32398754" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.89195776" visible="true" weight="0.1295972" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.89195776" visible="true" weight="0.2977233" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.9194631" weight="0.41545895" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -492,7 +496,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.4993351" weight="0.32921812" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Python Console" order="10" sideWeight="0.4993351" weight="0.32921812" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.10804224" side_tool="true" visible="true" weight="0.1295972" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.10804224" side_tool="true" visible="true" weight="0.2977233" />
       <window_info anchor="bottom" id="Thumbnails" order="12" weight="0.3299566" />
       <window_info anchor="bottom" id="Concurrent Activities Diagram" order="13" weight="0.32928678" />
       <window_info anchor="bottom" id="Terminal" order="14" weight="0.32857144" />
@@ -578,13 +582,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/education/A：pythonBase_danei/3：模块包异常处理/3Days/4：作业.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4140">
-          <caret selection-end-line="12" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/education/code01.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -802,7 +799,7 @@
     <entry file="file://$PROJECT_DIR$/A_Project/game2048/main.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
-          <caret line="4" column="12" lean-forward="true" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
+          <caret line="4" column="12" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
         </state>
       </provider>
     </entry>
@@ -815,8 +812,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/A_Project/game2048/bll2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4080">
-          <caret line="142" column="13" lean-forward="true" selection-start-line="142" selection-start-column="13" selection-end-line="142" selection-end-column="13" />
+        <state relative-caret-position="4200">
+          <caret line="142" column="13" selection-start-line="142" selection-start-column="13" selection-end-line="142" selection-end-column="13" />
           <folding>
             <element signature="e#116#154#0" expanded="true" />
           </folding>
@@ -825,7 +822,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/A_Project/game2048/view.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="840">
+        <state relative-caret-position="810">
           <caret line="28" column="25" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
           <folding>
             <element signature="e#0#37#0" expanded="true" />
@@ -834,9 +831,16 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/A_Project/game2048/test_again.py">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="1" column="8" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="8" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/kapbookUI/main.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
