@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2f20b336-acf2-42f8-b4b5-90dacc35646e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/A_Project/game2048/test_again.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/A_Project/game2048/bll2.py" beforeDir="false" afterPath="$PROJECT_DIR$/A_Project/game2048/bll2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/A_Project/game2048/test_again.py" beforeDir="false" afterPath="$PROJECT_DIR$/A_Project/game2048/test_again.py" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/venv/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -78,7 +78,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/A_Project/game2048/model.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="639">
+            <state relative-caret-position="780">
               <caret line="26" column="8" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
             </state>
           </provider>
@@ -87,7 +87,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/A_Project/game2048/bll2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="279">
+            <state relative-caret-position="4080">
               <caret line="142" column="13" lean-forward="true" selection-start-line="142" selection-start-column="13" selection-end-line="142" selection-end-column="13" />
               <folding>
                 <element signature="e#116#154#0" expanded="true" />
@@ -99,7 +99,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/A_Project/game2048/view.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
+            <state relative-caret-position="840">
               <caret line="28" column="25" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
               <folding>
                 <element signature="e#0#37#0" expanded="true" />
@@ -208,9 +208,9 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="1518" />
-    <option name="y" value="149" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="1463" />
+    <option name="y" value="22" />
     <option name="width" value="1270" />
     <option name="height" value="709" />
   </component>
@@ -474,7 +474,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1518" y="149" width="1270" height="709" extended-state="0" />
+    <frame x="1515" y="36" width="1270" height="709" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.8056266" visible="true" weight="0.16084485" />
@@ -482,7 +482,7 @@
       <window_info id="Structure" order="2" sideWeight="0.1943734" weight="0.17449665" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49515286" weight="0.32398754" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.89195776" visible="true" weight="0.3625219" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.89195776" visible="true" weight="0.39579684" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.9194631" weight="0.41545895" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -491,7 +491,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.4993351" weight="0.32921812" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Python Console" order="10" sideWeight="0.4993351" weight="0.32921812" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.10804224" side_tool="true" visible="true" weight="0.3625219" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.10804224" side_tool="true" visible="true" weight="0.39579684" />
       <window_info anchor="bottom" id="Thumbnails" order="12" weight="0.3299566" />
       <window_info anchor="bottom" id="Concurrent Activities Diagram" order="13" weight="0.32928678" />
       <window_info anchor="bottom" id="Terminal" order="14" weight="0.32857144" />
@@ -792,23 +792,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/A_Project/game2048/view.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="28" column="25" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#37#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/A_Project/game2048/model.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="639">
-          <caret line="26" column="8" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://F:/5：测试视频/1：Python-1903(测试开发)/笔记/01_PythonBase/month01_all/project/game_2048/bll.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="355">
@@ -816,9 +799,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/A_Project/game2048/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="4" column="12" lean-forward="true" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/A_Project/game2048/model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="780">
+          <caret line="26" column="8" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/A_Project/game2048/bll2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
+        <state relative-caret-position="4080">
           <caret line="142" column="13" lean-forward="true" selection-start-line="142" selection-start-column="13" selection-end-line="142" selection-end-column="13" />
           <folding>
             <element signature="e#116#154#0" expanded="true" />
@@ -826,10 +823,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/A_Project/game2048/main.py">
+    <entry file="file://$PROJECT_DIR$/A_Project/game2048/view.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="4" column="12" lean-forward="true" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
+        <state relative-caret-position="840">
+          <caret line="28" column="25" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
