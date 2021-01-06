@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2f20b336-acf2-42f8-b4b5-90dacc35646e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/A_Project/game2048/test_again.py" beforeDir="false" afterPath="$PROJECT_DIR$/A_Project/game2048/test_again.py" afterDir="false" />
-    </list>
+    <list default="true" id="2f20b336-acf2-42f8-b4b5-90dacc35646e" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/venv/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -70,8 +67,13 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/A_Project/game2048/test_again.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/kapbookUI/main.py">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
@@ -141,11 +143,15 @@
   <component name="Git.Settings">
     <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/education/2：pythonBase_danei/3：模块包异常处理/3Days/1：enumerate.py" />
         <option value="$PROJECT_DIR$/education/2：pythonBase_danei/3：模块包异常处理/2Days/3：作业.py" />
         <option value="$PROJECT_DIR$/education/2：pythonBase_danei/3：模块包异常处理/3Days/2：函数式编程思想.py" />
         <option value="$PROJECT_DIR$/Test_interface/Zno_interface/lib/read_data.py" />
@@ -196,6 +202,7 @@
         <option value="$PROJECT_DIR$/A_Project/game2048/view.py" />
         <option value="$PROJECT_DIR$/A_Project/game2048/bll2.py" />
         <option value="$PROJECT_DIR$/A_Project/game2048/test_again.py" />
+        <option value="$PROJECT_DIR$/kapbookUI/main.py" />
       </list>
     </option>
   </component>
@@ -209,8 +216,8 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1463" />
-    <option name="y" value="22" />
+    <option name="x" value="1504" />
+    <option name="y" value="190" />
     <option name="width" value="1270" />
     <option name="height" value="709" />
   </component>
@@ -233,13 +240,7 @@
             <path>
               <item name="Workspaces-pyhon" type="b2602c69:ProjectViewProjectNode" />
               <item name="Workspaces-pyhon" type="462c0819:PsiDirectoryNode" />
-              <item name="A_Project" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Workspaces-pyhon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Workspaces-pyhon" type="462c0819:PsiDirectoryNode" />
-              <item name="A_Project" type="462c0819:PsiDirectoryNode" />
-              <item name="game2048" type="462c0819:PsiDirectoryNode" />
+              <item name="kapbookUI" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -474,7 +475,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1515" y="36" width="1270" height="709" extended-state="0" />
+    <frame x="1504" y="190" width="1270" height="709" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.8056266" visible="true" weight="0.16084485" />
@@ -482,7 +483,7 @@
       <window_info id="Structure" order="2" sideWeight="0.1943734" weight="0.17449665" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49515286" weight="0.32398754" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.89195776" visible="true" weight="0.39579684" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.89195776" visible="true" weight="0.1295972" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.9194631" weight="0.41545895" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -491,7 +492,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.4993351" weight="0.32921812" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Python Console" order="10" sideWeight="0.4993351" weight="0.32921812" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.10804224" side_tool="true" visible="true" weight="0.39579684" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.10804224" side_tool="true" visible="true" weight="0.1295972" />
       <window_info anchor="bottom" id="Thumbnails" order="12" weight="0.3299566" />
       <window_info anchor="bottom" id="Concurrent Activities Diagram" order="13" weight="0.32928678" />
       <window_info anchor="bottom" id="Terminal" order="14" weight="0.32857144" />
@@ -577,7 +578,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/mypro/admin/test_case/page_obj/base.py" />
     <entry file="file://$PROJECT_DIR$/education/A：pythonBase_danei/3：模块包异常处理/3Days/4：作业.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-4140">
@@ -834,6 +834,9 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/A_Project/game2048/test_again.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kapbookUI/main.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
