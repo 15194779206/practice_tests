@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2f20b336-acf2-42f8-b4b5-90dacc35646e" name="Default Changelist" comment="" />
+    <list default="true" id="2f20b336-acf2-42f8-b4b5-90dacc35646e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/A_Project/game2048/test_again.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/A_Project/game2048/bll2.py" beforeDir="false" afterPath="$PROJECT_DIR$/A_Project/game2048/bll2.py" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/venv/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -62,25 +65,30 @@
         <entry file="file://$PROJECT_DIR$/A_Project/game2048/main.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="120">
-              <caret line="4" selection-start-line="4" selection-end-line="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/A_Project/game2048/model.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="780">
-              <caret line="26" column="8" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
+              <caret line="4" column="12" lean-forward="true" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/A_Project/game2048/test_again.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/A_Project/game2048/model.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="639">
+              <caret line="26" column="8" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/A_Project/game2048/bll2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="113" column="30" selection-start-line="113" selection-start-column="30" selection-end-line="113" selection-end-column="30" />
+            <state relative-caret-position="279">
+              <caret line="142" column="13" lean-forward="true" selection-start-line="142" selection-start-column="13" selection-end-line="142" selection-end-column="13" />
               <folding>
                 <element signature="e#116#154#0" expanded="true" />
               </folding>
@@ -91,7 +99,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/A_Project/game2048/view.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="810">
+            <state relative-caret-position="300">
               <caret line="28" column="25" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
               <folding>
                 <element signature="e#0#37#0" expanded="true" />
@@ -137,7 +145,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/education/2：pythonBase_danei/3：模块包异常处理/2Days/2.1：生成器函数练习.py" />
         <option value="$PROJECT_DIR$/education/2：pythonBase_danei/3：模块包异常处理/3Days/1：enumerate.py" />
         <option value="$PROJECT_DIR$/education/2：pythonBase_danei/3：模块包异常处理/2Days/3：作业.py" />
         <option value="$PROJECT_DIR$/education/2：pythonBase_danei/3：模块包异常处理/3Days/2：函数式编程思想.py" />
@@ -188,6 +195,7 @@
         <option value="$PROJECT_DIR$/A_Project/game2048/model.py" />
         <option value="$PROJECT_DIR$/A_Project/game2048/view.py" />
         <option value="$PROJECT_DIR$/A_Project/game2048/bll2.py" />
+        <option value="$PROJECT_DIR$/A_Project/game2048/test_again.py" />
       </list>
     </option>
   </component>
@@ -200,9 +208,9 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="1453" />
-    <option name="y" value="169" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="1518" />
+    <option name="y" value="149" />
     <option name="width" value="1270" />
     <option name="height" value="709" />
   </component>
@@ -219,63 +227,19 @@
         <subPane>
           <expand>
             <path>
-              <item name="Workspace-python" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Workspace-python" type="462c0819:PsiDirectoryNode" />
+              <item name="Workspaces-pyhon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Workspaces-pyhon" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Workspace-python" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Workspace-python" type="462c0819:PsiDirectoryNode" />
+              <item name="Workspaces-pyhon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Workspaces-pyhon" type="462c0819:PsiDirectoryNode" />
               <item name="A_Project" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Workspace-python" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Workspace-python" type="462c0819:PsiDirectoryNode" />
+              <item name="Workspaces-pyhon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Workspaces-pyhon" type="462c0819:PsiDirectoryNode" />
               <item name="A_Project" type="462c0819:PsiDirectoryNode" />
               <item name="game2048" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Workspace-python" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Workspace-python" type="462c0819:PsiDirectoryNode" />
-              <item name="A_Project" type="462c0819:PsiDirectoryNode" />
-              <item name="Student_project" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Workspace-python" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Workspace-python" type="462c0819:PsiDirectoryNode" />
-              <item name="Acommon" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Workspace-python" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Workspace-python" type="462c0819:PsiDirectoryNode" />
-              <item name="education" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Workspace-python" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Workspace-python" type="462c0819:PsiDirectoryNode" />
-              <item name="education" type="462c0819:PsiDirectoryNode" />
-              <item name="A：pythonBase_danei" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Workspace-python" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Workspace-python" type="462c0819:PsiDirectoryNode" />
-              <item name="education" type="462c0819:PsiDirectoryNode" />
-              <item name="A：pythonBase_danei" type="462c0819:PsiDirectoryNode" />
-              <item name="2：面向对象" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Workspace-python" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Workspace-python" type="462c0819:PsiDirectoryNode" />
-              <item name="education" type="462c0819:PsiDirectoryNode" />
-              <item name="A：pythonBase_danei" type="462c0819:PsiDirectoryNode" />
-              <item name="2：面向对象" type="462c0819:PsiDirectoryNode" />
-              <item name="project_month" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Workspace-python" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Workspace-python" type="462c0819:PsiDirectoryNode" />
-              <item name="education" type="462c0819:PsiDirectoryNode" />
-              <item name="A：pythonBase_danei" type="462c0819:PsiDirectoryNode" />
-              <item name="4：阶段项目" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -296,7 +260,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/liuyang/Desktop/Workspace-python/education/2：python达内/2：python基础/9：第九天/4:商品购物车.py" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Interface" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/education/code01.py" />
@@ -510,14 +474,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1464" y="156" width="1270" height="709" extended-state="0" />
+    <frame x="1518" y="149" width="1270" height="709" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.8056266" visible="true" weight="0.16084485" />
       <window_info id="Favorites" order="1" side_tool="true" />
       <window_info id="Structure" order="2" sideWeight="0.1943734" weight="0.17449665" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49515286" weight="0.32398754" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.8927701" visible="true" weight="0.05235602" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.89195776" visible="true" weight="0.3625219" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.9194631" weight="0.41545895" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -526,7 +491,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.4993351" weight="0.32921812" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Python Console" order="10" sideWeight="0.4993351" weight="0.32921812" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.107229896" side_tool="true" visible="true" weight="0.052539404" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.10804224" side_tool="true" visible="true" weight="0.3625219" />
       <window_info anchor="bottom" id="Thumbnails" order="12" weight="0.3299566" />
       <window_info anchor="bottom" id="Concurrent Activities Diagram" order="13" weight="0.32928678" />
       <window_info anchor="bottom" id="Terminal" order="14" weight="0.32857144" />
@@ -569,66 +534,36 @@
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.log" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="-56" y="60" width="1092" height="668" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585189799954">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="-56" y="60" width="1092" height="668" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1585189799954" />
-    <state x="0" y="256" key="DBNavigator.ResourceMonitorDialog" timestamp="1587633191886">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="0" y="256" key="DBNavigator.ResourceMonitorDialog/0.0.1366.728@0.0.1366.728" timestamp="1587633191886" />
-    <state x="413" y="63" key="FileChooserDialogImpl" timestamp="1588223070020">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="413" y="63" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1588223070020" />
-    <state width="1294" height="250" key="GridCell.Tab.0.bottom" timestamp="1588902530674">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1294" height="250" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1588902530674" />
-    <state width="1294" height="250" key="GridCell.Tab.0.center" timestamp="1588902530674">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1294" height="250" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1588902530674" />
-    <state width="1294" height="250" key="GridCell.Tab.0.left" timestamp="1588902530674">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1294" height="250" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1588902530674" />
-    <state width="1294" height="250" key="GridCell.Tab.0.right" timestamp="1588902530674">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1294" height="250" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1588902530674" />
-    <state width="1310" height="251" key="GridCell.Tab.1.bottom" timestamp="1588726953565">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1310" height="251" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1588726953565" />
-    <state width="1310" height="251" key="GridCell.Tab.1.center" timestamp="1588726953564">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1310" height="251" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1588726953564" />
-    <state width="1310" height="251" key="GridCell.Tab.1.left" timestamp="1588726953564">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1310" height="251" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1588726953564" />
-    <state width="1310" height="251" key="GridCell.Tab.1.right" timestamp="1588726953564">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1310" height="251" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1588726953564" />
-    <state x="68" y="0" key="SettingsEditor" timestamp="1588731476869">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="68" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1588731476869" />
-    <state x="0" y="7" key="com.intellij.troubleshooting.ui.CollectTroubleshootingInformationDialog" timestamp="1588132614885">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="0" y="7" key="com.intellij.troubleshooting.ui.CollectTroubleshootingInformationDialog/0.0.1366.728@0.0.1366.728" timestamp="1588132614885" />
-    <state x="0" y="0" width="771" height="728" key="find.popup" timestamp="1588209480983">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="0" y="0" width="771" height="728" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1588209480983" />
-    <state x="252" y="-1" width="840" height="1034" key="search.everywhere.popup" timestamp="1588739268932">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="252" y="-1" width="840" height="1034" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1588739268932" />
+    <state x="-56" y="60" width="1092" height="668" key="#com.intellij.execution.impl.EditConfigurationsDialog" />
+    <state x="-56" y="60" width="1092" height="668" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" />
+    <state x="0" y="256" key="DBNavigator.ResourceMonitorDialog" />
+    <state x="0" y="256" key="DBNavigator.ResourceMonitorDialog/0.0.1366.728@0.0.1366.728" />
+    <state x="413" y="63" key="FileChooserDialogImpl" />
+    <state x="413" y="63" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" />
+    <state width="1294" height="250" key="GridCell.Tab.0.bottom" />
+    <state width="1294" height="250" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" />
+    <state width="1294" height="250" key="GridCell.Tab.0.center" />
+    <state width="1294" height="250" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" />
+    <state width="1294" height="250" key="GridCell.Tab.0.left" />
+    <state width="1294" height="250" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" />
+    <state width="1294" height="250" key="GridCell.Tab.0.right" />
+    <state width="1294" height="250" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" />
+    <state width="1310" height="251" key="GridCell.Tab.1.bottom" />
+    <state width="1310" height="251" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" />
+    <state width="1310" height="251" key="GridCell.Tab.1.center" />
+    <state width="1310" height="251" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" />
+    <state width="1310" height="251" key="GridCell.Tab.1.left" />
+    <state width="1310" height="251" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" />
+    <state width="1310" height="251" key="GridCell.Tab.1.right" />
+    <state width="1310" height="251" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" />
+    <state x="68" y="0" key="SettingsEditor" />
+    <state x="68" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" />
+    <state x="0" y="7" key="com.intellij.troubleshooting.ui.CollectTroubleshootingInformationDialog" />
+    <state x="0" y="7" key="com.intellij.troubleshooting.ui.CollectTroubleshootingInformationDialog/0.0.1366.728@0.0.1366.728" />
+    <state x="0" y="0" width="771" height="728" key="find.popup" />
+    <state x="0" y="0" width="771" height="728" key="find.popup/0.0.1366.728@0.0.1366.728" />
+    <state x="252" y="-1" width="840" height="1034" key="search.everywhere.popup" />
+    <state x="252" y="-1" width="840" height="1034" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -642,10 +577,7 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/one22.py" />
-    <entry file="file://$PROJECT_DIR$/mypro/admin/test_case/page_obj/base.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/mypro/admin/test_case/page_obj/base.py" />
     <entry file="file://$PROJECT_DIR$/education/A：pythonBase_danei/3：模块包异常处理/3Days/4：作业.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-4140">
@@ -787,7 +719,6 @@
       </provider>
     </entry>
     <entry file="file://F:/5：测试视频/1：Python-1903(测试开发)/笔记/01_PythonBase/month01_all/project/game_2048/models.py" />
-    <entry file="file://F:/5：测试视频/1：Python-1903(测试开发)/笔记/01_PythonBase/month01_all/project/game_2048/bll.py" />
     <entry file="file://$PROJECT_DIR$/education/A：pythonBase_danei/2：面向对象/project_month/game2048_01.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="201">
@@ -846,13 +777,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Desktop/python-selenium-master/run.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="5" column="9" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/Desktop/python-selenium-master/run.py" />
     <entry file="file://$PROJECT_DIR$/A_Project/game2048/2048game_core01.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="130">
@@ -867,23 +792,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/A_Project/game2048/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/A_Project/game2048/model.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="780">
-          <caret line="26" column="8" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/A_Project/game2048/view.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="810">
+        <state relative-caret-position="300">
           <caret line="28" column="25" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
           <folding>
             <element signature="e#0#37#0" expanded="true" />
@@ -891,15 +802,39 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/A_Project/game2048/model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="639">
+          <caret line="26" column="8" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/5：测试视频/1：Python-1903(测试开发)/笔记/01_PythonBase/month01_all/project/game_2048/bll.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="355">
+          <caret line="197" column="19" lean-forward="true" selection-start-line="181" selection-start-column="8" selection-end-line="197" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/A_Project/game2048/bll2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="113" column="30" selection-start-line="113" selection-start-column="30" selection-end-line="113" selection-end-column="30" />
+        <state relative-caret-position="279">
+          <caret line="142" column="13" lean-forward="true" selection-start-line="142" selection-start-column="13" selection-end-line="142" selection-end-column="13" />
           <folding>
             <element signature="e#116#154#0" expanded="true" />
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/A_Project/game2048/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="4" column="12" lean-forward="true" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/A_Project/game2048/test_again.py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>

@@ -132,14 +132,26 @@ class GameCoreController():
 
     def is_game_over(self):
         """游戏是否结束"""
-        #1：
+        #1：如果存在空位置，不能结束
         if len(self.__list_empty_location) >0:
             return False
-        for i in range(4):
-            for y in range(4):
-                if self.__map[i][y] !=0:
-                    return False
-        return True
+            # # 如果水平方向 具有相同元素
+            # for r in range(4):
+            #     for c in range(3):
+            #         if self.__map[r][c] == self.__map[r][c+1]:
+            #             return False
+            #
+            # # 垂直方向
+            # for c in range(4):
+            #     for r in range(3):
+            #         if self.__map[r][c] == self.__map[r+1][c]:
+            #             return False
+
+            for r in range(4):
+                for c in range(3):
+                    if self.__map[r][c] == self.__map[r][c + 1] or self.__map[c][r] == self.__map[c + 1][r]:
+                        return False
+            return True
 
 # if __name__ == '__main__':
 #     core = GameCoreController()
