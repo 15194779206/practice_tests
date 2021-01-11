@@ -18,17 +18,21 @@ def quit(signum, frame):
 
 while True:
     #获取时间
-    times = time.strftime("%Y-%m-%d %H:%M:%S")
-    rf_time = open('practice', 'r+', encoding="utf-8")
-    data2 = rf_time.readlines()
-    len_num = len(data2) +1
-    datas = ('%s.%s') % (len_num, times)
-    wf = open('practice', 'a+', encoding='utf-8')
-    time.sleep(1)
-    wf.write(datas + '\n')
-    wf.flush()
-    signal.signal(signal.SIGINT, quit)
+    try:
+        times = time.strftime("%Y-%m-%d %H:%M:%S")  # 时间获取
+        rf_time = open('practice', 'r+', encoding="utf-8")
+        data2 = rf_time.readlines()
+        len_num = len(data2) + 1  # 编号获取
+        datas = ('%s.%s') % (len_num, times)
+        wf = open('practice', 'a+', encoding='utf-8')
+        time.sleep(1)
+        wf.write(datas + '\n')
+        wf.flush()
+    except KeyboardInterrupt as e:
+        break
     wf.close()
+
+
 
 
 

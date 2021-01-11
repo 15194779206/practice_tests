@@ -3,7 +3,7 @@ import socket
 #1：创建套接字
 sockfd = socket.socket(socket.AF_INET,socket.SOCK_STREAM)
 #2：绑定地址
-sockfd.bind(('0.0.0.0',7777))
+sockfd.bind(('10.16.129.97',7777))
 #3：设置监听
 sockfd.listen(5)
 print("Waiting for connect.....")
