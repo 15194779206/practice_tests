@@ -4,7 +4,7 @@ print(data)
 
 #二进制打开文件
 
-rd = open('11.png','rb')
+rd = open('picture.png','rb')
 data2=rd.read()
 print(data2)
 

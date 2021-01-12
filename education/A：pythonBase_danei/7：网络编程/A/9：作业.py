@@ -11,10 +11,6 @@ import signal
 import sys,os
 
 
-#关闭进行操作
-def quit(signum, frame):
-    sys.exit()
-
 
 while True:
     #获取时间

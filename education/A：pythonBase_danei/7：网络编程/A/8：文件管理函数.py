@@ -8,4 +8,4 @@ print(os.path.getsize('files'))
 print(os.listdir('/Users/liuyang/Desktop/Workspace-python/education/A：pythonBase_danei/7：网络编程/A'))
 
 #判断文件类型
-print(os.path.isfile('11.png'))
+print(os.path.isfile('picture.png'))
