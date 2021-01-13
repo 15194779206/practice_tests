@@ -6,7 +6,16 @@ class StudentManagerController:
              删除学生   remove_student
              修改学生  update_student
     '''
-    pass
+    def __init__(self):
+        self.__stu_list=[]
+    def stu_list(self):
+        pass
+    def add_student(self):
+        pass
+    def remove_student(self):
+        pass
+    def update_student(self):
+        pass
 
 class StudentModel:
     # 数据：编号id(自动生成)  姓名name   年龄age  成绩 score ---->用属性进行保护
@@ -29,4 +38,23 @@ class StudentManagerView:
              按成绩输出学生   __output_student_by_score
              入口逻辑  main
     '''
-    pass
+    def __display_menu(self):
+        pass
+    def __select_menu(self):
+        pass
+    def __input_students(self):
+        pass
+    def __output_students(self):
+        pass
+    def __delete_students(self):
+        pass
+    def __modify_students(self):
+        pass
+    def __output_student_by_score(self):
+        pass
+    def main(self):
+        pass
+
+if __name__ == '__main__':
+    view = StudentManagerView()
+    view.main()
