@@ -8,14 +8,18 @@ Login_url ='https://test.kapbook.cn/login/check_login_ajax'
 Save_company = 'https://test.kapbook.cn/user/save_company_info_ajax'
 Save_company1 ='https://test.kapbook.cn/user/index?from=login'
 createplan_url='https://test.kapbook.cn/equity_plan/online/add_ajax'
+header= {'User-Agent':'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:23.0) Gecko/20100101 Firefox/23.0'}
 Login_data={
     'email': '15028217377',
     'password': 'MTIzNDU2',
     'type': '1'
 }
-response = requests.post(url=Login_url,data=Login_data)
-# print(response.json())
+response = requests.post(url=Login_url,data=Login_data,headers=header)
+print(response.json())
 
+
+
+'''
 
 times = response.cookies['request_time']
 tokens = response.cookies['token']
@@ -46,9 +50,10 @@ soup_creatPlan = BeautifulSoup(addPlan_request.text,"html5lib")
 pattern = re.compile(r"var initInfo = (.*?);$")
 script = soup_creatPlan.find("script", text=pattern)
 print(script) #<class 'bs4.element.Tag'>
-
+'''
 
 #注册
+'''
 regiser_url ="https://test.kapbook.cn/register/check_mobile"
 register_data={
     "mobile": "15194779201",
@@ -57,22 +62,22 @@ register_data={
 }
 register_req = requests.post(url=regiser_url,data=register_data)
 print(register_req.json())
-
-
+'''
+'''
 
 
 #修改对公账户
-'''
-modifyBank_url = 'https://test.kapbook.cn/company/setting/operate_corporate_account'
-modifyBank_data={
-    "name": "0910测试有限公司",
-    "bank_branch_name": "建设银行",
-    "number": "6217000000000000123"
-}
-modifyBank_req = requests.post(url=modifyBank_url, cookies=creatCookie, data=modifyBank_data)
-print(modifyBank_req.json())
-'''
-
+# '''
+# modifyBank_url = 'https://test.kapbook.cn/company/setting/operate_corporate_account'
+# modifyBank_data={
+#     "name": "0910测试有限公司",
+#     "bank_branch_name": "建设银行",
+#     "number": "6217000000000000123"
+# }
+# modifyBank_req = requests.post(url=modifyBank_url, cookies=creatCookie, data=modifyBank_data)
+# print(modifyBank_req.json())
+# '''
+#
 
 
 
@@ -229,7 +234,6 @@ company_data ={
 company_res = requests.post(url=Save_company, cookies=cookie, data=company_data)
 print(company_res.json())
 '''
-
 
 #添加计划返回数据信息 data=6fb0cafd25e00d0df8d174a3c5fdb4ba
 '''

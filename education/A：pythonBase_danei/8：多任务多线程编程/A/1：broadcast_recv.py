@@ -7,7 +7,7 @@
 from socket import *
 s = socket(AF_INET, SOCK_DGRAM)
 s.getsockopt(SOL_SOCKET, SO_BROADCAST, 1)
-s.bind(('10.16.129.97',7777))
+s.bind(('192.168.50.113',7777))
 while True:
     try:
         msg,addr=s.recvfrom(1024)

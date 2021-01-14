@@ -4,7 +4,13 @@ import json
 import unittest
 from Test_interface.lib.read_data import *
 import requests
+from Test_interface.lib.header_choose import *
 regiser_url ="https://test.kapbook.cn/register/check_mobile"
+datas ={"ver_code": "1111","mobile":"15194779200","nationcode_id": "214","nationcode": "86"}
+res = requests.post(url=regiser_url, data=datas, headers=headers_choose())
+print(res.json())
+
+'''
 
 class TestUserRegister(unittest.TestCase):
     @classmethod
@@ -25,3 +31,5 @@ class TestUserRegister(unittest.TestCase):
 
 if __name__ == '__main__':
     unittest.main()
+
+'''
