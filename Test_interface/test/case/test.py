@@ -19,7 +19,6 @@ print(response.json())
 
 
 
-'''
 
 times = response.cookies['request_time']
 tokens = response.cookies['token']
@@ -29,18 +28,21 @@ cookie = {
     "request_time":times,#'1607408394'
     "token":tokens, #'4568b716fdec4d34ebe3b36d02d465a2'
 }
-company_list =requests.get(url=Save_company1,cookies=cookie)
+company_list =requests.get(url=Save_company1,cookies=cookie,headers=header)
 # print(company_list.text)
 soup = BeautifulSoup(company_list.text,'html.parser')
 dataToken_list = soup.find_all(class_='userVerify')
 tokens_list = [item.get('data-token') for item in dataToken_list]  #获取company列表
-# print(random.choice(tokens_list)) #获取随机token,进入公司
+print(tokens_list)
+
+# print('随机进入公司',random.choice(tokens_list))#获取随机token,进入公司
+
 creatCookie={
     "request_time":times,
     "token":tokens,
     "company_token":tokens_list[0]
 }
-print('随机进入公司',random.choice(tokens_list))
+
 
 #创建计划需要提前获取一些信息
 addPlan_pre = "https://test.kapbook.cn/equity_plan/online/add"
@@ -49,8 +51,34 @@ addPlan_request = requests.get(url=addPlan_pre,cookies= creatCookie)
 soup_creatPlan = BeautifulSoup(addPlan_request.text,"html5lib")
 pattern = re.compile(r"var initInfo = (.*?);$")
 script = soup_creatPlan.find("script", text=pattern)
-print(script) #<class 'bs4.element.Tag'>
-'''
+# print(script) #<class 'bs4.element.Tag'>
+
+
+
+#修改对公账户
+
+modifyBank_url = 'https://test.kapbook.cn/company/setting/operate_corporate_account'
+modifyBank_data={
+    "name": "0126测试有限公司",
+    "bank_branch_name": "建设银行",
+    "number": "6217000000000000123"
+}
+modifyBank_req = requests.post(url=modifyBank_url, cookies=creatCookie, data=modifyBank_data,headers=header)
+print(modifyBank_req.json())
+
+
+#修改密码
+#
+# modifyPwd_url ="https://test.kapbook.cn/user/edit_password_ajax"
+# modifyPwd_data={
+#     "oldPassword": "MTIzNDU2",
+#     "newPassword": "MTIzNDU2",
+#     "newPassword2": "MTIzNDU2",
+#     "passwordLevel": "1",
+#     "type": "1"
+# }
+
+
 
 #注册
 '''
@@ -63,21 +91,7 @@ register_data={
 register_req = requests.post(url=regiser_url,data=register_data)
 print(register_req.json())
 '''
-'''
 
-
-#修改对公账户
-# '''
-# modifyBank_url = 'https://test.kapbook.cn/company/setting/operate_corporate_account'
-# modifyBank_data={
-#     "name": "0910测试有限公司",
-#     "bank_branch_name": "建设银行",
-#     "number": "6217000000000000123"
-# }
-# modifyBank_req = requests.post(url=modifyBank_url, cookies=creatCookie, data=modifyBank_data)
-# print(modifyBank_req.json())
-# '''
-#
 
 
 
