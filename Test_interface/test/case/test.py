@@ -30,6 +30,7 @@ cookie = {
 }
 company_list =requests.get(url=Save_company1,cookies=cookie,headers=header)
 # print(company_list.text)
+# print("=="*100)
 soup = BeautifulSoup(company_list.text,'html.parser')
 dataToken_list = soup.find_all(class_='userVerify')
 tokens_list = [item.get('data-token') for item in dataToken_list]  #获取company列表
@@ -65,6 +66,7 @@ modifyBank_data={
 }
 modifyBank_req = requests.post(url=modifyBank_url, cookies=creatCookie, data=modifyBank_data,headers=header)
 print(modifyBank_req.json())
+print(modifyBank_req.text)
 
 
 #修改密码

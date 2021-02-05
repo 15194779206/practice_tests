@@ -5,7 +5,8 @@ from parameterized import parameterized
 from Test_interface.config.config import *
 import json
 from bs4 import BeautifulSoup
-
+from Test_interface.lib.header_choose import *
+from Test_interface.lib.header_choose import *
 
 
 class Creat_company(unittest.TestCase):
@@ -15,7 +16,7 @@ class Creat_company(unittest.TestCase):
         login_datas = get_data('Login','loginPass')
         urls = 'https://test.kapbook.cn/login/check_login_ajax'
         datas =json.loads(next(login_datas).get('data'))
-        response = requests.post(url=urls, data=datas)
+        response = requests.post(url=urls, data=datas,headers=headers_choose())
         cls.times = response.cookies['request_time']
         cls.tokens = response.cookies['token']
 
@@ -32,7 +33,7 @@ class Creat_company(unittest.TestCase):
         else:
             cookies['token'] = None
         com_urls =BaseUrl+case.get('url')
-        response= requests.get(url=com_urls,cookies = cookies)
+        response= requests.get(url=com_urls,cookies=cookies,headers=headers_choose())
         soup = BeautifulSoup(response.text,'html.parser')
         self.assertEqual(soup.title.text, case.get('req_exe'))
 
@@ -49,7 +50,7 @@ class Creat_company(unittest.TestCase):
         else:
             cookies['token'] = None
         com_urls = BaseUrl + case.get('url')
-        response = requests.post(url=com_urls, cookies=cookies,data=datas)
+        response = requests.post(url=com_urls, cookies=cookies,data=datas,headers=headers_choose())
         self.assertEqual(response.json(), json.loads(case.get('req_exe')))
 
     @classmethod

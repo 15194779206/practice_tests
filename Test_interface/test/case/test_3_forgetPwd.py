@@ -7,7 +7,6 @@ import json
 
 forgetPwd_ulr = 'https://test.kapbook.cn/resetpwd/set_login_pwd_ajax'
 mobile_url ='https://test.kapbook.cn/resetpwd/verify_register_email_ajax'
-
 # datas ={
 #     'email':'15194779206',
 #     'verify_code': '122222',

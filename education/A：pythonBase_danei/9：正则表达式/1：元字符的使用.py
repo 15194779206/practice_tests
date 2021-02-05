@@ -2,15 +2,17 @@ import re
 
 #1：普通字符
 # re.findall(正则表达式,目标字符串)
-test= re.findall('.ab', 'cabcedabc')
-print(test)#['cab', 'dab']
+test2=re.findall('a','abcdefa') #查找所有
+print(test2)
+test= re.findall('.ab', 'cabcedabcab')
+print('.普通字符匹配.ab：',test)#['cab', 'dab']
 
 #2：或  |
 test = re.findall('com|cn','www.baidu.com.cn')
-print(test) #['com', 'cn']
+print('|特殊匹配',test) #['com', 'cn']
 
 #3：匹配单个字符
-test= re.findall('张.丰', '张三丰,张四丰,张小小')
+test= re.findall('张.丰','张三丰,张四丰,张小小')
 print(test)#['张三丰', '张四丰']
 
 #4：匹配字符集

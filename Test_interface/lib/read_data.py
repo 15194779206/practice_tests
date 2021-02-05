@@ -1,7 +1,7 @@
 import xlrd
 def get_data(sheet,module):
-    # data_file = r"D:\Workspaces-python\Test_interface\data\data.xlsx"
-    data_file='/Users/liuyang/Desktop/Workspace-python/Test_interface/data/data.xlsx'
+    data_file = r"D:\Workspaces-python\Test_interface\data\data.xlsx"
+    # data_file='/Users/liuyang/Desktop/Workspace-python/Test_interface/data/data.xlsx'
     data = xlrd.open_workbook(data_file)
     table = data.sheet_by_name(sheet)
     sheet_name = table.row_values(0)  #获取sheet文件中表头
