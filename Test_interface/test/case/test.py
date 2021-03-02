@@ -8,17 +8,25 @@ Login_url ='https://test.kapbook.cn/login/check_login_ajax'
 Save_company = 'https://test.kapbook.cn/user/save_company_info_ajax'
 Save_company1 ='https://test.kapbook.cn/user/index?from=login'
 createplan_url='https://test.kapbook.cn/equity_plan/online/add_ajax'
+forgetPassword = "https://test.kapbook.cn/resetpwd/set_login_pwd_ajax"
 header= {'User-Agent':'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:23.0) Gecko/20100101 Firefox/23.0'}
 Login_data={
     'email': '15028217377',
-    'password': 'MTIzNDU2',
+    'password': 'MTIzNDU211',
     'type': '1'
 }
 response = requests.post(url=Login_url,data=Login_data,headers=header)
+# print(response.json())
+
+#忘记密码
+forget_data ={
+    'email':'1519206',
+    'nationcode_id': '214',
+    'nationcode': '86',}
+res_forgetPwd = requests.post(url=forgetPassword,data=forget_data,headers=header)
 print(response.json())
 
-
-
+'''
 
 times = response.cookies['request_time']
 tokens = response.cookies['token']
@@ -68,7 +76,7 @@ modifyBank_req = requests.post(url=modifyBank_url, cookies=creatCookie, data=mod
 print(modifyBank_req.json())
 print(modifyBank_req.text)
 
-
+'''
 #修改密码
 #
 # modifyPwd_url ="https://test.kapbook.cn/user/edit_password_ajax"

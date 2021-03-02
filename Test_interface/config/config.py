@@ -1,1 +1,1 @@
-BaseUrl = 'https://test.kapbook.cn'
+test_url = 'https://test.kapbook.cn'

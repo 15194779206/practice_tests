@@ -1,8 +1,8 @@
 import requests
-from Test_interface.lib.header_choose import *
 from parameterized.parameterized import *
 import unittest
 from Test_interface.lib.read_data import *
+from Test_interface.lib.case_execute import *
 import json
 
 forgetPwd_ulr = 'https://test.kapbook.cn/resetpwd/set_login_pwd_ajax'
@@ -22,15 +22,19 @@ class TestForgetPassword(unittest.TestCase):
 
     @parameterized.expand([(case['case_name'],case) for case in get_data('forgetPwd','mobilecheck')])
     def test_1_mobileCheck(self,name,case):
-        data = json.loads(case.get('data'))
-        response = requests.post(url=mobile_url, data=data, headers=headers_choose())
-        self.assertEqual(response.json(),json.loads(case['req_exe']),"预期与实际不符")
+        response = execute(case)
+        if not response[1]:
+            response[1] = json.loads(response[0].text)
+        self.assertEqual(200, response[0].status_code, msg='用例%s响应异常' % case['id'])
+        self.assertEqual(json.loads(case['req_exe']), response[1], msg='用例%s响应校检失败' % case['id'])
 
     @parameterized.expand([(case['case_name'], case) for case in get_data('forgetPwd', 'resetPassword')])
     def test_2_resetPassword(self, name, case):
-        data = json.loads(case.get('data'))
-        response = requests.post(url=mobile_url, data=data, headers=headers_choose())
-        self.assertEqual(response.json(), json.loads(case['req_exe']), "预期与实际不符")
+        response = execute(case)
+        if not response[1]:
+            response[1] = json.loads(response[0].text)
+        self.assertEqual(200, response[0].status_code, msg='用例%s响应异常' % case['id'])
+        self.assertEqual(json.loads(case['req_exe']), response[1], msg='用例%s响应校检失败' % case['id'])
 
     @classmethod
     def tearDownClass(cls):
