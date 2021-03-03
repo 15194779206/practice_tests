@@ -17,7 +17,7 @@ Login_data={
 }
 response = requests.post(url=Login_url,data=Login_data,headers=header)
 # print(response.json())
-
+'''
 #忘记密码
 forget_data ={
     'email':'1519206',
@@ -25,6 +25,17 @@ forget_data ={
     'nationcode': '86',}
 res_forgetPwd = requests.post(url=forgetPassword,data=forget_data,headers=header)
 print(response.json())
+'''
+''''''
+#注册
+register_url ="https://test.kapbook.cn/register/check_mobile"
+register_ajax = "https://test.kapbook.cn/register/demo_register_ajax"
+resgister_data1 ={"mobile":"15194779201","nationcode_id": "214","nationcode": "86"}
+resgister_data2 ={"ver_code": "123456","mobile":"15194779206","nationcode_id": "214","nationcode": "86"}
+# res = requests.post(url=register_url, data=resgister_data1, headers=header)
+res2 = requests.post(url=register_ajax, data=resgister_data2, headers=header)
+print(res2.json())
+
 
 '''
 

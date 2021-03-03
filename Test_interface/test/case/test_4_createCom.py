@@ -2,11 +2,10 @@ from Test_interface.lib.read_data import *
 import requests
 import unittest
 from parameterized import parameterized
-from Test_interface.config.config import *
 import json
 from bs4 import BeautifulSoup
-from Test_interface.lib.header_choose import *
-from Test_interface.lib.header_choose import *
+from Test_interface.lib.send_request import *
+from Test_interface.lib.case_execute import *
 
 
 class Creat_company(unittest.TestCase):
@@ -14,33 +13,32 @@ class Creat_company(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
         login_datas = get_data('Login','loginPass')
-        urls = 'https://test.kapbook.cn/login/check_login_ajax'
-        datas =json.loads(next(login_datas).get('data'))
-        response = requests.post(url=urls, data=datas,headers=headers_choose())
+        response =send_request(next(login_datas))
         cls.times = response.cookies['request_time']
         cls.tokens = response.cookies['token']
 
 
-    @parameterized.expand([(case['case_name'],case) for case in get_data('addCompany','ShowList')])
+    @parameterized.expand([(case['case_name'],case) for case in get_data('addCompany','SavePass')])
     def test_1_creatCompany_pass(self,name,case):
-        cookies = json.loads(case.get('cookies'))
-        if cookies['request_time']:
-            cookies['request_time'] = self.times
-        else:
-            cookies['request_time'] = None
-        if cookies['token']:
-            cookies['token'] = self.tokens
-        else:
-            cookies['token'] = None
-        com_urls =BaseUrl+case.get('url')
-        response= requests.get(url=com_urls,cookies=cookies,headers=headers_choose())
-        soup = BeautifulSoup(response.text,'html.parser')
+        response = execute(case,cookie={'token': self.tokens, 'request_time': self.times})
+        if not response[1]:
+            response[1] = json.loads(response[0].text)
+        self.assertEqual(200, response[0].status_code, msg='用例%s响应异常' % case['id'])
+        self.assertEqual(json.loads(case['req_exe']), response[1], msg='用例%s响应校检失败' % case['id'])
+        soup = BeautifulSoup(response.text, 'html.parser')
         self.assertEqual(soup.title.text, case.get('req_exe'))
 
-    @parameterized.expand([(case['case_name'], case) for case in get_data('addCompany', 'SavePass')])
+    @classmethod
+    def tearDownClass(cls):
+        pass
+
+
+#title判断存在问题
+'''
+    @parameterized.expand([(case['case_name'], case) for case in get_data('addCompany', 'ShowList')])
     def test_1_creatCompany_pass(self, name, case):
         cookies = json.loads(case.get('cookies'))
-        datas = json.loads(case.get('data'))
+        BaseUrl = 'https://test.kapbook.cn'
         if cookies['request_time']:
             cookies['request_time'] = self.times
         else:
@@ -50,12 +48,12 @@ class Creat_company(unittest.TestCase):
         else:
             cookies['token'] = None
         com_urls = BaseUrl + case.get('url')
-        response = requests.post(url=com_urls, cookies=cookies,data=datas,headers=headers_choose())
-        self.assertEqual(response.json(), json.loads(case.get('req_exe')))
+        response = requests.get(url=com_urls, cookies=cookies,headers=headers_choose())
+        # response = execute(case, cookie={'token': self.tokens, 'request_time': self.times})
+        soup = BeautifulSoup(response.text, 'html.parser')
+        self.assertEqual(soup.title.text, case.get('req_exe'))
+'''
 
-    @classmethod
-    def tearDownClass(cls):
-        pass
 
 
 if __name__ == '__main__':
