@@ -12,11 +12,11 @@ forgetPassword = "https://test.kapbook.cn/resetpwd/set_login_pwd_ajax"
 header= {'User-Agent':'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:23.0) Gecko/20100101 Firefox/23.0'}
 Login_data={
     'email': '15028217377',
-    'password': 'MTIzNDU211',
+    'password': 'MTIzNDU2',
     'type': '1'
 }
 response = requests.post(url=Login_url,data=Login_data,headers=header)
-# print(response.json())
+# print(response.cookies)
 '''
 #忘记密码
 forget_data ={
@@ -26,19 +26,8 @@ forget_data ={
 res_forgetPwd = requests.post(url=forgetPassword,data=forget_data,headers=header)
 print(response.json())
 '''
-''''''
-#注册
-register_url ="https://test.kapbook.cn/register/check_mobile"
-register_ajax = "https://test.kapbook.cn/register/demo_register_ajax"
-resgister_data1 ={"mobile":"15194779201","nationcode_id": "214","nationcode": "86"}
-resgister_data2 ={"ver_code": "123456","mobile":"15194779206","nationcode_id": "214","nationcode": "86"}
-# res = requests.post(url=register_url, data=resgister_data1, headers=header)
-res2 = requests.post(url=register_ajax, data=resgister_data2, headers=header)
-print(res2.json())
 
-
-'''
-
+#获取requets和token
 times = response.cookies['request_time']
 tokens = response.cookies['token']
 # print(tokens)
@@ -47,6 +36,35 @@ cookie = {
     "request_time":times,#'1607408394'
     "token":tokens, #'4568b716fdec4d34ebe3b36d02d465a2'
 }
+
+''''''
+#添加公司
+CreatCompany = "https://test.kapbook.cn/user/get_create_company_info_ajax"
+addCom_url = "https://test.kapbook.cn/register/check_company_type_currency_ajax"
+addCom_data = {"full_name":"测试有限公司有限公司"}
+res_com = requests.post(url=addCom_url, cookies=cookie, headers=header, data=addCom_data)
+print(res_com.json())
+
+'''
+#获取公司列表
+company_url ="https://test.kapbook.cn/user/index?from=login"
+company_text = requests.get(url=company_url,headers=header)
+print(company_text.text)
+'''
+
+
+'''
+#注册
+register_url ="https://test.kapbook.cn/register/check_mobile"
+register_ajax = "https://test.kapbook.cn/register/demo_register_ajax"
+resgister_data1 ={"mobile":"15194779201","nationcode_id": "214","nationcode": "86"}
+resgister_data2 ={"ver_code": "123456","mobile":"15194779206","nationcode_id": "214","nationcode": "86"}
+# res = requests.post(url=register_url, data=resgister_data1, headers=header)
+res2 = requests.post(url=register_ajax, data=resgister_data2, headers=header)
+print(res2.json())
+'''
+
+'''
 company_list =requests.get(url=Save_company1,cookies=cookie,headers=header)
 # print(company_list.text)
 # print("=="*100)
@@ -74,7 +92,9 @@ script = soup_creatPlan.find("script", text=pattern)
 # print(script) #<class 'bs4.element.Tag'>
 
 
+'''
 
+'''
 #修改对公账户
 
 modifyBank_url = 'https://test.kapbook.cn/company/setting/operate_corporate_account'
