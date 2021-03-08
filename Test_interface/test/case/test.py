@@ -33,8 +33,8 @@ tokens = response.cookies['token']
 # print(tokens)
 
 cookie = {
-    "request_time":times,#'1607408394'
-    "token":tokens, #'4568b716fdec4d34ebe3b36d02d465a2'
+    "request_time":"",#'1607408394'
+    "token":"", #'4568b716fdec4d34ebe3b36d02d465a2'
 }
 
 ''''''
