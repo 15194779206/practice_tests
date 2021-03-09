@@ -33,24 +33,24 @@ tokens = response.cookies['token']
 # print(tokens)
 
 cookie = {
-    "request_time":"",#'1607408394'
-    "token":"", #'4568b716fdec4d34ebe3b36d02d465a2'
+    "request_time":times,#'1607408394'
+    "token":tokens, #'4568b716fdec4d34ebe3b36d02d465a2'
 }
 
 ''''''
 #添加公司
-CreatCompany = "https://test.kapbook.cn/user/get_create_company_info_ajax"
-addCom_url = "https://test.kapbook.cn/register/check_company_type_currency_ajax"
-addCom_data = {"full_name":"测试有限公司有限公司"}
-res_com = requests.post(url=addCom_url, cookies=cookie, headers=header, data=addCom_data)
-print(res_com.json())
+# CreatCompany = "https://test.kapbook.cn/user/get_create_company_info_ajax"
+# addCom_url = "https://test.kapbook.cn/register/check_company_type_currency_ajax"
+# addCom_data = {"full_name":"测试有限公司有限公司"}
+# res_com = requests.post(url=addCom_url, cookies=cookie, headers=header, data=addCom_data)
+# print(res_com.json())
 
-'''
-#获取公司列表
-company_url ="https://test.kapbook.cn/user/index?from=login"
-company_text = requests.get(url=company_url,headers=header)
-print(company_text.text)
-'''
+
+# #获取公司列表
+# company_url ="https://test.kapbook.cn/user/index?from=login"
+# company_text = requests.get(url=company_url,cookies =cookie,headers=header)
+# print(company_text.text)
+
 
 
 '''
