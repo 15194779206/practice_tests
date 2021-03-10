@@ -16,7 +16,7 @@ Login_data={
     'type': '1'
 }
 response = requests.post(url=Login_url,data=Login_data,headers=header)
-# print(response.cookies)
+print(response.cookies)
 '''
 #忘记密码
 forget_data ={

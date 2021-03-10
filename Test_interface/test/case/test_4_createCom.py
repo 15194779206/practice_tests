@@ -18,7 +18,7 @@ class Creat_company(unittest.TestCase):
         cls.tokens = response.cookies['token']
 
 
-    @parameterized.expand([(case['case_name'],case) for case in get_data('addCompany','SavePass')])
+    @parameterized.expand([(case['case_name'],case) for case in get_data('addCompany','OpenWin')])
     def test_1_creatCompany_pass(self,name,case):
         response = execute(case,cookie={'token': self.tokens, 'request_time': self.times})
         if not response[1]:

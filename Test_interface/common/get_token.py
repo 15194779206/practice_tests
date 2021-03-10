@@ -9,7 +9,7 @@ def get_token_admin():
         'password': 'MTIzNDU2',
         'type': '1'
     }
-    response = requests.post(url=Login_url,data=Login_data,headers=headers_choose)
+    response = requests.post(url=Login_url,data=Login_data,headers=headers_choose())
     return response.cookies
 
 def get_token_emplpyee():
@@ -19,7 +19,7 @@ def get_token_emplpyee():
         'password': 'MTIzNDU2',
         'type': '1'
     }
-    response = requests.post(url=Login_url,data=Login_data,headers=headers_choose)
+    response = requests.post(url=Login_url,data=Login_data,headers=headers_choose())
     return response.cookies
 
 

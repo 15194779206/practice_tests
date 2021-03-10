@@ -14,6 +14,8 @@ def send_request(case,cookie=None):
             cookies['request_time'] = cookie['request_time']
         if cookies['token']:
             cookies['token'] = cookie['token']
+        # if cookies['company_token']:
+        #     cookies['company_token'] = cookie['company_token']
     if case.get('data'):
         data = json.loads(case.get('data'))
         try:

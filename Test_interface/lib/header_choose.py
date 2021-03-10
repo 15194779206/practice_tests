@@ -10,4 +10,3 @@ def headers_choose():
     header={'User-Agent':random.choice(user_agent)}
     return header
 
-headers_choose=headers_choose()
