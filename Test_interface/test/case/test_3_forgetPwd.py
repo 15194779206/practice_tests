@@ -40,6 +40,6 @@ class TestForgetPassword(unittest.TestCase):
     def tearDownClass(cls):
         pass
 
-#
-if __name__ == '__main__':
-    unittest.main()
+# #
+# if __name__ == '__main__':
+#     unittest.main()

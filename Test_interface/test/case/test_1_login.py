@@ -3,9 +3,8 @@ import json
 from Test_interface.lib.read_data import *
 import unittest
 from parameterized import parameterized
-from Test_interface.config.config import *
-from Test_interface.lib.header_choose import *
 from Test_interface.lib.case_execute import *
+
 
 
 class TestUserLogin(unittest.TestCase):
@@ -54,8 +53,8 @@ class TestUserLogin(unittest.TestCase):
 
 
 
-
-if __name__ == '__main__':
-    unittest.main()
+#
+# if __name__ == '__main__':
+#     unittest.main()
 
 

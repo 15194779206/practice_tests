@@ -16,7 +16,8 @@ Login_data={
     'type': '1'
 }
 response = requests.post(url=Login_url,data=Login_data,headers=header)
-print(response.cookies)
+# print(response.cookies)
+
 '''
 #忘记密码
 forget_data ={
@@ -53,25 +54,24 @@ cookie = {
 
 
 
-'''
+
 #注册
 register_url ="https://test.kapbook.cn/register/check_mobile"
 register_ajax = "https://test.kapbook.cn/register/demo_register_ajax"
 resgister_data1 ={"mobile":"15194779201","nationcode_id": "214","nationcode": "86"}
-resgister_data2 ={"ver_code": "123456","mobile":"15194779206","nationcode_id": "214","nationcode": "86"}
+resgister_data2 ={"ver_code":"123456","mobile":"15194779206","nationcode_id": "214","nationcode": "86"}
 # res = requests.post(url=register_url, data=resgister_data1, headers=header)
 res2 = requests.post(url=register_ajax, data=resgister_data2, headers=header)
 print(res2.json())
-'''
 
-'''
+
+#获取公司token
 company_list =requests.get(url=Save_company1,cookies=cookie,headers=header)
 # print(company_list.text)
 # print("=="*100)
 soup = BeautifulSoup(company_list.text,'html.parser')
 dataToken_list = soup.find_all(class_='userVerify')
 tokens_list = [item.get('data-token') for item in dataToken_list]  #获取company列表
-print(tokens_list)
 
 # print('随机进入公司',random.choice(tokens_list))#获取随机token,进入公司
 
@@ -81,7 +81,7 @@ creatCookie={
     "company_token":tokens_list[0]
 }
 
-
+'''
 #创建计划需要提前获取一些信息
 addPlan_pre = "https://test.kapbook.cn/equity_plan/online/add"
 addPlan_request = requests.get(url=addPlan_pre,cookies= creatCookie)
@@ -90,9 +90,9 @@ soup_creatPlan = BeautifulSoup(addPlan_request.text,"html5lib")
 pattern = re.compile(r"var initInfo = (.*?);$")
 script = soup_creatPlan.find("script", text=pattern)
 # print(script) #<class 'bs4.element.Tag'>
-
-
 '''
+
+
 
 '''
 #修改对公账户
@@ -101,13 +101,14 @@ modifyBank_url = 'https://test.kapbook.cn/company/setting/operate_corporate_acco
 modifyBank_data={
     "name": "0126测试有限公司",
     "bank_branch_name": "建设银行",
-    "number": "6217000000000000123"
-}
+    "number": "444"
+}   
 modifyBank_req = requests.post(url=modifyBank_url, cookies=creatCookie, data=modifyBank_data,headers=header)
 print(modifyBank_req.json())
-print(modifyBank_req.text)
+
 
 '''
+
 #修改密码
 #
 # modifyPwd_url ="https://test.kapbook.cn/user/edit_password_ajax"

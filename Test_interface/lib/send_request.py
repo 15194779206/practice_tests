@@ -10,12 +10,15 @@ def send_request(case,cookie=None):
         cookies =None
     else:
         cookies = json.loads(case.get("cookies"))
+        #进入公司cookie需带入company_token,此处进行判断
         if cookies['request_time']:
             cookies['request_time'] = cookie['request_time']
         if cookies['token']:
             cookies['token'] = cookie['token']
-        # if cookies['company_token']:
-        #     cookies['company_token'] = cookie['company_token']
+        if 'company_token' in cookie:
+            if cookies['company_token']:
+                cookies['company_token'] = cookie['company_token']
+
     if case.get('data'):
         data = json.loads(case.get('data'))
         try:

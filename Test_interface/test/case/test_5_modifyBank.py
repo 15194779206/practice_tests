@@ -20,8 +20,6 @@ class ModifyBank(unittest.TestCase):
         cls.tokens = response.cookies['token']
 
 
-
-
     @parameterized.expand([(case['case_name'],case) for case in get_data('modifyBank','SavePass')])
     def test_1_modifyBank_fail(self,name,case):
         company_token = enter_company(self.times, self.tokens)
@@ -31,28 +29,10 @@ class ModifyBank(unittest.TestCase):
         self.assertEqual(200, response[0].status_code, msg='用例%s响应异常' % case['id'])
 
 
-        # cookies = json.loads(case.get('cookies'))
-        data2 = json.loads(case.get('data'))
-        # if cookies['request_time']:
-        #     cookies['request_time'] = self.times
-        # else:
-        #     cookies['request_time'] = None
-        # if cookies['token']:
-        #     cookies['token'] = self.tokens
-        # else:
-        #     cookies['token'] = None
-        # if cookies['company_token']:
-        #     cookies['company_token'] = self.tokens_list[0]
-        # else:
-        #     cookies['company_token'] = None
-        # modifyBank_url = 'https://test.kapbook.cn/company/setting/operate_corporate_account'
-        # response_req = requests.post(url=modifyBank_url, cookies=cookies,data=data2,headers= headers_choose())
-        # self.assertEqual(response_req.json(), json.loads(case.get('req_exe')))
-
     @classmethod
     def tearDownClass(cls):
         pass
-
-if __name__ == '__main__':
-    unittest.main()
+#
+# if __name__ == '__main__':
+#     unittest.main()
 
