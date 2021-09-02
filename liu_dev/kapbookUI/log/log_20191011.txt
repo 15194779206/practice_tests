@@ -1,0 +1,462 @@
+[2019-10-11 15:48:41] INFO [log_case_info: log.py, 8] 用例编号：AddPartcipant_1
+[2019-10-11 15:48:41] INFO [log_case_info: log.py, 9] 用例名称：添加参与方
+[2019-10-11 15:48:41] INFO [log_case_info: log.py, 10] 测试结果：PASS
+[2019-10-11 15:48:41] INFO [log_case_info: log.py, 11] 测试数据：无
+[2019-10-11 15:48:41] INFO [log_case_info: log.py, 12] 期望结果：只要id不是31004
+[2019-10-11 15:48:41] INFO [log_case_info: log.py, 13] 实际结果：{'id': '31092', '参与方名称': '张三', '邮箱': '123456789@qq.com', '状态': '未进入~邀请', '员工ID': '--', '部门': '--', '权限': '无'}
+
+[2019-10-11 15:48:48] INFO [log_case_info: log.py, 8] 用例编号：AddPartcipant_2
+[2019-10-11 15:48:48] INFO [log_case_info: log.py, 9] 用例名称：删除草稿参与方
+[2019-10-11 15:48:48] INFO [log_case_info: log.py, 10] 测试结果：PASS
+[2019-10-11 15:48:48] INFO [log_case_info: log.py, 11] 测试数据：无
+[2019-10-11 15:48:48] INFO [log_case_info: log.py, 12] 期望结果：{'id': '31004', '参与方名称': '蔡哲浩', '邮箱': 'caizhehao@kapbook.com', '状态': '已确认', '员工ID': '--', '部门': '--', '权限': '管理员'}
+[2019-10-11 15:48:48] INFO [log_case_info: log.py, 13] 实际结果：{'id': '31004', '参与方名称': '蔡哲浩', '邮箱': 'caizhehao@kapbook.com', '状态': '已确认', '员工ID': '--', '部门': '--', '权限': '管理员'}
+
+[2019-10-11 17:49:14] INFO [log_case_info: log.py, 8] 用例编号：AddPartcipant_1
+[2019-10-11 17:49:14] INFO [log_case_info: log.py, 9] 用例名称：添加参与方
+[2019-10-11 17:49:14] INFO [log_case_info: log.py, 10] 测试结果：PASS
+[2019-10-11 17:49:14] INFO [log_case_info: log.py, 11] 测试数据：无
+[2019-10-11 17:49:14] INFO [log_case_info: log.py, 12] 期望结果：只要id不是31004
+[2019-10-11 17:49:14] INFO [log_case_info: log.py, 13] 实际结果：{'id': '31094', '参与方名称': '张三', '邮箱': '123456789@qq.com', '状态': '未进入~邀请', '员工ID': '--', '部门': '--', '权限': '无'}
+
+[2019-10-11 17:49:17] INFO [log_case_info: log.py, 8] 用例编号：participant-1
+[2019-10-11 17:49:17] INFO [log_case_info: log.py, 9] 用例名称：用户名为空
+[2019-10-11 17:49:17] INFO [log_case_info: log.py, 10] 测试结果：PASS
+[2019-10-11 17:49:17] INFO [log_case_info: log.py, 11] 测试数据：{"邮箱/手机号": "", "密码": "124366ll"}
+[2019-10-11 17:49:17] INFO [log_case_info: log.py, 12] 期望结果：请输入姓名
+[2019-10-11 17:49:17] INFO [log_case_info: log.py, 13] 实际结果：请输入姓名
+
+[2019-10-11 17:49:18] INFO [log_case_info: log.py, 8] 用例编号：participant-2
+[2019-10-11 17:49:18] INFO [log_case_info: log.py, 9] 用例名称：邮箱为空
+[2019-10-11 17:49:18] INFO [log_case_info: log.py, 10] 测试结果：PASS
+[2019-10-11 17:49:18] INFO [log_case_info: log.py, 11] 测试数据：{"邮箱/手机号": "李四", "密码": "124366ll"}
+[2019-10-11 17:49:18] INFO [log_case_info: log.py, 12] 期望结果：请输入邮箱
+[2019-10-11 17:49:18] INFO [log_case_info: log.py, 13] 实际结果：请输入邮箱
+
+[2019-10-11 17:49:19] INFO [log_case_info: log.py, 8] 用例编号：participant-3
+[2019-10-11 17:49:19] INFO [log_case_info: log.py, 9] 用例名称：账号为空
+[2019-10-11 17:49:19] INFO [log_case_info: log.py, 10] 测试结果：PASS
+[2019-10-11 17:49:19] INFO [log_case_info: log.py, 11] 测试数据：{"邮箱/手机号": "李四", "密码": ""}
+[2019-10-11 17:49:19] INFO [log_case_info: log.py, 12] 期望结果：请输入证件号
+[2019-10-11 17:49:19] INFO [log_case_info: log.py, 13] 实际结果：请输入证件号
+
+[2019-10-11 17:52:07] INFO [log_case_info: log.py, 8] 用例编号：AddPartcipant_1
+[2019-10-11 17:52:07] INFO [log_case_info: log.py, 9] 用例名称：添加参与方
+[2019-10-11 17:52:07] INFO [log_case_info: log.py, 10] 测试结果：FAILED
+[2019-10-11 17:52:07] INFO [log_case_info: log.py, 11] 测试数据：无
+[2019-10-11 17:52:07] INFO [log_case_info: log.py, 12] 期望结果：只要id不是31094
+[2019-10-11 17:52:07] INFO [log_case_info: log.py, 13] 实际结果：{'id': '31094', '参与方名称': '张三', '邮箱': '123456789@qq.com', '状态': '未进入~邀请', '员工ID': '--', '部门': '--', '权限': '无'}
+
+[2019-10-11 17:52:48] INFO [log_case_info: log.py, 8] 用例编号：AddPartcipant_1
+[2019-10-11 17:52:48] INFO [log_case_info: log.py, 9] 用例名称：添加参与方
+[2019-10-11 17:52:48] INFO [log_case_info: log.py, 10] 测试结果：PASS
+[2019-10-11 17:52:48] INFO [log_case_info: log.py, 11] 测试数据：无
+[2019-10-11 17:52:48] INFO [log_case_info: log.py, 12] 期望结果：只要id不是31004
+[2019-10-11 17:52:48] INFO [log_case_info: log.py, 13] 实际结果：{'id': '31095', '参与方名称': '张三', '邮箱': '123456789@qq.com', '状态': '未进入~邀请', '员工ID': '--', '部门': '--', '权限': '无'}
+
+[2019-10-11 17:52:54] INFO [log_case_info: log.py, 8] 用例编号：participant-1
+[2019-10-11 17:52:54] INFO [log_case_info: log.py, 9] 用例名称：用户名为空
+[2019-10-11 17:52:54] INFO [log_case_info: log.py, 10] 测试结果：PASS
+[2019-10-11 17:52:54] INFO [log_case_info: log.py, 11] 测试数据：{"姓名": "", "邮箱": "123456@qq.com", "证件号": "124366ll"}
+[2019-10-11 17:52:54] INFO [log_case_info: log.py, 12] 期望结果：请输入姓名
+[2019-10-11 17:52:54] INFO [log_case_info: log.py, 13] 实际结果：请输入姓名
+
+[2019-10-11 17:52:58] INFO [log_case_info: log.py, 8] 用例编号：participant-2
+[2019-10-11 17:52:58] INFO [log_case_info: log.py, 9] 用例名称：邮箱为空
+[2019-10-11 17:52:58] INFO [log_case_info: log.py, 10] 测试结果：PASS
+[2019-10-11 17:52:58] INFO [log_case_info: log.py, 11] 测试数据：{"姓名": "李四", "邮箱": "", "证件号": "124366ll"}
+[2019-10-11 17:52:58] INFO [log_case_info: log.py, 12] 期望结果：请输入邮箱
+[2019-10-11 17:52:58] INFO [log_case_info: log.py, 13] 实际结果：请输入邮箱
+
+[2019-10-11 17:53:02] INFO [log_case_info: log.py, 8] 用例编号：participant-3
+[2019-10-11 17:53:02] INFO [log_case_info: log.py, 9] 用例名称：账号为空
+[2019-10-11 17:53:02] INFO [log_case_info: log.py, 10] 测试结果：PASS
+[2019-10-11 17:53:02] INFO [log_case_info: log.py, 11] 测试数据：{"姓名": "李四", "邮箱": "123456@qq.com", "证件号": ""}
+[2019-10-11 17:53:02] INFO [log_case_info: log.py, 12] 期望结果：请输入证件号
+[2019-10-11 17:53:02] INFO [log_case_info: log.py, 13] 实际结果：请输入证件号
+
+[2019-10-11 17:54:16] INFO [log_case_info: log.py, 8] 用例编号：AddPartcipant_1
+[2019-10-11 17:54:16] INFO [log_case_info: log.py, 9] 用例名称：添加参与方
+[2019-10-11 17:54:16] INFO [log_case_info: log.py, 10] 测试结果：PASS
+[2019-10-11 17:54:16] INFO [log_case_info: log.py, 11] 测试数据：无
+[2019-10-11 17:54:16] INFO [log_case_info: log.py, 12] 期望结果：只要id不是31004
+[2019-10-11 17:54:16] INFO [log_case_info: log.py, 13] 实际结果：{'id': '31096', '参与方名称': '张三', '邮箱': '123456789@qq.com', '状态': '未进入~邀请', '员工ID': '--', '部门': '--', '权限': '无'}
+
+[2019-10-11 17:54:22] INFO [log_case_info: log.py, 8] 用例编号：participant-1
+[2019-10-11 17:54:22] INFO [log_case_info: log.py, 9] 用例名称：用户名为空
+[2019-10-11 17:54:22] INFO [log_case_info: log.py, 10] 测试结果：PASS
+[2019-10-11 17:54:22] INFO [log_case_info: log.py, 11] 测试数据：{"姓名": "", "邮箱": "123456@qq.com", "证件号": "124366ll"}
+[2019-10-11 17:54:22] INFO [log_case_info: log.py, 12] 期望结果：请输入姓名
+[2019-10-11 17:54:22] INFO [log_case_info: log.py, 13] 实际结果：请输入姓名
+
+[2019-10-11 17:54:26] INFO [log_case_info: log.py, 8] 用例编号：participant-2
+[2019-10-11 17:54:26] INFO [log_case_info: log.py, 9] 用例名称：邮箱为空
+[2019-10-11 17:54:26] INFO [log_case_info: log.py, 10] 测试结果：PASS
+[2019-10-11 17:54:26] INFO [log_case_info: log.py, 11] 测试数据：{"姓名": "李四", "邮箱": "", "证件号": "124366ll"}
+[2019-10-11 17:54:26] INFO [log_case_info: log.py, 12] 期望结果：请输入邮箱
+[2019-10-11 17:54:26] INFO [log_case_info: log.py, 13] 实际结果：请输入邮箱
+
+[2019-10-11 17:54:30] INFO [log_case_info: log.py, 8] 用例编号：participant-3
+[2019-10-11 17:54:30] INFO [log_case_info: log.py, 9] 用例名称：账号为空
+[2019-10-11 17:54:30] INFO [log_case_info: log.py, 10] 测试结果：PASS
+[2019-10-11 17:54:30] INFO [log_case_info: log.py, 11] 测试数据：{"姓名": "李四", "邮箱": "123456@qq.com", "证件号": ""}
+[2019-10-11 17:54:30] INFO [log_case_info: log.py, 12] 期望结果：请输入证件号
+[2019-10-11 17:54:30] INFO [log_case_info: log.py, 13] 实际结果：请输入证件号
+
+[2019-10-11 17:57:10] INFO [log_case_info: log.py, 8] 用例编号：AddPartcipant_1
+[2019-10-11 17:57:10] INFO [log_case_info: log.py, 9] 用例名称：添加参与方
+[2019-10-11 17:57:10] INFO [log_case_info: log.py, 10] 测试结果：FAILED
+[2019-10-11 17:57:10] INFO [log_case_info: log.py, 11] 测试数据：无
+[2019-10-11 17:57:10] INFO [log_case_info: log.py, 12] 期望结果：只要id不是31096
+[2019-10-11 17:57:10] INFO [log_case_info: log.py, 13] 实际结果：{'id': '31096', '参与方名称': '张三', '邮箱': '123456789@qq.com', '状态': '未进入~邀请', '员工ID': '--', '部门': '--', '权限': '无'}
+
+[2019-10-11 17:58:18] INFO [log_case_info: log.py, 8] 用例编号：AddPartcipant_1
+[2019-10-11 17:58:18] INFO [log_case_info: log.py, 9] 用例名称：添加参与方
+[2019-10-11 17:58:18] INFO [log_case_info: log.py, 10] 测试结果：PASS
+[2019-10-11 17:58:18] INFO [log_case_info: log.py, 11] 测试数据：无
+[2019-10-11 17:58:18] INFO [log_case_info: log.py, 12] 期望结果：只要id不是31004
+[2019-10-11 17:58:18] INFO [log_case_info: log.py, 13] 实际结果：{'id': '31097', '参与方名称': '张三', '邮箱': '123456789@qq.com', '状态': '未进入~邀请', '员工ID': '--', '部门': '--', '权限': '无'}
+
+[2019-10-11 17:58:24] INFO [log_case_info: log.py, 8] 用例编号：participant-1
+[2019-10-11 17:58:24] INFO [log_case_info: log.py, 9] 用例名称：用户名为空
+[2019-10-11 17:58:24] INFO [log_case_info: log.py, 10] 测试结果：PASS
+[2019-10-11 17:58:24] INFO [log_case_info: log.py, 11] 测试数据：{"姓名": "", "邮箱": "123456@qq.com", "证件号": "124366ll"}
+[2019-10-11 17:58:24] INFO [log_case_info: log.py, 12] 期望结果：请输入姓名
+[2019-10-11 17:58:24] INFO [log_case_info: log.py, 13] 实际结果：请输入姓名
+
+[2019-10-11 17:58:27] INFO [log_case_info: log.py, 8] 用例编号：participant-2
+[2019-10-11 17:58:27] INFO [log_case_info: log.py, 9] 用例名称：邮箱为空
+[2019-10-11 17:58:27] INFO [log_case_info: log.py, 10] 测试结果：PASS
+[2019-10-11 17:58:27] INFO [log_case_info: log.py, 11] 测试数据：{"姓名": "李四", "邮箱": "", "证件号": "124366ll"}
+[2019-10-11 17:58:27] INFO [log_case_info: log.py, 12] 期望结果：请输入邮箱
+[2019-10-11 17:58:27] INFO [log_case_info: log.py, 13] 实际结果：请输入邮箱
+
+[2019-10-11 17:58:31] INFO [log_case_info: log.py, 8] 用例编号：participant-3
+[2019-10-11 17:58:31] INFO [log_case_info: log.py, 9] 用例名称：账号为空
+[2019-10-11 17:58:31] INFO [log_case_info: log.py, 10] 测试结果：PASS
+[2019-10-11 17:58:31] INFO [log_case_info: log.py, 11] 测试数据：{"姓名": "李四", "邮箱": "123456@qq.com", "证件号": ""}
+[2019-10-11 17:58:31] INFO [log_case_info: log.py, 12] 期望结果：请输入证件号
+[2019-10-11 17:58:31] INFO [log_case_info: log.py, 13] 实际结果：请输入证件号
+
+[2019-10-11 18:16:49] INFO [log_case_info: log.py, 8] 用例编号：participant-1
+[2019-10-11 18:16:49] INFO [log_case_info: log.py, 9] 用例名称：用户名为空
+[2019-10-11 18:16:49] INFO [log_case_info: log.py, 10] 测试结果：PASS
+[2019-10-11 18:16:49] INFO [log_case_info: log.py, 11] 测试数据：{"姓名": "", "邮箱": "123456@qq.com", "证件号": "124366ll"}
+[2019-10-11 18:16:49] INFO [log_case_info: log.py, 12] 期望结果：请输入姓名
+[2019-10-11 18:16:49] INFO [log_case_info: log.py, 13] 实际结果：请输入姓名
+
+[2019-10-11 18:16:54] INFO [log_case_info: log.py, 8] 用例编号：participant-2
+[2019-10-11 18:16:54] INFO [log_case_info: log.py, 9] 用例名称：邮箱为空
+[2019-10-11 18:16:54] INFO [log_case_info: log.py, 10] 测试结果：PASS
+[2019-10-11 18:16:54] INFO [log_case_info: log.py, 11] 测试数据：{"姓名": "李四", "邮箱": "", "证件号": "124366ll"}
+[2019-10-11 18:16:54] INFO [log_case_info: log.py, 12] 期望结果：请输入邮箱
+[2019-10-11 18:16:54] INFO [log_case_info: log.py, 13] 实际结果：请输入邮箱
+
+[2019-10-11 18:16:58] INFO [log_case_info: log.py, 8] 用例编号：participant-3
+[2019-10-11 18:16:58] INFO [log_case_info: log.py, 9] 用例名称：账号为空
+[2019-10-11 18:16:58] INFO [log_case_info: log.py, 10] 测试结果：PASS
+[2019-10-11 18:16:58] INFO [log_case_info: log.py, 11] 测试数据：{"姓名": "李四", "邮箱": "123456@qq.com", "证件号": ""}
+[2019-10-11 18:16:58] INFO [log_case_info: log.py, 12] 期望结果：请输入证件号
+[2019-10-11 18:16:58] INFO [log_case_info: log.py, 13] 实际结果：请输入证件号
+
+[2019-10-11 18:17:03] INFO [log_case_info: log.py, 8] 用例编号：participant-4
+[2019-10-11 18:17:03] INFO [log_case_info: log.py, 9] 用例名称：输入正确
+[2019-10-11 18:17:03] INFO [log_case_info: log.py, 10] 测试结果：FAILED
+[2019-10-11 18:17:03] INFO [log_case_info: log.py, 11] 测试数据：{"姓名": "张三", "邮箱": "12345678@qq.com", "证件号": "123569ll"}
+[2019-10-11 18:17:03] INFO [log_case_info: log.py, 12] 期望结果：
+[2019-10-11 18:17:03] INFO [log_case_info: log.py, 13] 实际结果：请输入证件号
+
+[2019-10-11 18:17:06] INFO [log_case_info: log.py, 8] 用例编号：AddPartcipant_1
+[2019-10-11 18:17:06] INFO [log_case_info: log.py, 9] 用例名称：添加参与方
+[2019-10-11 18:17:06] INFO [log_case_info: log.py, 10] 测试结果：PASS
+[2019-10-11 18:17:06] INFO [log_case_info: log.py, 11] 测试数据：无
+[2019-10-11 18:17:06] INFO [log_case_info: log.py, 12] 期望结果：只要id不是31004
+[2019-10-11 18:17:06] INFO [log_case_info: log.py, 13] 实际结果：{'id': '31098', '参与方名称': '张三', '邮箱': '12345678@qq.com', '状态': '未进入~邀请', '员工ID': '--', '部门': '--', '权限': '无'}
+
+[2019-10-11 18:17:13] INFO [log_case_info: log.py, 8] 用例编号：AddPartcipant_2
+[2019-10-11 18:17:13] INFO [log_case_info: log.py, 9] 用例名称：删除草稿参与方
+[2019-10-11 18:17:13] INFO [log_case_info: log.py, 10] 测试结果：PASS
+[2019-10-11 18:17:13] INFO [log_case_info: log.py, 11] 测试数据：无
+[2019-10-11 18:17:13] INFO [log_case_info: log.py, 12] 期望结果：{'id': '31004', '参与方名称': '蔡哲浩', '邮箱': 'caizhehao@kapbook.com', '状态': '已确认', '员工ID': '--', '部门': '--', '权限': '管理员'}
+[2019-10-11 18:17:13] INFO [log_case_info: log.py, 13] 实际结果：{'id': '31004', '参与方名称': '蔡哲浩', '邮箱': 'caizhehao@kapbook.com', '状态': '已确认', '员工ID': '--', '部门': '--', '权限': '管理员'}
+
+[2019-10-11 18:40:58] INFO [log_case_info: log.py, 8] 用例编号：participant-1
+[2019-10-11 18:40:58] INFO [log_case_info: log.py, 9] 用例名称：用户名为空
+[2019-10-11 18:40:58] INFO [log_case_info: log.py, 10] 测试结果：PASS
+[2019-10-11 18:40:58] INFO [log_case_info: log.py, 11] 测试数据：{"姓名": "", "邮箱": "123456@qq.com", "证件号": "124366ll"}
+[2019-10-11 18:40:58] INFO [log_case_info: log.py, 12] 期望结果：请输入姓名
+[2019-10-11 18:40:58] INFO [log_case_info: log.py, 13] 实际结果：请输入姓名
+
+[2019-10-11 18:41:03] INFO [log_case_info: log.py, 8] 用例编号：participant-2
+[2019-10-11 18:41:03] INFO [log_case_info: log.py, 9] 用例名称：邮箱为空
+[2019-10-11 18:41:03] INFO [log_case_info: log.py, 10] 测试结果：PASS
+[2019-10-11 18:41:03] INFO [log_case_info: log.py, 11] 测试数据：{"姓名": "李四", "邮箱": "", "证件号": "124366ll"}
+[2019-10-11 18:41:03] INFO [log_case_info: log.py, 12] 期望结果：请输入邮箱
+[2019-10-11 18:41:03] INFO [log_case_info: log.py, 13] 实际结果：请输入邮箱
+
+[2019-10-11 18:41:07] INFO [log_case_info: log.py, 8] 用例编号：participant-3
+[2019-10-11 18:41:07] INFO [log_case_info: log.py, 9] 用例名称：账号为空
+[2019-10-11 18:41:07] INFO [log_case_info: log.py, 10] 测试结果：PASS
+[2019-10-11 18:41:07] INFO [log_case_info: log.py, 11] 测试数据：{"姓名": "李四", "邮箱": "123456@qq.com", "证件号": ""}
+[2019-10-11 18:41:07] INFO [log_case_info: log.py, 12] 期望结果：请输入证件号
+[2019-10-11 18:41:07] INFO [log_case_info: log.py, 13] 实际结果：请输入证件号
+
+[2019-10-11 18:41:12] INFO [log_case_info: log.py, 8] 用例编号：participant-4
+[2019-10-11 18:41:12] INFO [log_case_info: log.py, 9] 用例名称：邮箱已存在
+[2019-10-11 18:41:12] INFO [log_case_info: log.py, 10] 测试结果：PASS
+[2019-10-11 18:41:12] INFO [log_case_info: log.py, 11] 测试数据：{"姓名": "张三", "邮箱": "liuyitong@kapbook.com", "证件号": "123569ll"}
+[2019-10-11 18:41:12] INFO [log_case_info: log.py, 12] 期望结果：该邮箱已存在参与方信息中，请勿重复添加
+[2019-10-11 18:41:12] INFO [log_case_info: log.py, 13] 实际结果：该邮箱已存在参与方信息中，请勿重复添加
+
+[2019-10-11 18:41:18] INFO [log_case_info: log.py, 8] 用例编号：participant-5
+[2019-10-11 18:41:18] INFO [log_case_info: log.py, 9] 用例名称：护照已存在
+[2019-10-11 18:41:18] INFO [log_case_info: log.py, 10] 测试结果：PASS
+[2019-10-11 18:41:18] INFO [log_case_info: log.py, 11] 测试数据：{"姓名": "张三", "邮箱": "12459607@qq.com", "证件号": "A123456789"}
+[2019-10-11 18:41:18] INFO [log_case_info: log.py, 12] 期望结果：该证件号已被使用,请重新输入
+[2019-10-11 18:41:18] INFO [log_case_info: log.py, 13] 实际结果：该证件号已被使用,请重新输入
+
+[2019-10-11 18:41:25] INFO [log_case_info: log.py, 8] 用例编号：participant-10
+[2019-10-11 18:41:25] INFO [log_case_info: log.py, 9] 用例名称：输入正确
+[2019-10-11 18:41:25] INFO [log_case_info: log.py, 10] 测试结果：FAILED
+[2019-10-11 18:41:25] INFO [log_case_info: log.py, 11] 测试数据：{"姓名": "张三", "邮箱": "12345678@qq.com", "证件号": "123569ll"}
+[2019-10-11 18:41:25] INFO [log_case_info: log.py, 12] 期望结果：
+[2019-10-11 18:41:25] INFO [log_case_info: log.py, 13] 实际结果：该证件号已被使用,请重新输入
+
+[2019-10-11 18:41:28] INFO [log_case_info: log.py, 8] 用例编号：AddPartcipant_1
+[2019-10-11 18:41:28] INFO [log_case_info: log.py, 9] 用例名称：添加参与方
+[2019-10-11 18:41:28] INFO [log_case_info: log.py, 10] 测试结果：PASS
+[2019-10-11 18:41:28] INFO [log_case_info: log.py, 11] 测试数据：无
+[2019-10-11 18:41:28] INFO [log_case_info: log.py, 12] 期望结果：只要id不是31004
+[2019-10-11 18:41:28] INFO [log_case_info: log.py, 13] 实际结果：{'id': '31099', '参与方名称': '张三', '邮箱': '12345678@qq.com', '状态': '未进入~邀请', '员工ID': '--', '部门': '--', '权限': '无'}
+
+[2019-10-11 18:42:32] INFO [log_case_info: log.py, 8] 用例编号：participant-1
+[2019-10-11 18:42:32] INFO [log_case_info: log.py, 9] 用例名称：用户名为空
+[2019-10-11 18:42:32] INFO [log_case_info: log.py, 10] 测试结果：PASS
+[2019-10-11 18:42:32] INFO [log_case_info: log.py, 11] 测试数据：{"姓名": "", "邮箱": "123456@qq.com", "证件号": "124366ll"}
+[2019-10-11 18:42:32] INFO [log_case_info: log.py, 12] 期望结果：请输入姓名
+[2019-10-11 18:42:32] INFO [log_case_info: log.py, 13] 实际结果：请输入姓名
+
+[2019-10-11 18:42:36] INFO [log_case_info: log.py, 8] 用例编号：participant-2
+[2019-10-11 18:42:36] INFO [log_case_info: log.py, 9] 用例名称：邮箱为空
+[2019-10-11 18:42:36] INFO [log_case_info: log.py, 10] 测试结果：PASS
+[2019-10-11 18:42:36] INFO [log_case_info: log.py, 11] 测试数据：{"姓名": "李四", "邮箱": "", "证件号": "124366ll"}
+[2019-10-11 18:42:36] INFO [log_case_info: log.py, 12] 期望结果：请输入邮箱
+[2019-10-11 18:42:36] INFO [log_case_info: log.py, 13] 实际结果：请输入邮箱
+
+[2019-10-11 18:42:40] INFO [log_case_info: log.py, 8] 用例编号：participant-3
+[2019-10-11 18:42:40] INFO [log_case_info: log.py, 9] 用例名称：账号为空
+[2019-10-11 18:42:40] INFO [log_case_info: log.py, 10] 测试结果：PASS
+[2019-10-11 18:42:40] INFO [log_case_info: log.py, 11] 测试数据：{"姓名": "李四", "邮箱": "123456@qq.com", "证件号": ""}
+[2019-10-11 18:42:40] INFO [log_case_info: log.py, 12] 期望结果：请输入证件号
+[2019-10-11 18:42:40] INFO [log_case_info: log.py, 13] 实际结果：请输入证件号
+
+[2019-10-11 18:42:45] INFO [log_case_info: log.py, 8] 用例编号：participant-4
+[2019-10-11 18:42:45] INFO [log_case_info: log.py, 9] 用例名称：邮箱已存在
+[2019-10-11 18:42:45] INFO [log_case_info: log.py, 10] 测试结果：PASS
+[2019-10-11 18:42:45] INFO [log_case_info: log.py, 11] 测试数据：{"姓名": "张三", "邮箱": "liuyitong@kapbook.com", "证件号": "123569ll"}
+[2019-10-11 18:42:45] INFO [log_case_info: log.py, 12] 期望结果：该邮箱已存在参与方信息中，请勿重复添加
+[2019-10-11 18:42:45] INFO [log_case_info: log.py, 13] 实际结果：该邮箱已存在参与方信息中，请勿重复添加
+
+[2019-10-11 18:42:51] INFO [log_case_info: log.py, 8] 用例编号：participant-5
+[2019-10-11 18:42:51] INFO [log_case_info: log.py, 9] 用例名称：护照已存在
+[2019-10-11 18:42:51] INFO [log_case_info: log.py, 10] 测试结果：PASS
+[2019-10-11 18:42:51] INFO [log_case_info: log.py, 11] 测试数据：{"姓名": "张三", "邮箱": "12459607@qq.com", "证件号": "A123456789"}
+[2019-10-11 18:42:51] INFO [log_case_info: log.py, 12] 期望结果：该证件号已被使用,请重新输入
+[2019-10-11 18:42:51] INFO [log_case_info: log.py, 13] 实际结果：该证件号已被使用,请重新输入
+
+[2019-10-11 18:42:57] INFO [log_case_info: log.py, 8] 用例编号：participant-10
+[2019-10-11 18:42:57] INFO [log_case_info: log.py, 9] 用例名称：输入正确
+[2019-10-11 18:42:57] INFO [log_case_info: log.py, 10] 测试结果：FAILED
+[2019-10-11 18:42:57] INFO [log_case_info: log.py, 11] 测试数据：{"姓名": "张三", "邮箱": "12345678@qq.com", "证件号": "123569ll"}
+[2019-10-11 18:42:57] INFO [log_case_info: log.py, 12] 期望结果：
+[2019-10-11 18:42:57] INFO [log_case_info: log.py, 13] 实际结果：该证件号已被使用,请重新输入
+
+[2019-10-11 18:43:01] INFO [log_case_info: log.py, 8] 用例编号：AddPartcipant_1
+[2019-10-11 18:43:01] INFO [log_case_info: log.py, 9] 用例名称：添加参与方
+[2019-10-11 18:43:01] INFO [log_case_info: log.py, 10] 测试结果：PASS
+[2019-10-11 18:43:01] INFO [log_case_info: log.py, 11] 测试数据：无
+[2019-10-11 18:43:01] INFO [log_case_info: log.py, 12] 期望结果：只要id不是31004
+[2019-10-11 18:43:01] INFO [log_case_info: log.py, 13] 实际结果：{'id': '31100', '参与方名称': '张三', '邮箱': '12345678@qq.com', '状态': '未进入~邀请', '员工ID': '--', '部门': '--', '权限': '无'}
+
+[2019-10-11 18:43:07] INFO [log_case_info: log.py, 8] 用例编号：AddPartcipant_2
+[2019-10-11 18:43:07] INFO [log_case_info: log.py, 9] 用例名称：删除草稿参与方
+[2019-10-11 18:43:07] INFO [log_case_info: log.py, 10] 测试结果：PASS
+[2019-10-11 18:43:07] INFO [log_case_info: log.py, 11] 测试数据：无
+[2019-10-11 18:43:07] INFO [log_case_info: log.py, 12] 期望结果：{'id': '31004', '参与方名称': '蔡哲浩', '邮箱': 'caizhehao@kapbook.com', '状态': '已确认', '员工ID': '--', '部门': '--', '权限': '管理员'}
+[2019-10-11 18:43:07] INFO [log_case_info: log.py, 13] 实际结果：{'id': '31004', '参与方名称': '蔡哲浩', '邮箱': 'caizhehao@kapbook.com', '状态': '已确认', '员工ID': '--', '部门': '--', '权限': '管理员'}
+
+[2019-10-11 19:06:20] INFO [log_case_info: log.py, 8] 用例编号：participant-1
+[2019-10-11 19:06:20] INFO [log_case_info: log.py, 9] 用例名称：用户名为空
+[2019-10-11 19:06:20] INFO [log_case_info: log.py, 10] 测试结果：PASS
+[2019-10-11 19:06:20] INFO [log_case_info: log.py, 11] 测试数据：{"姓名": "", "邮箱": "123456@qq.com", "证件号": "124366ll"}
+[2019-10-11 19:06:20] INFO [log_case_info: log.py, 12] 期望结果：请输入姓名
+[2019-10-11 19:06:20] INFO [log_case_info: log.py, 13] 实际结果：请输入姓名
+
+[2019-10-11 19:06:24] INFO [log_case_info: log.py, 8] 用例编号：participant-2
+[2019-10-11 19:06:24] INFO [log_case_info: log.py, 9] 用例名称：邮箱为空
+[2019-10-11 19:06:24] INFO [log_case_info: log.py, 10] 测试结果：PASS
+[2019-10-11 19:06:24] INFO [log_case_info: log.py, 11] 测试数据：{"姓名": "李四", "邮箱": "", "证件号": "124366ll"}
+[2019-10-11 19:06:24] INFO [log_case_info: log.py, 12] 期望结果：请输入邮箱
+[2019-10-11 19:06:24] INFO [log_case_info: log.py, 13] 实际结果：请输入邮箱
+
+[2019-10-11 19:06:28] INFO [log_case_info: log.py, 8] 用例编号：participant-3
+[2019-10-11 19:06:28] INFO [log_case_info: log.py, 9] 用例名称：账号为空
+[2019-10-11 19:06:28] INFO [log_case_info: log.py, 10] 测试结果：PASS
+[2019-10-11 19:06:28] INFO [log_case_info: log.py, 11] 测试数据：{"姓名": "李四", "邮箱": "123456@qq.com", "证件号": ""}
+[2019-10-11 19:06:28] INFO [log_case_info: log.py, 12] 期望结果：请输入证件号
+[2019-10-11 19:06:28] INFO [log_case_info: log.py, 13] 实际结果：请输入证件号
+
+[2019-10-11 19:06:31] INFO [log_case_info: log.py, 8] 用例编号：participant-4
+[2019-10-11 19:06:31] INFO [log_case_info: log.py, 9] 用例名称：邮箱已存在
+[2019-10-11 19:06:31] INFO [log_case_info: log.py, 10] 测试结果：PASS
+[2019-10-11 19:06:31] INFO [log_case_info: log.py, 11] 测试数据：{"姓名": "张三", "邮箱": "liuyitong@kapbook.com", "证件号": "123569ll"}
+[2019-10-11 19:06:31] INFO [log_case_info: log.py, 12] 期望结果：该邮箱已存在参与方信息中，请勿重复添加
+[2019-10-11 19:06:31] INFO [log_case_info: log.py, 13] 实际结果：该邮箱已存在参与方信息中，请勿重复添加
+
+[2019-10-11 19:06:38] INFO [log_case_info: log.py, 8] 用例编号：participant-5
+[2019-10-11 19:06:38] INFO [log_case_info: log.py, 9] 用例名称：护照已存在
+[2019-10-11 19:06:38] INFO [log_case_info: log.py, 10] 测试结果：PASS
+[2019-10-11 19:06:38] INFO [log_case_info: log.py, 11] 测试数据：{"姓名": "张三", "邮箱": "12459607@qq.com", "证件号": "A123456789"}
+[2019-10-11 19:06:38] INFO [log_case_info: log.py, 12] 期望结果：该证件号已被使用,请重新输入
+[2019-10-11 19:06:38] INFO [log_case_info: log.py, 13] 实际结果：该证件号已被使用,请重新输入
+
+[2019-10-11 19:06:43] INFO [log_case_info: log.py, 8] 用例编号：participant-10
+[2019-10-11 19:06:43] INFO [log_case_info: log.py, 9] 用例名称：输入正确
+[2019-10-11 19:06:43] INFO [log_case_info: log.py, 10] 测试结果：FAILED
+[2019-10-11 19:06:43] INFO [log_case_info: log.py, 11] 测试数据：{"姓名": "张三", "邮箱": "12345678@qq.com", "证件号": "123569ll"}
+[2019-10-11 19:06:43] INFO [log_case_info: log.py, 12] 期望结果：
+[2019-10-11 19:06:43] INFO [log_case_info: log.py, 13] 实际结果：该证件号已被使用,请重新输入
+
+[2019-10-11 19:06:47] INFO [log_case_info: log.py, 8] 用例编号：AddPartcipant_1
+[2019-10-11 19:06:47] INFO [log_case_info: log.py, 9] 用例名称：添加参与方
+[2019-10-11 19:06:47] INFO [log_case_info: log.py, 10] 测试结果：PASS
+[2019-10-11 19:06:47] INFO [log_case_info: log.py, 11] 测试数据：无
+[2019-10-11 19:06:47] INFO [log_case_info: log.py, 12] 期望结果：只要id不是31004
+[2019-10-11 19:06:47] INFO [log_case_info: log.py, 13] 实际结果：{'id': '31101', '参与方名称': '张三', '邮箱': '12345678@qq.com', '状态': '未进入~邀请', '员工ID': '--', '部门': '--', '权限': '无'}
+
+[2019-10-11 19:14:17] INFO [log_case_info: log.py, 8] 用例编号：participant-1
+[2019-10-11 19:14:17] INFO [log_case_info: log.py, 9] 用例名称：用户名为空
+[2019-10-11 19:14:17] INFO [log_case_info: log.py, 10] 测试结果：PASS
+[2019-10-11 19:14:17] INFO [log_case_info: log.py, 11] 测试数据：{"姓名": "", "邮箱": "123456@qq.com", "证件号": "124366ll"}
+[2019-10-11 19:14:17] INFO [log_case_info: log.py, 12] 期望结果：请输入姓名
+[2019-10-11 19:14:17] INFO [log_case_info: log.py, 13] 实际结果：请输入姓名
+
+[2019-10-11 19:14:22] INFO [log_case_info: log.py, 8] 用例编号：participant-2
+[2019-10-11 19:14:22] INFO [log_case_info: log.py, 9] 用例名称：邮箱为空
+[2019-10-11 19:14:22] INFO [log_case_info: log.py, 10] 测试结果：PASS
+[2019-10-11 19:14:22] INFO [log_case_info: log.py, 11] 测试数据：{"姓名": "李四", "邮箱": "", "证件号": "124366ll"}
+[2019-10-11 19:14:22] INFO [log_case_info: log.py, 12] 期望结果：请输入邮箱
+[2019-10-11 19:14:22] INFO [log_case_info: log.py, 13] 实际结果：请输入邮箱
+
+[2019-10-11 19:14:26] INFO [log_case_info: log.py, 8] 用例编号：participant-3
+[2019-10-11 19:14:26] INFO [log_case_info: log.py, 9] 用例名称：账号为空
+[2019-10-11 19:14:26] INFO [log_case_info: log.py, 10] 测试结果：PASS
+[2019-10-11 19:14:26] INFO [log_case_info: log.py, 11] 测试数据：{"姓名": "李四", "邮箱": "123456@qq.com", "证件号": ""}
+[2019-10-11 19:14:26] INFO [log_case_info: log.py, 12] 期望结果：请输入证件号
+[2019-10-11 19:14:26] INFO [log_case_info: log.py, 13] 实际结果：请输入证件号
+
+[2019-10-11 19:14:32] INFO [log_case_info: log.py, 8] 用例编号：participant-4
+[2019-10-11 19:14:32] INFO [log_case_info: log.py, 9] 用例名称：邮箱已存在
+[2019-10-11 19:14:32] INFO [log_case_info: log.py, 10] 测试结果：PASS
+[2019-10-11 19:14:32] INFO [log_case_info: log.py, 11] 测试数据：{"姓名": "张三", "邮箱": "liuyitong@kapbook.com", "证件号": "123569ll"}
+[2019-10-11 19:14:32] INFO [log_case_info: log.py, 12] 期望结果：该邮箱已存在参与方信息中，请勿重复添加
+[2019-10-11 19:14:32] INFO [log_case_info: log.py, 13] 实际结果：该邮箱已存在参与方信息中，请勿重复添加
+
+[2019-10-11 19:14:38] INFO [log_case_info: log.py, 8] 用例编号：participant-5
+[2019-10-11 19:14:38] INFO [log_case_info: log.py, 9] 用例名称：护照已存在
+[2019-10-11 19:14:38] INFO [log_case_info: log.py, 10] 测试结果：PASS
+[2019-10-11 19:14:38] INFO [log_case_info: log.py, 11] 测试数据：{"姓名": "张三", "邮箱": "12459607@qq.com", "证件号": "A123456789"}
+[2019-10-11 19:14:38] INFO [log_case_info: log.py, 12] 期望结果：该证件号已被使用,请重新输入
+[2019-10-11 19:14:38] INFO [log_case_info: log.py, 13] 实际结果：该证件号已被使用,请重新输入
+
+[2019-10-11 19:14:44] INFO [log_case_info: log.py, 8] 用例编号：participant-6
+[2019-10-11 19:14:44] INFO [log_case_info: log.py, 9] 用例名称：身份证错误
+[2019-10-11 19:14:44] INFO [log_case_info: log.py, 10] 测试结果：PASS
+[2019-10-11 19:14:44] INFO [log_case_info: log.py, 11] 测试数据：{"姓名": "张三", "邮箱": "12459607@qq.com", "证件号": "aaaa"}
+[2019-10-11 19:14:44] INFO [log_case_info: log.py, 12] 期望结果：证件号格式错误
+[2019-10-11 19:14:44] INFO [log_case_info: log.py, 13] 实际结果：证件号格式错误
+
+[2019-10-11 19:14:49] INFO [log_case_info: log.py, 8] 用例编号：participant-7
+[2019-10-11 19:14:49] INFO [log_case_info: log.py, 9] 用例名称：输入正确
+[2019-10-11 19:14:49] INFO [log_case_info: log.py, 10] 测试结果：FAILED
+[2019-10-11 19:14:49] INFO [log_case_info: log.py, 11] 测试数据：{"姓名": "张三", "邮箱": "12345678@qq.com", "证件号": "123569ll"}
+[2019-10-11 19:14:49] INFO [log_case_info: log.py, 12] 期望结果：
+[2019-10-11 19:14:49] INFO [log_case_info: log.py, 13] 实际结果：证件号格式错误
+
+[2019-10-11 19:14:53] INFO [log_case_info: log.py, 8] 用例编号：AddPartcipant_1
+[2019-10-11 19:14:53] INFO [log_case_info: log.py, 9] 用例名称：添加参与方
+[2019-10-11 19:14:53] INFO [log_case_info: log.py, 10] 测试结果：PASS
+[2019-10-11 19:14:53] INFO [log_case_info: log.py, 11] 测试数据：无
+[2019-10-11 19:14:53] INFO [log_case_info: log.py, 12] 期望结果：只要id不是31004
+[2019-10-11 19:14:53] INFO [log_case_info: log.py, 13] 实际结果：{'id': '31102', '参与方名称': '张三', '邮箱': '12345678@qq.com', '状态': '未进入~邀请', '员工ID': '--', '部门': '--', '权限': '无'}
+
+[2019-10-11 19:15:00] INFO [log_case_info: log.py, 8] 用例编号：AddPartcipant_2
+[2019-10-11 19:15:00] INFO [log_case_info: log.py, 9] 用例名称：删除草稿参与方
+[2019-10-11 19:15:00] INFO [log_case_info: log.py, 10] 测试结果：PASS
+[2019-10-11 19:15:00] INFO [log_case_info: log.py, 11] 测试数据：无
+[2019-10-11 19:15:00] INFO [log_case_info: log.py, 12] 期望结果：{'id': '31004', '参与方名称': '蔡哲浩', '邮箱': 'caizhehao@kapbook.com', '状态': '已确认', '员工ID': '--', '部门': '--', '权限': '管理员'}
+[2019-10-11 19:15:00] INFO [log_case_info: log.py, 13] 实际结果：{'id': '31004', '参与方名称': '蔡哲浩', '邮箱': 'caizhehao@kapbook.com', '状态': '已确认', '员工ID': '--', '部门': '--', '权限': '管理员'}
+
+[2019-10-11 19:31:59] INFO [log_case_info: log.py, 8] 用例编号：participant-1
+[2019-10-11 19:31:59] INFO [log_case_info: log.py, 9] 用例名称：用户名为空
+[2019-10-11 19:31:59] INFO [log_case_info: log.py, 10] 测试结果：PASS
+[2019-10-11 19:31:59] INFO [log_case_info: log.py, 11] 测试数据：{"姓名": "", "邮箱": "123456@qq.com", "证件号": "124366ll"}
+[2019-10-11 19:31:59] INFO [log_case_info: log.py, 12] 期望结果：请输入姓名
+[2019-10-11 19:31:59] INFO [log_case_info: log.py, 13] 实际结果：请输入姓名
+
+[2019-10-11 19:32:04] INFO [log_case_info: log.py, 8] 用例编号：participant-2
+[2019-10-11 19:32:04] INFO [log_case_info: log.py, 9] 用例名称：邮箱为空
+[2019-10-11 19:32:04] INFO [log_case_info: log.py, 10] 测试结果：PASS
+[2019-10-11 19:32:04] INFO [log_case_info: log.py, 11] 测试数据：{"姓名": "李四", "邮箱": "", "证件号": "124366ll"}
+[2019-10-11 19:32:04] INFO [log_case_info: log.py, 12] 期望结果：请输入邮箱
+[2019-10-11 19:32:04] INFO [log_case_info: log.py, 13] 实际结果：请输入邮箱
+
+[2019-10-11 19:32:08] INFO [log_case_info: log.py, 8] 用例编号：participant-3
+[2019-10-11 19:32:08] INFO [log_case_info: log.py, 9] 用例名称：账号为空
+[2019-10-11 19:32:08] INFO [log_case_info: log.py, 10] 测试结果：PASS
+[2019-10-11 19:32:08] INFO [log_case_info: log.py, 11] 测试数据：{"姓名": "李四", "邮箱": "123456@qq.com", "证件号": ""}
+[2019-10-11 19:32:08] INFO [log_case_info: log.py, 12] 期望结果：请输入证件号
+[2019-10-11 19:32:08] INFO [log_case_info: log.py, 13] 实际结果：请输入证件号
+
+[2019-10-11 19:32:12] INFO [log_case_info: log.py, 8] 用例编号：participant-4
+[2019-10-11 19:32:12] INFO [log_case_info: log.py, 9] 用例名称：邮箱已存在
+[2019-10-11 19:32:12] INFO [log_case_info: log.py, 10] 测试结果：PASS
+[2019-10-11 19:32:12] INFO [log_case_info: log.py, 11] 测试数据：{"姓名": "张三", "邮箱": "liuyitong@kapbook.com", "证件号": "123569ll"}
+[2019-10-11 19:32:12] INFO [log_case_info: log.py, 12] 期望结果：该邮箱已存在参与方信息中，请勿重复添加
+[2019-10-11 19:32:12] INFO [log_case_info: log.py, 13] 实际结果：该邮箱已存在参与方信息中，请勿重复添加
+
+[2019-10-11 19:32:19] INFO [log_case_info: log.py, 8] 用例编号：participant-5
+[2019-10-11 19:32:19] INFO [log_case_info: log.py, 9] 用例名称：护照已存在
+[2019-10-11 19:32:19] INFO [log_case_info: log.py, 10] 测试结果：PASS
+[2019-10-11 19:32:19] INFO [log_case_info: log.py, 11] 测试数据：{"姓名": "张三", "邮箱": "12459607@qq.com", "证件号": "A123456789"}
+[2019-10-11 19:32:19] INFO [log_case_info: log.py, 12] 期望结果：该证件号已被使用,请重新输入
+[2019-10-11 19:32:19] INFO [log_case_info: log.py, 13] 实际结果：该证件号已被使用,请重新输入
+
+[2019-10-11 19:32:25] INFO [log_case_info: log.py, 8] 用例编号：participant-6
+[2019-10-11 19:32:25] INFO [log_case_info: log.py, 9] 用例名称：身份证错误
+[2019-10-11 19:32:25] INFO [log_case_info: log.py, 10] 测试结果：PASS
+[2019-10-11 19:32:25] INFO [log_case_info: log.py, 11] 测试数据：{"姓名": "张三", "邮箱": "12459607@qq.com", "证件号": "aaaa"}
+[2019-10-11 19:32:25] INFO [log_case_info: log.py, 12] 期望结果：证件号格式错误
+[2019-10-11 19:32:25] INFO [log_case_info: log.py, 13] 实际结果：证件号格式错误
+
+[2019-10-11 19:32:30] INFO [log_case_info: log.py, 8] 用例编号：participant-7
+[2019-10-11 19:32:30] INFO [log_case_info: log.py, 9] 用例名称：输入正确
+[2019-10-11 19:32:30] INFO [log_case_info: log.py, 10] 测试结果：FAILED
+[2019-10-11 19:32:30] INFO [log_case_info: log.py, 11] 测试数据：{"姓名": "张三", "邮箱": "12345678@qq.com", "证件号": "123569ll"}
+[2019-10-11 19:32:30] INFO [log_case_info: log.py, 12] 期望结果：
+[2019-10-11 19:32:30] INFO [log_case_info: log.py, 13] 实际结果：证件号格式错误
+
+[2019-10-11 19:32:34] INFO [log_case_info: log.py, 8] 用例编号：AddPartcipant_1
+[2019-10-11 19:32:34] INFO [log_case_info: log.py, 9] 用例名称：添加参与方
+[2019-10-11 19:32:34] INFO [log_case_info: log.py, 10] 测试结果：PASS
+[2019-10-11 19:32:34] INFO [log_case_info: log.py, 11] 测试数据：无
+[2019-10-11 19:32:34] INFO [log_case_info: log.py, 12] 期望结果：只要id不是31004
+[2019-10-11 19:32:34] INFO [log_case_info: log.py, 13] 实际结果：{'id': '31103', '参与方名称': '张三', '邮箱': '12345678@qq.com', '状态': '未进入~邀请', '员工ID': '--', '部门': '--', '权限': '无'}
+
+[2019-10-11 19:32:40] INFO [log_case_info: log.py, 8] 用例编号：AddPartcipant_2
+[2019-10-11 19:32:40] INFO [log_case_info: log.py, 9] 用例名称：删除草稿参与方
+[2019-10-11 19:32:40] INFO [log_case_info: log.py, 10] 测试结果：PASS
+[2019-10-11 19:32:40] INFO [log_case_info: log.py, 11] 测试数据：无
+[2019-10-11 19:32:40] INFO [log_case_info: log.py, 12] 期望结果：{'id': '31004', '参与方名称': '蔡哲浩', '邮箱': 'caizhehao@kapbook.com', '状态': '已确认', '员工ID': '--', '部门': '--', '权限': '管理员'}
+[2019-10-11 19:32:40] INFO [log_case_info: log.py, 13] 实际结果：{'id': '31004', '参与方名称': '蔡哲浩', '邮箱': 'caizhehao@kapbook.com', '状态': '已确认', '员工ID': '--', '部门': '--', '权限': '管理员'}
+

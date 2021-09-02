@@ -1,0 +1,294 @@
+[2019-11-19 10:47:29] INFO [log_case_info: log.py, 8] 用例编号：participant-1
+[2019-11-19 10:47:29] INFO [log_case_info: log.py, 9] 用例名称：用户名为空
+[2019-11-19 10:47:29] INFO [log_case_info: log.py, 10] 测试结果：PASS
+[2019-11-19 10:47:29] INFO [log_case_info: log.py, 11] 测试数据：{"姓名": "", "邮箱": "123456@qq.com", "证件号": "124366ll"}
+[2019-11-19 10:47:29] INFO [log_case_info: log.py, 12] 期望结果：请输入姓名
+[2019-11-19 10:47:29] INFO [log_case_info: log.py, 13] 实际结果：请输入姓名
+
+[2019-11-19 10:48:04] INFO [log_case_info: log.py, 8] 用例编号：participant-1
+[2019-11-19 10:48:04] INFO [log_case_info: log.py, 9] 用例名称：用户名为空
+[2019-11-19 10:48:04] INFO [log_case_info: log.py, 10] 测试结果：PASS
+[2019-11-19 10:48:04] INFO [log_case_info: log.py, 11] 测试数据：{"姓名": "", "邮箱": "123456@qq.com", "证件号": "124366ll"}
+[2019-11-19 10:48:04] INFO [log_case_info: log.py, 12] 期望结果：请输入姓名
+[2019-11-19 10:48:04] INFO [log_case_info: log.py, 13] 实际结果：请输入姓名
+
+[2019-11-19 10:48:10] INFO [log_case_info: log.py, 8] 用例编号：participant-41
+[2019-11-19 10:48:10] INFO [log_case_info: log.py, 9] 用例名称：证件号格式错误
+[2019-11-19 10:48:10] INFO [log_case_info: log.py, 10] 测试结果：PASS
+[2019-11-19 10:48:10] INFO [log_case_info: log.py, 11] 测试数据：{"姓名": "张三", "邮箱": "12459615@qq.com", "证件号": "A点点点"}
+[2019-11-19 10:48:10] INFO [log_case_info: log.py, 12] 期望结果：证件号格式错误
+[2019-11-19 10:48:10] INFO [log_case_info: log.py, 13] 实际结果：证件号格式错误
+
+[2019-11-19 10:48:18] INFO [log_case_info: log.py, 8] 用例编号：participant-42
+[2019-11-19 10:48:18] INFO [log_case_info: log.py, 9] 用例名称：输入正确
+[2019-11-19 10:48:18] INFO [log_case_info: log.py, 10] 测试结果：FAILED
+[2019-11-19 10:48:18] INFO [log_case_info: log.py, 11] 测试数据：{"姓名": "张三", "邮箱": "12345678@qq.com", "证件号": "123569ll"}
+[2019-11-19 10:48:18] INFO [log_case_info: log.py, 12] 期望结果：
+[2019-11-19 10:48:18] INFO [log_case_info: log.py, 13] 实际结果：证件号格式错误
+
+[2019-11-19 10:51:42] INFO [log_case_info: log.py, 8] 用例编号：participant-1
+[2019-11-19 10:51:42] INFO [log_case_info: log.py, 9] 用例名称：用户名为空
+[2019-11-19 10:51:42] INFO [log_case_info: log.py, 10] 测试结果：PASS
+[2019-11-19 10:51:42] INFO [log_case_info: log.py, 11] 测试数据：{"姓名": "", "邮箱": "123456@qq.com", "证件号": "124366ll"}
+[2019-11-19 10:51:42] INFO [log_case_info: log.py, 12] 期望结果：请输入姓名
+[2019-11-19 10:51:42] INFO [log_case_info: log.py, 13] 实际结果：请输入姓名
+
+[2019-11-19 10:51:49] INFO [log_case_info: log.py, 8] 用例编号：participant-41
+[2019-11-19 10:51:49] INFO [log_case_info: log.py, 9] 用例名称：证件号格式错误
+[2019-11-19 10:51:49] INFO [log_case_info: log.py, 10] 测试结果：PASS
+[2019-11-19 10:51:49] INFO [log_case_info: log.py, 11] 测试数据：{"姓名": "张三", "邮箱": "12459615@qq.com", "证件号": "A点点点"}
+[2019-11-19 10:51:49] INFO [log_case_info: log.py, 12] 期望结果：证件号格式错误
+[2019-11-19 10:51:49] INFO [log_case_info: log.py, 13] 实际结果：证件号格式错误
+
+[2019-11-19 10:51:56] INFO [log_case_info: log.py, 8] 用例编号：participant-42
+[2019-11-19 10:51:56] INFO [log_case_info: log.py, 9] 用例名称：输入正确
+[2019-11-19 10:51:56] INFO [log_case_info: log.py, 10] 测试结果：FAILED
+[2019-11-19 10:51:56] INFO [log_case_info: log.py, 11] 测试数据：{"姓名": "张三", "邮箱": "12345678@qq.com", "证件号": "123569ll"}
+[2019-11-19 10:51:56] INFO [log_case_info: log.py, 12] 期望结果：
+[2019-11-19 10:51:56] INFO [log_case_info: log.py, 13] 实际结果：证件号格式错误
+
+[2019-11-19 10:53:52] INFO [log_case_info: log.py, 8] 用例编号：participant-1
+[2019-11-19 10:53:52] INFO [log_case_info: log.py, 9] 用例名称：用户名为空
+[2019-11-19 10:53:52] INFO [log_case_info: log.py, 10] 测试结果：PASS
+[2019-11-19 10:53:52] INFO [log_case_info: log.py, 11] 测试数据：{"姓名": "", "邮箱": "123456@qq.com", "证件号": "124366ll"}
+[2019-11-19 10:53:52] INFO [log_case_info: log.py, 12] 期望结果：请输入姓名
+[2019-11-19 10:53:52] INFO [log_case_info: log.py, 13] 实际结果：请输入姓名
+
+[2019-11-19 10:53:58] INFO [log_case_info: log.py, 8] 用例编号：participant-41
+[2019-11-19 10:53:58] INFO [log_case_info: log.py, 9] 用例名称：证件号格式错误
+[2019-11-19 10:53:58] INFO [log_case_info: log.py, 10] 测试结果：PASS
+[2019-11-19 10:53:58] INFO [log_case_info: log.py, 11] 测试数据：{"姓名": "张三", "邮箱": "12459615@qq.com", "证件号": "A点点点"}
+[2019-11-19 10:53:58] INFO [log_case_info: log.py, 12] 期望结果：证件号格式错误
+[2019-11-19 10:53:58] INFO [log_case_info: log.py, 13] 实际结果：证件号格式错误
+
+[2019-11-19 10:54:07] INFO [log_case_info: log.py, 8] 用例编号：participant-42
+[2019-11-19 10:54:07] INFO [log_case_info: log.py, 9] 用例名称：输入正确
+[2019-11-19 10:54:07] INFO [log_case_info: log.py, 10] 测试结果：FAILED
+[2019-11-19 10:54:07] INFO [log_case_info: log.py, 11] 测试数据：{"姓名": "张三", "邮箱": "12345678@qq.com", "证件号": "123569ll"}
+[2019-11-19 10:54:07] INFO [log_case_info: log.py, 12] 期望结果：
+[2019-11-19 10:54:07] INFO [log_case_info: log.py, 13] 实际结果：证件号格式错误
+
+[2019-11-19 11:05:11] INFO [log_case_info: log.py, 8] 用例编号：participant-1
+[2019-11-19 11:05:11] INFO [log_case_info: log.py, 9] 用例名称：用户名为空
+[2019-11-19 11:05:11] INFO [log_case_info: log.py, 10] 测试结果：PASS
+[2019-11-19 11:05:11] INFO [log_case_info: log.py, 11] 测试数据：{"姓名": "", "邮箱": "123456@qq.com", "证件号": "124366ll"}
+[2019-11-19 11:05:11] INFO [log_case_info: log.py, 12] 期望结果：请输入姓名
+[2019-11-19 11:05:11] INFO [log_case_info: log.py, 13] 实际结果：请输入姓名
+
+[2019-11-19 11:05:18] INFO [log_case_info: log.py, 8] 用例编号：participant-41
+[2019-11-19 11:05:18] INFO [log_case_info: log.py, 9] 用例名称：证件号格式错误
+[2019-11-19 11:05:18] INFO [log_case_info: log.py, 10] 测试结果：PASS
+[2019-11-19 11:05:18] INFO [log_case_info: log.py, 11] 测试数据：{"姓名": "张三", "邮箱": "12459615@qq.com", "证件号": "A点点点"}
+[2019-11-19 11:05:18] INFO [log_case_info: log.py, 12] 期望结果：证件号格式错误
+[2019-11-19 11:05:18] INFO [log_case_info: log.py, 13] 实际结果：证件号格式错误
+
+[2019-11-19 11:05:26] INFO [log_case_info: log.py, 8] 用例编号：participant-42
+[2019-11-19 11:05:26] INFO [log_case_info: log.py, 9] 用例名称：输入正确
+[2019-11-19 11:05:26] INFO [log_case_info: log.py, 10] 测试结果：FAILED
+[2019-11-19 11:05:26] INFO [log_case_info: log.py, 11] 测试数据：{"姓名": "张三", "邮箱": "12345678@qq.com", "证件号": "123569ll"}
+[2019-11-19 11:05:26] INFO [log_case_info: log.py, 12] 期望结果：
+[2019-11-19 11:05:26] INFO [log_case_info: log.py, 13] 实际结果：证件号格式错误
+
+[2019-11-19 11:13:02] INFO [log_case_info: log.py, 8] 用例编号：participant-1
+[2019-11-19 11:13:02] INFO [log_case_info: log.py, 9] 用例名称：用户名为空
+[2019-11-19 11:13:02] INFO [log_case_info: log.py, 10] 测试结果：PASS
+[2019-11-19 11:13:02] INFO [log_case_info: log.py, 11] 测试数据：{"姓名": "", "邮箱": "123456@qq.com", "证件号": "124366ll"}
+[2019-11-19 11:13:02] INFO [log_case_info: log.py, 12] 期望结果：请输入姓名
+[2019-11-19 11:13:02] INFO [log_case_info: log.py, 13] 实际结果：请输入姓名
+
+[2019-11-19 11:13:08] INFO [log_case_info: log.py, 8] 用例编号：participant-41
+[2019-11-19 11:13:08] INFO [log_case_info: log.py, 9] 用例名称：证件号格式错误
+[2019-11-19 11:13:08] INFO [log_case_info: log.py, 10] 测试结果：PASS
+[2019-11-19 11:13:08] INFO [log_case_info: log.py, 11] 测试数据：{"姓名": "张三", "邮箱": "12459615@qq.com", "证件号": "A点点点"}
+[2019-11-19 11:13:08] INFO [log_case_info: log.py, 12] 期望结果：证件号格式错误
+[2019-11-19 11:13:08] INFO [log_case_info: log.py, 13] 实际结果：证件号格式错误
+
+[2019-11-19 11:13:16] INFO [log_case_info: log.py, 8] 用例编号：participant-42
+[2019-11-19 11:13:16] INFO [log_case_info: log.py, 9] 用例名称：输入正确
+[2019-11-19 11:13:16] INFO [log_case_info: log.py, 10] 测试结果：FAILED
+[2019-11-19 11:13:16] INFO [log_case_info: log.py, 11] 测试数据：{"姓名": "张三", "邮箱": "12345678@qq.com", "证件号": "123569ll"}
+[2019-11-19 11:13:16] INFO [log_case_info: log.py, 12] 期望结果：
+[2019-11-19 11:13:16] INFO [log_case_info: log.py, 13] 实际结果：证件号格式错误
+
+[2019-11-19 11:30:05] INFO [log_case_info: log.py, 8] 用例编号：participant-1
+[2019-11-19 11:30:05] INFO [log_case_info: log.py, 9] 用例名称：用户名为空
+[2019-11-19 11:30:05] INFO [log_case_info: log.py, 10] 测试结果：PASS
+[2019-11-19 11:30:05] INFO [log_case_info: log.py, 11] 测试数据：{"姓名": "", "邮箱": "123456@qq.com", "证件号": "124366ll"}
+[2019-11-19 11:30:05] INFO [log_case_info: log.py, 12] 期望结果：请输入姓名
+[2019-11-19 11:30:05] INFO [log_case_info: log.py, 13] 实际结果：请输入姓名
+
+[2019-11-19 11:30:11] INFO [log_case_info: log.py, 8] 用例编号：participant-41
+[2019-11-19 11:30:11] INFO [log_case_info: log.py, 9] 用例名称：证件号格式错误
+[2019-11-19 11:30:11] INFO [log_case_info: log.py, 10] 测试结果：PASS
+[2019-11-19 11:30:11] INFO [log_case_info: log.py, 11] 测试数据：{"姓名": "张三", "邮箱": "12459615@qq.com", "证件号": "A点点点"}
+[2019-11-19 11:30:11] INFO [log_case_info: log.py, 12] 期望结果：证件号格式错误
+[2019-11-19 11:30:11] INFO [log_case_info: log.py, 13] 实际结果：证件号格式错误
+
+[2019-11-19 11:30:19] INFO [log_case_info: log.py, 8] 用例编号：participant-42
+[2019-11-19 11:30:19] INFO [log_case_info: log.py, 9] 用例名称：输入正确
+[2019-11-19 11:30:19] INFO [log_case_info: log.py, 10] 测试结果：FAILED
+[2019-11-19 11:30:19] INFO [log_case_info: log.py, 11] 测试数据：{"姓名": "张三", "邮箱": "12345678@qq.com", "证件号": "123569ll"}
+[2019-11-19 11:30:19] INFO [log_case_info: log.py, 12] 期望结果：
+[2019-11-19 11:30:19] INFO [log_case_info: log.py, 13] 实际结果：证件号格式错误
+
+[2019-11-19 11:34:01] INFO [log_case_info: log.py, 8] 用例编号：participant-1
+[2019-11-19 11:34:01] INFO [log_case_info: log.py, 9] 用例名称：用户名为空
+[2019-11-19 11:34:01] INFO [log_case_info: log.py, 10] 测试结果：PASS
+[2019-11-19 11:34:01] INFO [log_case_info: log.py, 11] 测试数据：{"姓名": "", "邮箱": "123456@qq.com", "证件号": "124366ll"}
+[2019-11-19 11:34:01] INFO [log_case_info: log.py, 12] 期望结果：请输入姓名
+[2019-11-19 11:34:01] INFO [log_case_info: log.py, 13] 实际结果：请输入姓名
+
+[2019-11-19 11:34:08] INFO [log_case_info: log.py, 8] 用例编号：participant-41
+[2019-11-19 11:34:08] INFO [log_case_info: log.py, 9] 用例名称：证件号格式错误
+[2019-11-19 11:34:08] INFO [log_case_info: log.py, 10] 测试结果：PASS
+[2019-11-19 11:34:08] INFO [log_case_info: log.py, 11] 测试数据：{"姓名": "张三", "邮箱": "12459615@qq.com", "证件号": "A点点点"}
+[2019-11-19 11:34:08] INFO [log_case_info: log.py, 12] 期望结果：证件号格式错误
+[2019-11-19 11:34:08] INFO [log_case_info: log.py, 13] 实际结果：证件号格式错误
+
+[2019-11-19 11:34:16] INFO [log_case_info: log.py, 8] 用例编号：participant-42
+[2019-11-19 11:34:16] INFO [log_case_info: log.py, 9] 用例名称：输入正确
+[2019-11-19 11:34:16] INFO [log_case_info: log.py, 10] 测试结果：FAILED
+[2019-11-19 11:34:16] INFO [log_case_info: log.py, 11] 测试数据：{"姓名": "张三", "邮箱": "12345678@qq.com", "证件号": "123569ll"}
+[2019-11-19 11:34:16] INFO [log_case_info: log.py, 12] 期望结果：
+[2019-11-19 11:34:16] INFO [log_case_info: log.py, 13] 实际结果：证件号格式错误
+
+[2019-11-19 11:36:51] INFO [log_case_info: log.py, 8] 用例编号：participant-1
+[2019-11-19 11:36:51] INFO [log_case_info: log.py, 9] 用例名称：用户名为空
+[2019-11-19 11:36:51] INFO [log_case_info: log.py, 10] 测试结果：PASS
+[2019-11-19 11:36:51] INFO [log_case_info: log.py, 11] 测试数据：{"姓名": "", "邮箱": "123456@qq.com", "证件号": "124366ll"}
+[2019-11-19 11:36:51] INFO [log_case_info: log.py, 12] 期望结果：请输入姓名
+[2019-11-19 11:36:51] INFO [log_case_info: log.py, 13] 实际结果：请输入姓名
+
+[2019-11-19 11:38:07] INFO [log_case_info: log.py, 8] 用例编号：participant-1
+[2019-11-19 11:38:07] INFO [log_case_info: log.py, 9] 用例名称：用户名为空
+[2019-11-19 11:38:07] INFO [log_case_info: log.py, 10] 测试结果：PASS
+[2019-11-19 11:38:07] INFO [log_case_info: log.py, 11] 测试数据：{"姓名": "", "邮箱": "123456@qq.com", "证件号": "124366ll"}
+[2019-11-19 11:38:07] INFO [log_case_info: log.py, 12] 期望结果：请输入姓名
+[2019-11-19 11:38:07] INFO [log_case_info: log.py, 13] 实际结果：请输入姓名
+
+[2019-11-19 11:38:14] INFO [log_case_info: log.py, 8] 用例编号：participant-41
+[2019-11-19 11:38:14] INFO [log_case_info: log.py, 9] 用例名称：证件号格式错误
+[2019-11-19 11:38:14] INFO [log_case_info: log.py, 10] 测试结果：PASS
+[2019-11-19 11:38:14] INFO [log_case_info: log.py, 11] 测试数据：{"姓名": "张三", "邮箱": "12459615@qq.com", "证件号": "A点点点"}
+[2019-11-19 11:38:14] INFO [log_case_info: log.py, 12] 期望结果：证件号格式错误
+[2019-11-19 11:38:14] INFO [log_case_info: log.py, 13] 实际结果：证件号格式错误
+
+[2019-11-19 11:38:21] INFO [log_case_info: log.py, 8] 用例编号：participant-42
+[2019-11-19 11:38:21] INFO [log_case_info: log.py, 9] 用例名称：输入正确
+[2019-11-19 11:38:21] INFO [log_case_info: log.py, 10] 测试结果：FAILED
+[2019-11-19 11:38:21] INFO [log_case_info: log.py, 11] 测试数据：{"姓名": "张三", "邮箱": "12345678@qq.com", "证件号": "123569ll"}
+[2019-11-19 11:38:21] INFO [log_case_info: log.py, 12] 期望结果：
+[2019-11-19 11:38:21] INFO [log_case_info: log.py, 13] 实际结果：证件号格式错误
+
+[2019-11-19 11:42:31] INFO [log_case_info: log.py, 8] 用例编号：participant-1
+[2019-11-19 11:42:31] INFO [log_case_info: log.py, 9] 用例名称：用户名为空
+[2019-11-19 11:42:31] INFO [log_case_info: log.py, 10] 测试结果：PASS
+[2019-11-19 11:42:31] INFO [log_case_info: log.py, 11] 测试数据：{"姓名": "", "邮箱": "123456@qq.com", "证件号": "124366ll"}
+[2019-11-19 11:42:31] INFO [log_case_info: log.py, 12] 期望结果：请输入姓名
+[2019-11-19 11:42:31] INFO [log_case_info: log.py, 13] 实际结果：请输入姓名
+
+[2019-11-19 11:42:37] INFO [log_case_info: log.py, 8] 用例编号：participant-41
+[2019-11-19 11:42:37] INFO [log_case_info: log.py, 9] 用例名称：证件号格式错误
+[2019-11-19 11:42:37] INFO [log_case_info: log.py, 10] 测试结果：PASS
+[2019-11-19 11:42:37] INFO [log_case_info: log.py, 11] 测试数据：{"姓名": "张三", "邮箱": "12459615@qq.com", "证件号": "A点点点"}
+[2019-11-19 11:42:37] INFO [log_case_info: log.py, 12] 期望结果：证件号格式错误
+[2019-11-19 11:42:37] INFO [log_case_info: log.py, 13] 实际结果：证件号格式错误
+
+[2019-11-19 11:42:45] INFO [log_case_info: log.py, 8] 用例编号：participant-42
+[2019-11-19 11:42:45] INFO [log_case_info: log.py, 9] 用例名称：输入正确
+[2019-11-19 11:42:45] INFO [log_case_info: log.py, 10] 测试结果：FAILED
+[2019-11-19 11:42:45] INFO [log_case_info: log.py, 11] 测试数据：{"姓名": "张三", "邮箱": "12345678@qq.com", "证件号": "123569ll"}
+[2019-11-19 11:42:45] INFO [log_case_info: log.py, 12] 期望结果：
+[2019-11-19 11:42:45] INFO [log_case_info: log.py, 13] 实际结果：证件号格式错误
+
+[2019-11-19 14:56:49] INFO [log_case_info: log.py, 8] 用例编号：participant-1
+[2019-11-19 14:56:49] INFO [log_case_info: log.py, 9] 用例名称：用户名为空
+[2019-11-19 14:56:49] INFO [log_case_info: log.py, 10] 测试结果：PASS
+[2019-11-19 14:56:49] INFO [log_case_info: log.py, 11] 测试数据：{"姓名": "", "邮箱": "123456@qq.com", "证件号": "124366ll"}
+[2019-11-19 14:56:49] INFO [log_case_info: log.py, 12] 期望结果：请输入姓名
+[2019-11-19 14:56:49] INFO [log_case_info: log.py, 13] 实际结果：请输入姓名
+
+[2019-11-19 14:56:55] INFO [log_case_info: log.py, 8] 用例编号：participant-41
+[2019-11-19 14:56:55] INFO [log_case_info: log.py, 9] 用例名称：证件号格式错误
+[2019-11-19 14:56:55] INFO [log_case_info: log.py, 10] 测试结果：PASS
+[2019-11-19 14:56:55] INFO [log_case_info: log.py, 11] 测试数据：{"姓名": "张三", "邮箱": "12459615@qq.com", "证件号": "A点点点"}
+[2019-11-19 14:56:55] INFO [log_case_info: log.py, 12] 期望结果：证件号格式错误
+[2019-11-19 14:56:55] INFO [log_case_info: log.py, 13] 实际结果：证件号格式错误
+
+[2019-11-19 14:57:03] INFO [log_case_info: log.py, 8] 用例编号：participant-42
+[2019-11-19 14:57:03] INFO [log_case_info: log.py, 9] 用例名称：输入正确
+[2019-11-19 14:57:03] INFO [log_case_info: log.py, 10] 测试结果：FAILED
+[2019-11-19 14:57:03] INFO [log_case_info: log.py, 11] 测试数据：{"姓名": "张三", "邮箱": "12345678@qq.com", "证件号": "123569ll"}
+[2019-11-19 14:57:03] INFO [log_case_info: log.py, 12] 期望结果：
+[2019-11-19 14:57:03] INFO [log_case_info: log.py, 13] 实际结果：证件号格式错误
+
+[2019-11-19 17:50:56] INFO [log_case_info: log.py, 8] 用例编号：participant-1
+[2019-11-19 17:50:56] INFO [log_case_info: log.py, 9] 用例名称：用户名为空
+[2019-11-19 17:50:56] INFO [log_case_info: log.py, 10] 测试结果：PASS
+[2019-11-19 17:50:56] INFO [log_case_info: log.py, 11] 测试数据：{"姓名": "", "邮箱": "123456@qq.com", "证件号": "124366ll"}
+[2019-11-19 17:50:56] INFO [log_case_info: log.py, 12] 期望结果：请输入姓名
+[2019-11-19 17:50:56] INFO [log_case_info: log.py, 13] 实际结果：请输入姓名
+
+[2019-11-19 17:51:02] INFO [log_case_info: log.py, 8] 用例编号：participant-41
+[2019-11-19 17:51:02] INFO [log_case_info: log.py, 9] 用例名称：证件号格式错误
+[2019-11-19 17:51:02] INFO [log_case_info: log.py, 10] 测试结果：PASS
+[2019-11-19 17:51:02] INFO [log_case_info: log.py, 11] 测试数据：{"姓名": "张三", "邮箱": "12459615@qq.com", "证件号": "A点点点"}
+[2019-11-19 17:51:02] INFO [log_case_info: log.py, 12] 期望结果：证件号格式错误
+[2019-11-19 17:51:02] INFO [log_case_info: log.py, 13] 实际结果：证件号格式错误
+
+[2019-11-19 17:51:10] INFO [log_case_info: log.py, 8] 用例编号：participant-42
+[2019-11-19 17:51:10] INFO [log_case_info: log.py, 9] 用例名称：输入正确
+[2019-11-19 17:51:10] INFO [log_case_info: log.py, 10] 测试结果：FAILED
+[2019-11-19 17:51:10] INFO [log_case_info: log.py, 11] 测试数据：{"姓名": "张三", "邮箱": "12345678@qq.com", "证件号": "123569ll"}
+[2019-11-19 17:51:10] INFO [log_case_info: log.py, 12] 期望结果：
+[2019-11-19 17:51:10] INFO [log_case_info: log.py, 13] 实际结果：证件号格式错误
+
+[2019-11-19 17:52:38] INFO [log_case_info: log.py, 8] 用例编号：participant-1
+[2019-11-19 17:52:38] INFO [log_case_info: log.py, 9] 用例名称：用户名为空
+[2019-11-19 17:52:38] INFO [log_case_info: log.py, 10] 测试结果：PASS
+[2019-11-19 17:52:38] INFO [log_case_info: log.py, 11] 测试数据：{"姓名": "", "邮箱": "123456@qq.com", "证件号": "124366ll"}
+[2019-11-19 17:52:38] INFO [log_case_info: log.py, 12] 期望结果：请输入姓名
+[2019-11-19 17:52:38] INFO [log_case_info: log.py, 13] 实际结果：请输入姓名
+
+[2019-11-19 17:52:44] INFO [log_case_info: log.py, 8] 用例编号：participant-41
+[2019-11-19 17:52:44] INFO [log_case_info: log.py, 9] 用例名称：证件号格式错误
+[2019-11-19 17:52:44] INFO [log_case_info: log.py, 10] 测试结果：PASS
+[2019-11-19 17:52:44] INFO [log_case_info: log.py, 11] 测试数据：{"姓名": "张三", "邮箱": "12459615@qq.com", "证件号": "A点点点"}
+[2019-11-19 17:52:44] INFO [log_case_info: log.py, 12] 期望结果：证件号格式错误
+[2019-11-19 17:52:44] INFO [log_case_info: log.py, 13] 实际结果：证件号格式错误
+
+[2019-11-19 17:52:53] INFO [log_case_info: log.py, 8] 用例编号：participant-42
+[2019-11-19 17:52:53] INFO [log_case_info: log.py, 9] 用例名称：输入正确
+[2019-11-19 17:52:53] INFO [log_case_info: log.py, 10] 测试结果：FAILED
+[2019-11-19 17:52:53] INFO [log_case_info: log.py, 11] 测试数据：{"姓名": "张三", "邮箱": "12345678@qq.com", "证件号": "123569ll"}
+[2019-11-19 17:52:53] INFO [log_case_info: log.py, 12] 期望结果：
+[2019-11-19 17:52:53] INFO [log_case_info: log.py, 13] 实际结果：证件号格式错误
+
+[2019-11-19 17:55:44] INFO [log_case_info: log.py, 8] 用例编号：participant-1
+[2019-11-19 17:55:44] INFO [log_case_info: log.py, 9] 用例名称：用户名为空
+[2019-11-19 17:55:44] INFO [log_case_info: log.py, 10] 测试结果：PASS
+[2019-11-19 17:55:44] INFO [log_case_info: log.py, 11] 测试数据：{"姓名": "", "邮箱": "123456@qq.com", "证件号": "124366ll"}
+[2019-11-19 17:55:44] INFO [log_case_info: log.py, 12] 期望结果：请输入姓名
+[2019-11-19 17:55:44] INFO [log_case_info: log.py, 13] 实际结果：请输入姓名
+
+[2019-11-19 17:55:51] INFO [log_case_info: log.py, 8] 用例编号：participant-41
+[2019-11-19 17:55:51] INFO [log_case_info: log.py, 9] 用例名称：证件号格式错误
+[2019-11-19 17:55:51] INFO [log_case_info: log.py, 10] 测试结果：PASS
+[2019-11-19 17:55:51] INFO [log_case_info: log.py, 11] 测试数据：{"姓名": "张三", "邮箱": "12459615@qq.com", "证件号": "A点点点"}
+[2019-11-19 17:55:51] INFO [log_case_info: log.py, 12] 期望结果：证件号格式错误
+[2019-11-19 17:55:51] INFO [log_case_info: log.py, 13] 实际结果：证件号格式错误
+
+[2019-11-19 17:55:59] INFO [log_case_info: log.py, 8] 用例编号：participant-42
+[2019-11-19 17:55:59] INFO [log_case_info: log.py, 9] 用例名称：输入正确
+[2019-11-19 17:55:59] INFO [log_case_info: log.py, 10] 测试结果：FAILED
+[2019-11-19 17:55:59] INFO [log_case_info: log.py, 11] 测试数据：{"姓名": "张三", "邮箱": "12345678@qq.com", "证件号": "123569ll"}
+[2019-11-19 17:55:59] INFO [log_case_info: log.py, 12] 期望结果：
+[2019-11-19 17:55:59] INFO [log_case_info: log.py, 13] 实际结果：证件号格式错误
+
+[2019-11-19 17:56:02] INFO [log_case_info: log.py, 8] 用例编号：AddPartcipant_1
+[2019-11-19 17:56:02] INFO [log_case_info: log.py, 9] 用例名称：添加参与方
+[2019-11-19 17:56:02] INFO [log_case_info: log.py, 10] 测试结果：PASS
+[2019-11-19 17:56:02] INFO [log_case_info: log.py, 11] 测试数据：无
+[2019-11-19 17:56:02] INFO [log_case_info: log.py, 12] 期望结果：只要id不是31330
+[2019-11-19 17:56:02] INFO [log_case_info: log.py, 13] 实际结果：{'id': '31388', '参与方名称': '张三', '邮箱': '12345678@qq.com', '状态': '未进入~邀请', '员工ID': '--', '部门': '--', '权限': '无'}
+

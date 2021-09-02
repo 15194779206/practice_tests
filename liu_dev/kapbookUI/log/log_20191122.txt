@@ -1,0 +1,28 @@
+[2019-11-22 10:11:16] INFO [log_case_info: log.py, 8] 用例编号：AddPartcipant_2
+[2019-11-22 10:11:16] INFO [log_case_info: log.py, 9] 用例名称：删除草稿参与方
+[2019-11-22 10:11:16] INFO [log_case_info: log.py, 10] 测试结果：FAILED
+[2019-11-22 10:11:16] INFO [log_case_info: log.py, 11] 测试数据：无
+[2019-11-22 10:11:16] INFO [log_case_info: log.py, 12] 期望结果：{'id': '31491', '参与方名称': 'test已存在法人nodel', '邮箱': 'lyangluck@126.com (授予人1)', '状态': '认证中', '员工ID': '--', '部门': '--', '权限': '--'}
+[2019-11-22 10:11:16] INFO [log_case_info: log.py, 13] 实际结果：{'id': '31498', '参与方名称': '测试', '邮箱': '2438401528@qq.com (管理员)', '状态': '认证中', '员工ID': '--', '部门': '--', '权限': '--'}
+
+[2019-11-22 10:14:38] INFO [log_case_info: log.py, 8] 用例编号：AddPartcipant_2
+[2019-11-22 10:14:38] INFO [log_case_info: log.py, 9] 用例名称：删除草稿参与方
+[2019-11-22 10:14:38] INFO [log_case_info: log.py, 10] 测试结果：FAILED
+[2019-11-22 10:14:38] INFO [log_case_info: log.py, 11] 测试数据：无
+[2019-11-22 10:14:38] INFO [log_case_info: log.py, 12] 期望结果：{'id': '31491', '参与方名称': 'test已存在法人nodel', '邮箱': 'lyangluck@126.com (授予人1)', '状态': '认证中', '员工ID': '--', '部门': '--', '权限': '--'}
+[2019-11-22 10:14:38] INFO [log_case_info: log.py, 13] 实际结果：{'id': '31500', '参与方名称': '测试', '邮箱': '2438401528@qq.com (管理员)', '状态': '认证中', '员工ID': '--', '部门': '--', '权限': '--'}
+
+[2019-11-22 10:22:35] INFO [log_case_info: log.py, 8] 用例编号：AddPartcipant_1
+[2019-11-22 10:22:35] INFO [log_case_info: log.py, 9] 用例名称：添加参与方
+[2019-11-22 10:22:35] INFO [log_case_info: log.py, 10] 测试结果：PASS
+[2019-11-22 10:22:35] INFO [log_case_info: log.py, 11] 测试数据：无
+[2019-11-22 10:22:35] INFO [log_case_info: log.py, 12] 期望结果：只要id不是31491
+[2019-11-22 10:22:35] INFO [log_case_info: log.py, 13] 实际结果：{'id': '31504', '参与方名称': '测试添加', '邮箱': '2438401528@qq.com (管理员)', '状态': '认证中', '员工ID': '--', '部门': '--', '权限': '--'}
+
+[2019-11-22 10:22:42] INFO [log_case_info: log.py, 8] 用例编号：AddPartcipant_2
+[2019-11-22 10:22:42] INFO [log_case_info: log.py, 9] 用例名称：删除草稿参与方
+[2019-11-22 10:22:42] INFO [log_case_info: log.py, 10] 测试结果：FAILED
+[2019-11-22 10:22:42] INFO [log_case_info: log.py, 11] 测试数据：无
+[2019-11-22 10:22:42] INFO [log_case_info: log.py, 12] 期望结果：{'id': '31491', '参与方名称': 'test已存在法人nodel', '邮箱': 'lyangluck@126.com (授予人1)', '状态': '认证中', '员工ID': '--', '部门': '--', '权限': '--'}
+[2019-11-22 10:22:42] INFO [log_case_info: log.py, 13] 实际结果：{'id': '31504', '参与方名称': '测试添加', '邮箱': '2438401528@qq.com (管理员)', '状态': '认证中', '员工ID': '--', '部门': '--', '权限': '--'}
+
