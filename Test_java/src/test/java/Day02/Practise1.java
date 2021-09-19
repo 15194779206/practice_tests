@@ -1,4 +1,4 @@
-package Base_java1.Day02;
+package Day02;
 
 public class Practise1 {
     public static void main(String args[]){
